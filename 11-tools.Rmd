@@ -1,0 +1,35 @@
+
+# Tools for Systematic Review
+
+We highly recommend using software and tools to help you along the way. We have mentioned many tools throughout this Wiki, here is a list of all of them: 
+
+[SyRF](http://syrf.org.uk/) the Systematic Review Facility is a free-to-use online platform to support your preclinical systematic review. Its features and auxillary tools include: 
+
+- Automatically update your search in [PubMed](https://pubmed.ncbi.nlm.nih.gov/)
+
+- Deduplication of systematic searches [ASysD App](https://camarades.shinyapps.io/RDedup/)
+
+- Screening (title & abstract as well as full text)
+
+- Data Annotation & Extraction
+
+- Meta-Analysis of data from SyRF [click here](https://camarades.shinyapps.io/meta-analysis-app/)
+
+
+
+
+
+Additional tools include: 
+
+- Citation screening: [Rayyan](https://rayyan.qcri.org/welcome) and [SysRev](https://sysrev.com/).
+
+- Data extraction from graphs: [Adobe desktop ruler](https://helpx.adobe.com/acrobat/using/grids-guides-measurements-pdfs.html) or [WebPlotDigitizer](https://automeris.io/WebPlotDigitizer/) 
+
+- Search translation across databases: [Polyglot Search Translator](https://sr-accelerator.com/#/polyglot)
+
+<br>
+
+Machine Learning - if you are doing a large systematic review, consider training ML. 
+Contact us for more information. 
+
+<br>

@@ -1,0 +1,45 @@
+# Protocol
+
+
+What is a protocol and why have one?
+
+A systematic review protocol outlines why and how you are going to conduct your systematic review. It should include your research question, background and the methods that will be used, including: search strategy, inclusion criteria, data extraction, quality assessment, data synthesis, and statistical analysis plan.
+
+Having a pre-specified protocol improves the methodological transparency of your systematic review and reduces the risk of introducing bias. Publishing your protocol allows others to locate reviews in progress and enables future replication. The process of putting together your protocol often involves communication between a number of key stakeholders, you may want to discuss it with an advisory group, external experts, or your funders.
+
+<br>
+
+## Protocol Templates
+
+SYRCLE (SYstematic Review Centre for Laboratory animal Experimentation) have developed a protocol template tailored to the preparation, registration and publication of systematic reviews of animal intervention studies. [See the template and publication here](https://onlinelibrary.wiley.com/doi/epdf/10.1002/ebm2.7). 
+
+
+It may also be useful to look through examples from the [SyRF Protocol Registry](http://syrf.org.uk/protocols/) while you formulate your protocol. Look at the Protocol Registry to check that no systematic reviews on your research question are currently underway. 
+
+
+<br>
+
+
+### Register your Protocol
+
+Making the protocol for your systematic review available to the community has a number of benefits: it provides evidence that prespecified analyses were indeed prespecified; allows others to comment on your approach; provides examples for others planning such reviews; and can help you identify if other reviews in similar areas are already in progress. You can search the protocol list by title, date, contact person or institution. 
+
+
+PROSPERO:
+The Centre for Reviews and Dissemination at University of York now publish Preclinical Systematic Review Protocols. 
+For more information on registering at PROSPERO, see their [website here](https://www.crd.york.ac.uk/prospero/).
+
+
+SyRF: 
+Submit your protocol to the SyRF Protocol Registry, select 'Publish Protocol' as your subject heading. Someone from the SyRF team will get back to you. 
+
+
+<br>
+
+### Your Protocol & 3Rs
+
+
+We recommend that you include a statement in your protocol outlining how your research will impact the 3Rs (Replacement, Reduction and Refinement) in animal use in research.  
+
+
+<br>

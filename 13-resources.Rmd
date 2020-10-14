@@ -1,0 +1,18 @@
+
+# Resources & Links
+
+[SyRF](https://syrf.org.uk)
+
+[SyRF Help Guide](https://assets.syrf.org.uk/guides/SyRF_User_Guide.pdf).
+
+[SYRCLE Protocol - Template & Paper](https://onlinelibrary.wiley.com/doi/epdf/10.1002/ebm2.7)
+
+[Hooijmans et al., 2018. Preclinical GRADE Approach](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0187271)
+
+[Vesterinen et al, 2014. "Meta-analysis of data from animal studies: a practical guide." Journal of neuroscience methods](https://doi.org/10.1016/j.jneumeth.2013.09.010)
+
+[Borenstein et al., 2009. Introduction to Meta-Analysis](https://doi.org/10.1002/9780470743386)
+
+[Cochrane Handbook](https://handbook-5-1.cochrane.org/)
+
+<br>

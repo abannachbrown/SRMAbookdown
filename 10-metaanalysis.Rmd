@@ -1,0 +1,289 @@
+
+# Meta-Analysis
+
+**What is Meta-Analysis?**
+
+Meta-analysis is the statistical combination of results from two or more separate studies
+
+<br>
+
+**Why perform Meta-Analysis?**
+
+- To provide a test with mor power than separate studies
+
+- To provide an improvement in statistical precision
+
+- To summarise numerous and inconsistent findings
+
+- To investigate consistency of effect across different samples
+
+<br>
+
+**What questions are addressed?**
+
+- What is the direction of the effect? 
+
+- What is the size of the effect? 
+
+- Is the effect consistent across studies? (heterogeneity)
+
+- What is the strength of evidence for the effect? (quality assessment)
+
+
+[(Reference: Cochrane Handbook)](http://www.cochrane-handbook.org/)
+
+<br>
+Luckily, statistical software takes care on most of the 'heavy lifting' when it comes to calculating effect sizes, pooling them, and making forest plots. 
+
+
+To understand the basics and for exact equations, keep reading. 
+
+
+To practice your meta-analysis skills in R, see our [exercises section.](Exercises.html) 
+
+<br>
+Equations shown below are from the following references, where more information can be found: 
+
+- [Vesterinen et al, 2014. "Meta-analysis of data from animal studies: a practical guide." Journal of neuroscience methods](https://doi.org/10.1016/j.jneumeth.2013.09.010)
+
+- [Borenstein et al., 2009. Introduction to Meta-Analysis](https://doi.org/10.1002/9780470743386)
+
+<br>
+
+## Step 1. Calculate Effect Size 
+
+The first step is to calculate the effect size for each outcome within each study. 
+
+Your outcomes may be: 
+
+- Continuous
+
+- Dichotomous
+
+<br>
+
+### Continuous 
+For **continuous outcomes**, commonly used effect size measures include:
+
+- Mean Difference
+
+- Normalised Mean Difference
+
+- Standardised Mean Difference
+
+<br>
+
+#### Mean Difference
+**Mean Difference:** Raw mean difference can be used when the outcomes are reported on a meaningful scale and all studies in the analysis use the same scale. The meta-analysis is performed directly on the raw difference in means. 
+
+
+Mean Difference Effect Size:
+$$ ES_i = \bar{x_c} - \bar{x_\text{rx}}$$
+
+Standard Error: 
+$$ SE_i = \sqrt \frac {N}{n_{\text{rx}} \times n'_c} \times S_{\text{pooled}}^2 $$
+
+where S pooled is: 
+$$S_{\text{pooled}} = \sqrt \frac {(n'_c - 1)SD_c^2 + (n_{\text{rx}} - 1)SD_{\text{rx}}^2}{N -2} $$
+<br>
+
+#### Normalised Mean Difference
+**Normalised Mean Difference:** Normalised mean difference (NMD) can be used when outcomes are on a ratio scale, where the score on a 'control' or 'sham' animal is known. The most common method to calculate NMD is as a proportion of the mean.
+
+
+The effect size calculation for normalised mean difference: 
+$$ES_i= 100% \times  \frac {(\bar{x_c} - \bar{x_\text{sham}}) - (\bar{x_\text{rx}} - \bar{x_\text{sham}})}{\bar{x_c} - \bar{x_\text{sham}}} $$ where $$\bar{x_\text{sham}} $$ is the mean score for the unlesioned/normal/untreated animal. 
+
+
+The standard deviation calculations are as follows: 
+$$SD_c* = 100 x \frac {SD_c}{\bar{x_c} - \bar{x_\text{sham}}} $$ and $$SD_\text{rx*} = 100 x \frac {SD_\text{rx}}{\bar{x_text{rx}} - \bar{x_\text{sham}}}$$
+
+Standard error of the effect size is: 
+$$SE_i = \sqrt \frac{SD_c*^2}{n'_c} + \frac {SD_{rx*}^2}{n_{rx*}} $$
+<br>
+
+#### Standardised Mean Difference
+**Standardised Mean Difference:** (SMD), Cohen's d and Hedge's g. SMD is used when the scale of measurement differs across studies and it is not meaningful to combine raw mean differences. The mean difference in each study is divided by the study's standard division to create an index comparable across studies. 
+
+Hedge's G SMD Effect Size: 
+$$ES_i = \frac {\bar{x_c} - \bar{x_\text{rx}}}{S_{\text{pooled}}} \times (1 - \frac{3}{4N - 9})  $$
+And standard error of the effect size is: 
+$$ SE_i = \sqrt \frac{N}{n_{\text{rx}} \times n'_c} + \frac{ES_i^2}{2(N - 3.49)})$$
+
+
+<br>
+<br>
+
+### Dichotomous Outcomes
+For **dichotomous outcomes** the most commonly used effect size measures for animal studies is odds ratio. 
+
+<br>
+
+#### Odds Ratio
+**Odds Ratio**: For event data. The ratio of number of events to the number of non-events. It represents the odds that an outcome will occur given a particular exposure, compared to the odds of the outcome occurring without that exposure.
+
+Odds Ratio Effect Size
+$$ OR_i = \frac {a_i \times d_i}{b_i \times c_i}  $$
+
+with the standard error of the odds ratio effect size: 
+$$ SE(ln(OR_i)) = \sqrt (1/a_i)+(1/b_i)+(1/c_i)+(1/d_i)    $$
+
+<br>
+
+You might come across **Risk Ratio** (or Relative Risk), the risk of an event in one group (e.g., exposed group) versus the risk of the event in the other group (e.g., non-exposed group), or **Hazard Ratio**, however these data are rarely seen in primary animal experiments. For more information of Risk Ratio in clinical systematic reviews, see the [Cochrane Handbook.](https://handbook-5-1.cochrane.org/chapter_9/box_9_2_a_calculation_of_risk_ratio_rr_odds_ratio_or_and.htm)  
+
+<br>
+
+### Median
+**Median Survival** or time to event data. The effect is calculated by dividing the median survival in the treatment group b the median in the control group, and the logarithm of that is taken. 
+
+$$ ES_i = log (\frac{Median_{\rm rx}}{Median_c} ) $$
+
+<br>
+
+### True number of Controls
+
+A single experiment can contain a number of comparisons. If the control cohort is serving more than one treatment group, we correct the number of animals reported in the control cohort by the number of treatment groups. 
+
+(1) True number of controls 
+$$n'_c = \frac{n_c}{{\rm num. treatment groups}}$$
+
+
+(2) True N for each comparison
+$$N = n_{\text{rx}} + n'_c$$
+(3) Converting SEM to SD
+$$ SD_c = SEM_c \times \sqrt n_c $$ and $$SD_{\text{rx}} = SEM_{\text{rx}} \times \sqrt n_{\text{rx}} $$
+
+
+<br>
+<br>
+
+## Step 2. Combine Effect Sizes
+
+
+The next step is to combine the effect sizes for each comparison together in a meta-analysis model. 
+
+<br>
+
+Before you pool your effect sizes, you may conisder: 
+
+
+**Weighting Effect Sizes:**
+In meta-analysis it is usual to attribute different weights to each study in order to reflect relative contributions of individual studies to the total effect size. In animal study meta-analysis we weight the studies according to precision. More precise studies are given greater weight in the calculation of the effect size. 
+Eqs 20 + 21
+
+
+**Nesting Effects:** 
+Where several outcomes are reported and it is appropriate to combine them into a single statistic, we can "nest" outcomes. To do this we take each outcome, weight it by multiplication by the inverse of the variance for that outcome, sum these weighted values for all outcomes and divide by the sum of the weights. 
+
+$$ES_{\theta\text{i}} = \frac{\sum_{i=1}^{k} W_iES_i}{\sum_{i=1}^{k} W_i} $$
+Where $$W_i$$ is the measure of weight (e.g. inverse variance). $$W_iES_i $$ is the weighted effect size, and *k* denotes the total number of studies included in the meta-analsis. 
+
+
+The standard error is calculated: 
+$$SE_{\theta\text{i}} = \sqrt \frac{N_{comparisons}}{\sum_{i=1}^{k} W_i} $$
+
+<br>
+<br>
+
+
+There are two commonly used models for pooling effect sizes: 
+
+- Fixed Effect Model
+
+- Random Effects Model 
+
+<br>
+
+### Fixed Effects Model
+
+Under the fixed effect model we assume that there is one true effect size which is shared by all the included studies. It follows that the combined effect (global estimate) is our estimate of this common effect size.
+
+
+<br>
+
+![](figs/fixedeffects.png){#id .class width=75%}
+
+<br>
+
+
+### Random Effects Model
+
+- Under the random effects model we allow that the true effect could vary from study to study. E.g. the effect size might be a little higher if the patients are older; in rats vs. mice; if the study used a slightly more intensive or longer variant of the intervention etc.
+
+
+- The studies included in the meta-analysis are assumed to be a random sample of the relevant distribution of effects, and the combined effect estimates the mean effect in this distribution.
+
+
+<br>
+
+![](figs/randomeffects.png){#id .class width=75%}
+
+<br>
+
+## Step 3. Investigate Heterogeneity
+
+
+The third step is to investigate potential sources of heterogeneity (pre-specified in your protocol). Heterogeneity is the variability between groups of studies caused by differences in: 
+
+- study samples (e.g. species, sex)
+
+- interventions of outcomes (e.g. dose, outcome measure type)
+
+- methodology (e.g. design, quality)
+
+
+Chi-squared $\chi^2$ (or Chi^2^) assess whether observed differences in results are compatible with chance alone. 
+I^2^ describes the percentage of variability in effect estimates that is due to heterogeneity rather than sampling error or chance along. 
+
+
+You can investigate heterogeneity using: 
+
+- Sub-group analysis
+
+- Meta-regression model
+
+<br>
+
+
+## Step 4. Reporting Biases
+
+**Publication Bias** occurs when the results of published and unpublished studies differ systematically. Unfortunately, neutral and negative studies take longer to be published, remain unpublished, are less likely to be identified in systematic review, and this can lead to an overstatement of efficacy in meta-analysis. 
+
+There are also other biases that may effect your systematic review including, **selective outcome reporting** and **selective analysis reporting**. 
+
+<br>
+
+We can test for potential publication bias in our data plotting our data on a **funnel plot**. 
+The outer dashed lines indicate the triangular region within which 95% of studies are expected to lie, in the absence of both biases and heterogeneity. The solid vertical line refers to the line of no effect. Image from [Sterne et al., 2011](https://www.bmj.com/content/343/bmj.d4002)
+
+
+![](figs/funnelplot.jpg){#id .class width=50%}
+
+
+If you do observe asymmetry in your funnel plot, there may be a number of sources: 
+
+- Reporting Biases
+  - Publication bias
+  - Selective outcome reporting
+  - Selective analysis reporting
+  
+- Poor methodological quality (leading to inflated effects in smaller studies)
+  - Poor methodological design
+  - Inadequate analysis
+  - Fraud
+  
+- True heterogeneity: Effect size differs according to study size due to e.g. differences in the intensity of interventions, or in underlying risk between studies with different sizes. 
+  
+- Artefacts: Sampling variation can lead to an association between the intervention effect and its standard error. 
+
+- Chance: Asymmetry may occur by change - motivating the use of statistical asymmetry tests. 
+  
+
+
+<br>
+
+## Step 5. Interpret the Results 
+
+
+<br>
