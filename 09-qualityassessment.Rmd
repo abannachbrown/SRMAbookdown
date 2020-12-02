@@ -1,6 +1,6 @@
 # Quality Assessment
 
-**Why assessment study quality?** 
+**Why assess study quality?** 
 
 Low methodological quality can affect internal validity and introduce bias into the results of primary studies. Internal validity refers to the extent to which study results reflect the true cause-effect of an intervention. Different types of bias can influence internal validity (e.g. selection, performance, detection, and attrition biases).
 

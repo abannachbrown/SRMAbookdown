@@ -11,7 +11,7 @@ Databases:
 The first step is to decide on which databases to search, this will depend on your research area and question. Databases differ in their coverage of journals and how articles are indexed. For preclinical research, typical databases include [PubMed](https://pubmed.ncbi.nlm.nih.gov/), Embase, and Web of Science. A librarian or an expert in bibliographic databases will be able to help you identify other potential databases and construct database-specific search terms. It is common practice to search several databases to guarantee adequate and efficient coverage.
 
 
-On top of electronic databases, you might want to use other methods to find relevant papers such as; scanning reference lists of relevant studies (both primary studies and reviews), hand searching key journals, contacting experts in the field, and searching additional relevant internet resources. Keep a record of alternative methods used and the data collected in a structured format.
+On top of electronic databases, you might want to use other methods to find relevant papers such as: scanning reference lists of relevant studies (both primary studies and reviews), hand searching key journals, contacting experts in the field, and searching additional relevant internet resources. Keep a record of alternative methods used and the data collected in a structured format.
 
 <br>
 
@@ -75,10 +75,18 @@ Select your search terms based around each of the PICO (or equivalent) concepts 
 
 **Step 1: Find keywords and synonyms for each element**
 
-A good exercise is to think of as many synonyms as possible for each of your concepts.
-See exercises related to Search Strategies here: 
+A good exercise is to think of as many synonyms as possible for each of your main concepts or PICO elements.
 
-< add link >
+For example:
+
+If your research question is: What is the effect of antidepressants compared to vehicle or no treatment on infarct volume in animal models of stroke?
+
+
+**P**opulation: Stroke. Synonyms might include: cerebral ischaemia, cerebrovascular accident. 
+
+**I**ntervention: Antidepressants. Synonyms might include: fluoxetine, SSRIs
+
+
 
 <br>
 
@@ -207,12 +215,13 @@ The Polyglot Search Translator is a tool that will assist you in translating the
 ## Find & Retrieve Full Texts
 Once you have your library of unique references you can find and retrieve the full texts. 
 
-1. Use your reference manager. Guides for retrieving from Endnote and Zotero can be found at the respective links. 
-Remember to add your Institutional Log-in information to the settings or preferences of the reference manager, e.g. EzProxy information or OpenURL information, so you can more easily find the full texts that your library has access to. 
+1. Use your reference manager. Guides for retrieving from [Endnote](https://subjectguides.library.american.edu/c.php?g=479020&p=3324236) and [Zotero](https://www.zotero.org/support/locate) can be found at the respective links. 
+
+N.B. Remember to add your Institutional Log-in information to the settings or preferences of the reference manager, e.g. [EzProxy](https://ezproxy-db.appspot.com/) information or [OpenURL](https://www.zotero.org/support/locate/openurl_resolvers) information, so you can more easily find the full texts that your institutional library has access to. 
 
 2. Search Online: Google search, GoogleScholar, ResearchGate, etc. 
 
-3. Contact corresponding authors directly. 
+3. Contact corresponding authors directly via email or Twitter. 
 
 4. Last resort: ask your librarian to assist with inter-library loans. (NB: these can be very costly!)
 

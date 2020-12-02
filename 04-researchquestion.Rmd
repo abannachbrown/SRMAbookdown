@@ -7,7 +7,7 @@ Commonly preclinical SR research questions are centered around an intervention o
 \
 **P**opulation, participants, or problem: 
 \
-What are the characteristics of the population or participants(species, sex, developmental stage, risk factors, or for human participants demographics, pre-existing conditions, etc)?
+What are the characteristics of the population or participants (species, sex, developmental stage, risk factors, or for human participants demographics, pre-existing conditions, etc)?
 What is the condition or disease of interest?
 
 

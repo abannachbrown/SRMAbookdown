@@ -1,16 +1,32 @@
-bookdown::gitbook:
-  css: style.css
-  config:
-    toc:
-      before: |
-        <li><a href="./">A Minimal Book Example</a></li>
-      after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+output: 
+  bookdown::gitbook:
+    highlight: tango
+    css: style.css
+    config:
+      sharing: 
+      twitter: yes
+      search: yes
+      info: yes
+      toolbar:
+        position: fixed
+      toc:
+        before: |
+          <li><a href="./"><img src="CAMARADESberlinLogo.png" alt="CAMARADES Berlin Logo" style="height:100px;display:block;margin:10px 10px 10px 10px;></a></li>
+          <li><a href="./">CAMARADES Systematic Review Wiki</a></li>
+        after: |
+          <li><a href="mailto:camarades.berlin@charite.de" target="_blank"> Contact Us Here </a></li>
+          <br>
+          <li><a href="https://github.com/rstudio/bookdown" target="_blank">Published with bookdown</a></li>
     download: ["pdf", "epub"]
-bookdown::pdf_book:
-  includes:
-    in_header: preamble.tex
-  latex_engine: xelatex
-  citation_package: natbib
-  keep_tex: yes
-bookdown::epub_book: default
+    includes: 
+      in_header: logo-option.html
+      after_body: _footer.html
+    favicon: "favicon.ico"
+  bookdown::pdf_book:
+    includes:
+      in_header: preamble.tex
+    latex_engine: xelatex
+    citation_package: natbib
+    keep_tex: yes
+  bookdown::epub_book: default
+    

@@ -9,7 +9,7 @@ Meta-analysis is the statistical combination of results from two or more separat
 
 **Why perform Meta-Analysis?**
 
-- To provide a test with mor power than separate studies
+- To provide a test with more power than separate studies
 
 - To provide an improvement in statistical precision
 
@@ -169,15 +169,20 @@ Before you pool your effect sizes, you may conisder:
 
 
 **Weighting Effect Sizes:**
-In meta-analysis it is usual to attribute different weights to each study in order to reflect relative contributions of individual studies to the total effect size. In animal study meta-analysis we weight the studies according to precision. More precise studies are given greater weight in the calculation of the effect size. 
-Eqs 20 + 21
+In meta-analysis it is usual to attribute different weights to each study in order to reflect relative contributions of individual studies to the total effect size. In animal study meta-analysis we weight the studies according to precision. More precise studies are given greater weight in the calculation of the effect size. We recommend using the inverse variance method, where individual effect sizes are multiplied by the inverse of their squared standard error:
+
+$$W_i = \frac{1}{SE^2_i} $$
+Where $${SE^2_i}$$ is the square standard error of the effect size calculated. 
+
+This gives the weighted effect size of: 
+$$W_iES_i = ES_i \times \frac{1}{SE^2_i} $$
 
 
 **Nesting Effects:** 
 Where several outcomes are reported and it is appropriate to combine them into a single statistic, we can "nest" outcomes. To do this we take each outcome, weight it by multiplication by the inverse of the variance for that outcome, sum these weighted values for all outcomes and divide by the sum of the weights. 
 
 $$ES_{\theta\text{i}} = \frac{\sum_{i=1}^{k} W_iES_i}{\sum_{i=1}^{k} W_i} $$
-Where $$W_i$$ is the measure of weight (e.g. inverse variance). $$W_iES_i $$ is the weighted effect size, and *k* denotes the total number of studies included in the meta-analsis. 
+Where $$W_i$$ is the measure of weight (e.g. inverse variance). $$W_iES_i $$ is the weighted effect size, and *k* denotes the total number of studies included in the meta-analysis. 
 
 
 The standard error is calculated: 
@@ -284,6 +289,30 @@ If you do observe asymmetry in your funnel plot, there may be a number of source
 <br>
 
 ## Step 5. Interpret the Results 
+
+The forest plot or timber plot is the main graphical output or representation from a meta-analysis. 
+
+Reading and understanding these plots will allow you to understand the findings from a meta-analysis. Meta-analyses of animal studies tend to include many studies with small sample sizes. Therefore, it is common to see preclinical meta-analyses graphically represented with a timber plot, a slight variation on the forest plot. 
+
+Here is an example of a timber plot. In this meta-analysis the research question was: What is the effect of antidepressants compared vehicle or no treatment on infarct volume in animal models of ischaemic stroke? [McCann et al., 2014](https://doi.org/10.1161/STROKEAHA.114.006304)
+
+
+![](figs/timberplot.png){#id .class width=60%}
+
+
+Outcome:
+A meta-analysis is conducted on a single outcome of interest at a time. The outcome of interest in this meta-analysis is Reduction in Infarct Volume, as displayed on the y-axis label. 
+
+Individual Study Effects: 
+In this meta-analysis there were 58 experiments included. Each black dot represents the effect size reported in a single experiment, the difference in outcome between the mean and the control group. Each black dot has thin black lines above and below the effect size, these represent the errors bars associated with the effect size reported. Individual study effect sizes are displayed in order of smallest to largest to highlight variation or heterogeneity in the literature. 
+
+Pooled Effect: 
+Here, the gray bar behind the black dots represents the combined or pooled effect size across all included experiments and its confidence intervals. In this example, the effect size is 27.3% (95% CI, 20.7%–33.8%). 
+
+
+
+
+**Clinical Forest Plot:** A step-by-step guide to interpreting a forest plot from a typical clinical meta-analysis is available [here](https://s4be.cochrane.org/blog/2016/07/11/tutorial-read-forest-plot/). 
 
 
 <br>

@@ -1,0 +1,1209 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Preclinical Systematic Review Wiki},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
+
+\title{Preclinical Systematic Review Wiki}
+\author{}
+\date{\vspace{-2.5em}2020-12-02}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{welcome}{%
+\chapter{Welcome}\label{welcome}}
+
+Hello, Systematic Reviewers!
+
+Welcome to the CAMARADES Berlin Preclinical Systematic Review \& Meta-Analysis wiki.
+
+Find information and documents, links, and useful tools to guide your through your review.
+
+If you have questions about the resources, or would like to ask a question about your specific review, get in touch:
+
+\href{mailto:CAMARADES.berlin@charite.de}{Email us here}
+
+\hypertarget{intro}{%
+\chapter{Preclinical Systematic Reviews}\label{intro}}
+
+You're considering starting a preclinical Systematic Review (SR), what now?
+
+Keep scrolling to find out more about what a preclinical systematic review is, what the steps are, and how to complete them.
+
+Use the table of contents bar on the left side of the screen to navigate along the steps of systematic review.
+
+\hypertarget{what-is-a-systematic-review}{%
+\section{What is a systematic review?}\label{what-is-a-systematic-review}}
+
+A systematic review (SR) is a literature review that involves systematically locating, appraising, and synthesising evidence from scientific studies to answer a defined research question based on pre-specified criteria.
+
+The methods of a systematic review (and meta-analysis) should be transparent and reproducible, with the methods mapped out and reported so that the review can be repeated.
+
+\hypertarget{what-is-a-meta-analysis}{%
+\section{What is a meta-analysis?}\label{what-is-a-meta-analysis}}
+
+A method of combining quantitative results from individual studies identified through systematic review in an overall statistical analysis.
+
+\hypertarget{clinical-preclinical-reviews}{%
+\section{Clinical \& Preclinical Reviews}\label{clinical-preclinical-reviews}}
+
+\hypertarget{preclinical}{%
+\subsection{Preclinical}\label{preclinical}}
+
+Preclinical reviews tend to have lots of studies included. Included studies tend to have small sample sizes and varied experimental design.
+Preclinical reviews can be used to:
+
+\begin{itemize}
+\tightlist
+\item
+  Investigate translational failure
+\item
+  Explore differences between studies (heterogeneity) e.g.~internal \& external validity
+\item
+  Inform future preclinical studies e.g.~model selection
+\item
+  Inform early phase clinical trials
+\item
+  Explain discrepancies in preclinical vs.~clinical trial results
+\item
+  Inform 3Rs decisions
+\end{itemize}
+
+\hypertarget{clinical}{%
+\subsection{Clinical}\label{clinical}}
+
+Clinical reviews tend to have fewer included studies, included studies have larger sample sizes, and the variability between included studies is reduced with stricter inclusion criteria.
+Clinical reviews can be used to:
+
+\begin{itemize}
+\tightlist
+\item
+  Explore heterogeneity e.g.~clinical populations
+\item
+  Inform later phase clinical studies
+\item
+  Inform clinical practice and guidelines
+\end{itemize}
+
+\hypertarget{why-perform-preclinical-srs}{%
+\section{Why Perform Preclinical SRs?}\label{why-perform-preclinical-srs}}
+
+\begin{itemize}
+\tightlist
+\item
+  To summarise evidence from multiple similar studies to allow for more accurate estimates of effect
+\item
+  The methods used to find and select studies are transparent and reproducible, reducing bias and increasing the likeliness of producing reliable and accurate conclusions.
+\item
+  Summarise findings from all available studies making information easier for the end user to read and understand
+\item
+  Analyse individual study quality to inform confidence in the results
+\item
+  Quantitative synthesis of results (meta-analysis)
+\item
+  Allow for evidence-based inferences
+\end{itemize}
+
+\includegraphics[width=0.5\textwidth,height=0.5\textheight]{figs/evidence-triangle.png}
+
+The results of preclinical systematic reviews can:
+
+\begin{itemize}
+\tightlist
+\item
+  Provide evidence to change research practice by identifying risks of bias in preclinical experiments
+\item
+  Influence development of reporting guidelines and editorial policies
+\item
+  Provide evidence to support reporting of positive, negative and neutral results through detection of publication bias
+\item
+  Identify study design features that compromise potential clinical application
+\item
+  Contribute to evidence-based clinical trial design
+\end{itemize}
+
+\hypertarget{srs-3rs}{%
+\chapter{Systematic Reviews \& 3Rs}\label{srs-3rs}}
+
+The principles of the 3Rs are a framework for humane animal research. Systematic review is a valuable tool for advancing the 3Rs, primarily through reduction and refinement of animal use in research. Using existing animal data, systematic review can contribute to improvements in animal studies including:
+
+\begin{itemize}
+\tightlist
+\item
+  Providing reliable data to support sample size calculations for various experimental outcomes
+\item
+  Allowing comparison of the statistical performance of different experimental outcome measures
+\item
+  Characterising the extent to which subjecting animals to multiple tests contributes to additional knowledge
+\item
+  Assessing whether the same information can be provided by less invasive tests
+\end{itemize}
+
+\hypertarget{b4ustart}{%
+\chapter{Before You Start}\label{b4ustart}}
+
+There are a couple of things to check before you start your SR. Read more below.
+
+\hypertarget{is-it-necessary}{%
+\section{Is it necessary?}\label{is-it-necessary}}
+
+Consider the following before starting your SR:
+
+\begin{itemize}
+\tightlist
+\item
+  Does the question have contemporary relevance?
+\item
+  Does the question have clinical importance or importance to informing animal experiment design?
+\item
+  Is there currently variation in practice?
+\item
+  Is there uncertainty and debate in the field?
+\item
+  Informing design of definitive animal experiment trial
+\end{itemize}
+
+\hypertarget{has-it-been-done-before}{%
+\section{Has it been done before?}\label{has-it-been-done-before}}
+
+Do a quick search on \href{https://pubmed.ncbi.nlm.nih.gov/}{PubMed} or the most commonly used bibliographic database in your field to check for published systematic reviews. Alternatively, check preprint archives such as \href{https://www.biorxiv.org/}{bioRxiv}, \href{https://www.medrxiv.org/}{medRxiv} or \href{https://osf.io/}{OSF}, to see if a systematic review has been published as a preprint.
+
+Questions to ask regarding existing systematic reviews in the field include:
+
+\begin{itemize}
+\tightlist
+\item
+  Has the research question been adequately addressed?
+\item
+  Is the systematic review methodology used in the review of sound quality?
+\item
+  Is the research question specific or broad enough for your aim?
+\item
+  How recently was the systematic review carried out?
+\end{itemize}
+
+There is no need to start a systematic review if a recent, existing, high-quality SR answers your research question. If there is a relevant SR that is not up-to-date, consider contacting the original author team to discuss their plans for updating the review or a potential collaboration.
+
+For additional reading on how to assess the quality of a published systematic review, see the PRISMA guidelines and other appropriate guidelines on the EQUATOR web-page.
+
+\hypertarget{is-one-already-in-progress}{%
+\section{Is One Already In Progress?}\label{is-one-already-in-progress}}
+
+Before you start, check that the review question you are interested in answering is not already being investigated by another research group.
+
+Where can I find this information?
+Check places where a systematic review protocol may be preregistered or published, e.g.~\href{https://www.crd.york.ac.uk/prospero/}{PROSPERO}, OSF, \href{http://syrf.org.uk/}{SyRF}, preprint servers in your field e.g.~\href{https://www.biorxiv.org/}{bioRxiv} or \href{https://www.medrxiv.org/}{medRxiv}. See more below: \protect\hyperlink{register-your-protocol}{Register Your Protocol}.
+
+If you don't find anything, go ahead and start your SR.
+
+If you find someone is working on the same or a similar question, take contact to the team. Ask about their aims, methods, and at what stage of the SR they are, and if you can collaborate to achieve the common aim.
+
+\hypertarget{build-your-systematic-review-team}{%
+\section{Build your Systematic Review Team}\label{build-your-systematic-review-team}}
+
+A systematic review can take a long time, so ensure you have the adequate expertise and funding to complete the review. Get your colleagues to help out! And reach out to people outside of your immediate team for expert advice.
+
+\textbf{Librarians} and information specialists can help with refining your search strategy. They will have insights into which bibliographic databases contain the literature on the fields and topics you are interested in. Librarians can support you to identify sources for grey literature, and they will be able to support you to find full text versions of articles you want to include in your review, especially if they are not available with your institutional subscription.
+
+\textbf{Systematic Review methodologists:}
+If you are new to the systematic review methods, a methodologist will be able to help you plan and organise your review, give recommendations for software and tools, as well as meta-analysis support.
+
+You may require additional advice from a \textbf{statistician} for meta-analysis, and it's good to get someone involved as early on in the review process as possible.
+
+\textbf{Topic Knowledge: }
+Ensure you have researchers and other stakeholders with adequate topic knowledge in your team.
+
+\textbf{Project Management:}
+Undertaking a systematic review requires effective project management.
+Ensure there is a clear and dedicated \textbf{project leader} who will be overseeing the project for the entire process. The project lead maintains the overview, which stage is the review at, and invites different members onto the team when necessary.
+Early on in the review process, decide a naming convention for documents and decide a place for storing all documents related to the review in shared location. You may need to go back to any stage in the review and revisit decisions or find information, so keep good records. Take thorough notes of decisions made along the SR process, any deviations from the protocol. Not only is this good practice and increases transparency, it can help to make sure all team members are on the same page.
+
+\hypertarget{researchquestion}{%
+\chapter{Research Question}\label{researchquestion}}
+
+The first step is to define your research question. A concise research question is the back-bone for a good search strategy, as it determines the structure and sequence for your literature searches.
+
+Commonly preclinical SR research questions are centered around an intervention or exposure and take the following structure:
+
+\textbf{P}opulation, participants, or problem:\\
+What are the characteristics of the population or participants (species, sex, developmental stage, risk factors, or for human participants demographics, pre-existing conditions, etc)?
+What is the condition or disease of interest?
+
+\textbf{I}ntervention or \textbf{E}xposure:\\
+What is the intervention or exposure under consideration for this population?
+
+\textbf{C}omparison:\\
+What is the alternative to the intervention (e.g.~placebo, different drug, surgery)?
+
+\textbf{O}utcome:
+What are the relevant outcomes (e.g.~quality of life, change in clinical status, morbidity, adverse effects, complications)?
+
+There are other research question structures depending on your area or topic of interest, for example, diagnostic test reviews, and prognostic reviews.
+For more information, see this article on \href{https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/9741/8144}{Formulating Review Questions}
+
+\hypertarget{stakeholders}{%
+\section{Stakeholders}\label{stakeholders}}
+
+Engage stakeholders early on in the review phase to ensure the research question and findings from the review are relevant.
+
+Consider the following:
+- Who will use the results of your systematic review?
+- From their perspective, what are the relevant questions to ask?
+
+\hypertarget{preclinical-examples}{%
+\section{Preclinical Examples}\label{preclinical-examples}}
+
+For reference, see examples of research questions for published reviews.
+
+``What is the effect of antidepressants compared to vehicle or no treatment on infarct volume in animal models of ischaemic stroke?''
+
+P - Animal models of ischaemic stroke
+
+I - Antidepressants
+
+C - Vehicle or no treatment
+
+O - Infarct volume
+
+\hypertarget{protocol}{%
+\chapter{Protocol}\label{protocol}}
+
+What is a protocol and why have one?
+
+A systematic review protocol outlines why and how you are going to conduct your systematic review. It should include your research question, background and the methods that will be used, including: search strategy, inclusion criteria, data extraction, quality assessment, data synthesis, and statistical analysis plan.
+
+Having a pre-specified protocol improves the methodological transparency of your systematic review and reduces the risk of introducing bias. Publishing your protocol allows others to locate reviews in progress and enables future replication. The process of putting together your protocol often involves communication between a number of key stakeholders, you may want to discuss it with an advisory group, external experts, or your funders.
+
+\hypertarget{protocol-templates}{%
+\section{Protocol Templates}\label{protocol-templates}}
+
+SYRCLE (SYstematic Review Centre for Laboratory animal Experimentation) have developed a protocol template tailored to the preparation, registration and publication of systematic reviews of animal intervention studies. \href{https://onlinelibrary.wiley.com/doi/epdf/10.1002/ebm2.7}{See the template and publication here}.
+
+It may also be useful to look through examples from the \href{http://syrf.org.uk/protocols/}{SyRF Protocol Registry} while you formulate your protocol. Look at the Protocol Registry to check that no systematic reviews on your research question are currently underway.
+
+\hypertarget{register-your-protocol}{%
+\subsection{Register your Protocol}\label{register-your-protocol}}
+
+Making the protocol for your systematic review available to the community has a number of benefits: it provides evidence that prespecified analyses were indeed prespecified; allows others to comment on your approach; provides examples for others planning such reviews; and can help you identify if other reviews in similar areas are already in progress. You can search the protocol list by title, date, contact person or institution.
+
+PROSPERO:
+The Centre for Reviews and Dissemination at University of York now publish Preclinical Systematic Review Protocols.
+For more information on registering at PROSPERO, see their \href{https://www.crd.york.ac.uk/prospero/}{website here}.
+
+SyRF:
+Submit your protocol to the SyRF Protocol Registry, select `Publish Protocol' as your subject heading. Someone from the SyRF team will get back to you.
+
+\hypertarget{your-protocol-3rs}{%
+\subsection{Your Protocol \& 3Rs}\label{your-protocol-3rs}}
+
+We recommend that you include a statement in your protocol outlining how your research will impact the 3Rs (Replacement, Reduction and Refinement) in animal use in research.
+
+\hypertarget{systematic-search}{%
+\chapter{Systematic Search}\label{systematic-search}}
+
+To identify relevant studies to include in your SR, you need to perform a comprehensive literature search based on a well-designed search strategy.
+
+\hypertarget{selecting-databases}{%
+\section{Selecting Databases}\label{selecting-databases}}
+
+Databases:
+
+The first step is to decide on which databases to search, this will depend on your research area and question. Databases differ in their coverage of journals and how articles are indexed. For preclinical research, typical databases include \href{https://pubmed.ncbi.nlm.nih.gov/}{PubMed}, Embase, and Web of Science. A librarian or an expert in bibliographic databases will be able to help you identify other potential databases and construct database-specific search terms. It is common practice to search several databases to guarantee adequate and efficient coverage.
+
+On top of electronic databases, you might want to use other methods to find relevant papers such as: scanning reference lists of relevant studies (both primary studies and reviews), hand searching key journals, contacting experts in the field, and searching additional relevant internet resources. Keep a record of alternative methods used and the data collected in a structured format.
+
+\hypertarget{pubmed}{%
+\subsection{PubMed}\label{pubmed}}
+
+\href{https://pubmed.ncbi.nlm.nih.gov/}{PubMed} is a bibliographic database comprising of more than 30 million citations for biomedical literature from MEDLINE, life science journals, and online books.
+
+It is a free resource that supports the search and retrieval of biomedical and life sciences literature with the aim of improving health. It is maintained by the National Center for Biotechnology Information (NCBI) at the US National Library of Medicine.
+
+Links \& Resources:
+The \href{https://www.ncbi.nlm.nih.gov/pubmed/advanced}{PubMed Advanced Search Builder} is a useful tool to build your search query.
+
+Information on \href{https://www.nlm.nih.gov/mesh/meshhome.html}{MeSH Headings}.
+
+\hypertarget{embase}{%
+\subsection{Embase}\label{embase}}
+
+Embase is a biomedical research database covering literature from 1947 to present day. It indexes over 32 million records, including MEDLINE titles. It index articles from 2,900 journals unique to Embase.
+
+You may access Embase directly or through Ovid depending on your library subscription.
+
+More information on Embase indexing and EmTree Headings can be \href{https://www.elsevier.com/solutions/embase-biomedical-research/embase-coverage-and-content}{found here.}
+
+\hypertarget{web-of-science}{%
+\subsection{Web of Science}\label{web-of-science}}
+
+Web of Science is a publisher-independent citation database. The Web of Science Core Collection indexes scholarly journals, books, and proceedings in the sciences, social sciences, and arts and humanities and can be used to navigate the full citation network.
+
+Web of Science can also be used to search other databases including SciELO, KCI-Korean Journal Database and Zoological Record.
+
+\hypertarget{other-sources-grey-literature}{%
+\subsection{Other Sources \& Grey Literature}\label{other-sources-grey-literature}}
+
+Other bibliographic databases include:
+
+\begin{itemize}
+\tightlist
+\item
+  Cochrane Central Register of Controlled Trials \href{https://www.cochranelibrary.com/central/about-central}{(CENTRAL)}
+\item
+  \href{https://scholar.google.com/}{Google Scholar}
+\item
+  \href{https://www.scopus.com/home.uri}{Scopus}
+\item
+  Cumulative Index to Nursing and Allied Health Literature \href{https://www.ebscohost.com/nursing/products/cinahl-databases/cinahl-complete}{(CINAHL)}
+\item
+  \href{https://www.apa.org/pubs/databases/psycinfo}{PsycINFO}
+\end{itemize}
+
+Access may vary depending on institutional access. Document your search strategy so it is sufficiently reproducible.
+
+\hypertarget{search-strategy-development}{%
+\section{Search Strategy Development}\label{search-strategy-development}}
+
+Select your search terms based around each of the PICO (or equivalent) concepts in your research question.
+
+\hypertarget{step-1}{%
+\subsection{Step 1}\label{step-1}}
+
+\textbf{Step 1: Find keywords and synonyms for each element}
+
+A good exercise is to think of as many synonyms as possible for each of your main concepts or PICO elements.
+
+For example:
+
+If your research question is: What is the effect of antidepressants compared to vehicle or no treatment on infarct volume in animal models of stroke?
+
+\textbf{P}opulation: Stroke. Synonyms might include: cerebral ischaemia, cerebrovascular accident.
+
+\textbf{I}ntervention: Antidepressants. Synonyms might include: fluoxetine, SSRIs
+
+\hypertarget{step-2}{%
+\subsection{Step 2}\label{step-2}}
+
+\textbf{Step 2: Index/subject terms (database-specific)}
+
+Each core database has their own system for indexing terms, topics, and subjects. Check what subject headings and indexing terms the databases you are interested in searching before you start.
+
+\begin{itemize}
+\tightlist
+\item
+  MeSH terms
+\item
+  Emtree terms
+\item
+  (See more information about MeSH and EMTREE above \protect\hyperlink{Selecting-Databases}{Selecting Databases} )
+\end{itemize}
+
+Why use both keywords and indexed terms in your search strategy?
+
+Articles in PubMed are manually indexed but there is usually a slight delay. To capture all articles that use non-standard language, including recently published ones, you might miss some by using only a keyword search.
+
+\hypertarget{step-3}{%
+\subsection{Step 3}\label{step-3}}
+
+\textbf{Step 3: Combining Search Terms}
+
+Boolean Operators
+
+The OR operator is used to connect two or more similar concepts (synonyms). It is used to broaden the results by telling the database that at least one of the search terms must be present in the results.
+
+The AND operator is used to narrow the results. It is used to tell the database that all search terms must be present in each result.
+
+\includegraphics[width=0.25\textwidth,height=0.25\textheight]{figs/booleanOR.png}
+\includegraphics[width=0.25\textwidth,height=0.25\textheight]{figs/booleanAND.png}
+
+\hypertarget{precision-sensitivity}{%
+\subsection{Precision \& Sensitivity}\label{precision-sensitivity}}
+
+\textbf{Precision} is the ability of search strategy to exclude irrelevant articles.
+
+\textbf{Sensitivity} is the ability of a search strategy to identify all relevant articles.
+
+The aim is to \textbf{maximise sensitivity} while attempting to \textbf{maximise precision}.
+
+\hypertarget{tips-tricks}{%
+\subsection{Tips \& Tricks}\label{tips-tricks}}
+
+\begin{itemize}
+\tightlist
+\item
+  Consider differences in spelling (e.g.~US vs UK English)
+\item
+  Consider using other PubMed fields e.g.~MeSH SubHeadings {[}SH{]}, or Pharmacological Action {[}PA{]}. Find more information here: \href{https://pubmed.ncbi.nlm.nih.gov/help/\#search-tags}{PubMed Search Tags}
+\item
+  When using the NOT Boolean Operator, consider what relevant literature you might be excluding. - Consider truncation symbols or ``wildcards'' for your search (e.g.~ischem* for ischemia and ischemic, etc). Check all bibliographic databases allow this before adding to your search.
+\end{itemize}
+
+\hypertarget{run-searches-combine-results}{%
+\section{Run Searches \& Combine Results}\label{run-searches-combine-results}}
+
+Once you have composed the main components of your search strategy. You can now run your searches across your databases of choice.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Run search strings in specified databases.
+\end{enumerate}
+
+The Polyglot Search Translator is a tool that will assist you in translating the syntax of your search string across various databases. For more information of the \href{https://sr-accelerator.com/\#/polyglot}{Polyglot Search Translator see here}.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Combine results in reference manager software e.g.~\href{https://endnote.com/}{EndNote} or \href{https://www.zotero.org/}{Zotero}
+\end{enumerate}
+
+To more easily find full text pdfs, remember to add you library subscription information into the settings or preferences of the reference manager, e.g.~EzProxy information or OpenURL information.
+
+Does the import order matter? \textbf{YES!}
+
+The order that you import your references into Endnote or another reference manager matters. Different bibliographic databases have different quality or completeness of the references you are interested in, and reference managers use this information to deduplicate the results (the next step).
+
+The \href{https://blogs.lshtm.ac.uk/library/2018/12/07/removing-duplicates-from-an-endnote-library/}{recommended order} is:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Medline
+\item
+  Embase
+\item
+  Medline in process (if included)
+\item
+  Other databases from OvidSP (PsycInfo, EconLit etc)
+\item
+  PubMed
+\item
+  Cinahl Plus
+\item
+  Other databases from Ebsco
+\item
+  Web of Science databases
+\item
+  Scopus
+\item
+  ProQuest databases
+\item
+  Cochrane databases
+\item
+  CRD databases
+\item
+  Any other databases
+\item
+  Clinical Trials websites
+\end{enumerate}
+
+\hypertarget{deduplication}{%
+\section{Deduplication}\label{deduplication}}
+
+You have searched several different databases and other sources. There are likely duplicates or overlap. Time spent deduplicating your reference library will ensure you have accurate numbers (total records/included/excluded) to report and don't waste your time screening duplicates.
+
+Tools to help Deduplicate:
+
+\begin{itemize}
+\tightlist
+\item
+  Endnote can be used to find and remove duplicate records. See \href{10.3163/1536-5050.104.3.014}{this resource.}
+\item
+  Stand-alone tools such as the \href{https://doi.org/10.1186/2046-4053-4-6}{SR-Accelerator Tool} and the \href{https://camarades.shinyapps.io/RDedup/}{ASySD tool} for preclinical reviews.
+\end{itemize}
+
+\hypertarget{update-your-searching-tools}{%
+\section{Update your Searching \& Tools}\label{update-your-searching-tools}}
+
+SyRF Systematic Review Facility has a built in function that can automatically retrieve new records that meet your search string from PubMed. For more information, see the \href{https://assets.syrf.org.uk/guides/SyRF_User_Guide.pdf}{SyRF Help Guide here}.
+
+The Polyglot Search Translator is a tool that will assist you in translating the syntax of your search string across various databases. For more information of the \href{https://sr-accelerator.com/\#/polyglot}{Polyglot Search Translator see here}.
+
+\hypertarget{find-retrieve-full-texts}{%
+\section{Find \& Retrieve Full Texts}\label{find-retrieve-full-texts}}
+
+Once you have your library of unique references you can find and retrieve the full texts.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Use your reference manager. Guides for retrieving from \href{https://subjectguides.library.american.edu/c.php?g=479020\&p=3324236}{Endnote} and \href{https://www.zotero.org/support/locate}{Zotero} can be found at the respective links.
+\end{enumerate}
+
+N.B. Remember to add your Institutional Log-in information to the settings or preferences of the reference manager, e.g.~\href{https://ezproxy-db.appspot.com/}{EzProxy} information or \href{https://www.zotero.org/support/locate/openurl_resolvers}{OpenURL} information, so you can more easily find the full texts that your institutional library has access to.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\item
+  Search Online: Google search, GoogleScholar, ResearchGate, etc.
+\item
+  Contact corresponding authors directly via email or Twitter.
+\item
+  Last resort: ask your librarian to assist with inter-library loans. (NB: these can be very costly!)
+\end{enumerate}
+
+!! NB: Be careful using custom scripts or other programs to bulk download as this can result in your institutional IP address being blocked !!
+
+If your search strategy has retrieved a lot of potentially relevant results, you may want to consider waiting to find the full texts until after you have carried out titles and abstract screening (see below). This will greatly reduce the number of full text records you need to find, and you will not waste time trying to find articles that are not relevant to your research question.
+
+\hypertarget{study-selection}{%
+\chapter{Study Selection}\label{study-selection}}
+
+Once you have found articles that may be potentially relevant to your research question, you now need to assess each article for relevance against predefined criteria.
+
+If applicable, you may consider doing this in two stages:
+
+\begin{itemize}
+\tightlist
+\item
+  Title or Title \& Abstract Screening
+\item
+  Full text Screening
+\end{itemize}
+
+\hypertarget{inclusion-exclusion-criteria}{%
+\section{Inclusion \& Exclusion Criteria}\label{inclusion-exclusion-criteria}}
+
+Defining the inclusion and exclusion criteria sets the boundaries for your review.
+It is important the criteria are predefined, \emph{a priori}, and applied consistently across all studies considered for the review. To ensure this, it is common to do citation screening in duplicate, two independent reviews, with discussion or a third independent reviewer to reconcile any discrepancies.
+
+Inclusion criteria refer to everything a study must have to be included in your review.
+Exclusion criteria refer to factors that make a study ineligible for inclusion.
+
+Commonly your inclusion and exclusion criteria are defined around:
+
+\begin{itemize}
+\item
+  Type of study or study design
+\item
+  Type of population (e.g.~age, sex, disease model)
+\item
+  Type of intervention (e.g.~dosage, timing of intervention, frequency)
+\item
+  Type of Outcome Measures (e.g.~parameters related to method of assessment or apparatus)
+\end{itemize}
+
+Additional factors you may want to consider:
+
+\begin{itemize}
+\item
+  Language restrictions (what languages can your review team translate?)
+\item
+  Publication date restrictions
+\item
+  Type of publication (e.g.~conference abstracts, peer-reviewed)
+\end{itemize}
+
+You may consider prioritising your inclusion and exclusion criteria based on what criteria you are likely to apply at title and abstract stage, and what criteria you can only apply after having read the full-text.
+
+\hypertarget{apply-your-criteria}{%
+\section{Apply your Criteria}\label{apply-your-criteria}}
+
+Is a study included or excluded in your review? Is a study relevant, or not relevant, to your research question based on your pre-defined criteria?
+
+To ensure your inclusion and exclusion criteria are applied in a unbiased, uniform fashion, it is good practice to have at least 2 independent screeners apply the criteria. If there are discrepancies in your decisions, you may discuss the discrepancies until you reach consensus or invite a 3rd independent reviewer to reconcile any differences.
+
+\hypertarget{tools-for-screening}{%
+\section{Tools for Screening}\label{tools-for-screening}}
+
+You can complete title and abstract screening \& full text screening in \href{http://syrf.org.uk/}{SyRF} the Systematic Review Facility which is a free-to-use online platform to support your preclinical systematic review.
+
+SyRF randomly presents the order of articles to screeners and by default requires a consensus between multiple screeners.
+
+Other free-to-use platforms to perform citation screening include \href{https://rayyan.qcri.org/welcome}{Rayyan} and \href{https://sysrev.com/}{SysRev}.
+
+\hypertarget{data-extraction}{%
+\chapter{Data Extraction}\label{data-extraction}}
+
+Extract relevant data as predefined in your protocol.
+
+It is best practice to extract data in duplicate, two independent reviewers, to prevent errors.
+
+\hypertarget{study-characteristics}{%
+\section{Study Characteristics}\label{study-characteristics}}
+
+Study characteristics to extract from included articles include:
+
+\begin{itemize}
+\item
+  PICO information (e.g.~age and sex of population, species and strain of animal, dose and timing of intervention, type and time of outcome assessment)
+\item
+  Study Design information
+\item
+  Study Quality information (\protect\hyperlink{Quality-Assessment}{see below})
+\item
+  Additional information (e.g.~time between intervention and outcome assessment, any comorbidity information)
+\end{itemize}
+
+\hypertarget{quantitative-data}{%
+\section{Quantitative Data}\label{quantitative-data}}
+
+Extracting quantitative and numerical data from included studies is necessary to perform meta-analysis to pool the effect sizes from
+
+Your outcomes of interest may be:
+
+\begin{itemize}
+\item
+  Dichotomous (e.g.~mortality, tumour presence) \includegraphics[width=0.75\textwidth,height=0.75\textheight]{figs/dichot-outcome.png}
+\item
+  Continuous (e.g.~blood pressure, or weight loss) \includegraphics[width=0.75\textwidth,height=0.75\textheight]{figs/contin-outcome.png}
+\item
+  Count Data (e.g.~number of events)
+\end{itemize}
+
+Data about your outcomes may be provided in various formats including:
+
+\begin{itemize}
+\item
+  In tables
+\item
+  In text
+\item
+  In graphs
+\end{itemize}
+
+You may need to use tools such as \href{https://helpx.adobe.com/acrobat/using/grids-guides-measurements-pdfs.html}{Adobe desktop ruler} or \href{https://automeris.io/WebPlotDigitizer/}{WebPlotDigitizer} to extract numerical values (e.g.~means and standard deviations (SD) or standard error of the mean (SEM) from graphs). Some studies may report values on a different scale. Be aware, you may need to convert these to a scale that is common across all studies (e.g.~log scale conversion).
+
+\hypertarget{quality-assessment}{%
+\chapter{Quality Assessment}\label{quality-assessment}}
+
+\textbf{Why assess study quality?}
+
+Low methodological quality can affect internal validity and introduce bias into the results of primary studies. Internal validity refers to the extent to which study results reflect the true cause-effect of an intervention. Different types of bias can influence internal validity (e.g.~selection, performance, detection, and attrition biases).
+
+\textbf{It is not impact. It is not novelty.}
+
+Bias in primary studies can lead to an over- or under-estimation of the true intervention effect in both primary studies and systematic reviews. It is important to consider the implications of study quality and validity for interpreting the results from your systematic review and it is often a good idea to incorporate a quality assessment section into your final report.
+
+Study quality characteristics which have been shown to impact the results of preclinical studies include whether animals were randomised to control or treatment groups, and if researchers were blinded to animal group when assessing outcomes.
+
+\hypertarget{reporting}{%
+\section{Reporting}\label{reporting}}
+
+Use a reporting quality checklist.
+
+\begin{itemize}
+\item
+  The \href{https://www.ahajournals.org/doi/pdf/10.1161/01.str.0000125719.25853.20}{CAMARADES Checklist}
+\item
+  \href{https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000410}{ARRIVE 2.0} Guidelines for Reporting Animal Research
+\item
+  \href{https://media.nature.com/full/nature-assets/ncomms/authors/ncomms_lifesciences_checklist.pdf}{Nature Reporting Checklist}. The operationalised checklist is available \href{https://link.springer.com/article/10.1007/s11192-016-1964-8/tables/6}{here.}
+\end{itemize}
+
+\hypertarget{risk-of-bias}{%
+\section{Risk of Bias}\label{risk-of-bias}}
+
+Use a Risk of Bias (RoB) or quality assessment tool to help you evaluate study quality. Tools that have been developed to assess bias and quality in preclinical studies include the \href{https://bmcmedresmethodol.biomedcentral.com/track/pdf/10.1186/1471-2288-14-43}{SYRCLE RoB tool}
+
+\hypertarget{rob-assessment-to-inform-analysis}{%
+\section{RoB Assessment to Inform Analysis}\label{rob-assessment-to-inform-analysis}}
+
+The extent to which a study is at risk of bias can hugely impact the findings. Findings from your risk of bias assessment should inform the conclusions of your systematic review.
+
+\begin{itemize}
+\item
+  Conduct sensitivity analysis
+  (quantitatively using meta-analysis or qualitatively)
+\item
+  Exclude studies at high risk of bias from the evidence synthesis
+  (this should be done with \textbf{extreme caution} and prespecified in your protocol to avoid bias)
+\item
+  Reach an overall conclusion for each outcome as to whether the synthesised result is at high risk of bias
+\item
+  Use the overall conclusion to inform the summary assessment of certainty of the evidence using e.g.~\href{https://bestpractice.bmj.com/info/toolkit/learn-ebm/what-is-grade/}{GRADE approach}
+\end{itemize}
+
+\hypertarget{meta-analysis}{%
+\chapter{Meta-Analysis}\label{meta-analysis}}
+
+\textbf{What is Meta-Analysis?}
+
+Meta-analysis is the statistical combination of results from two or more separate studies
+
+\textbf{Why perform Meta-Analysis?}
+
+\begin{itemize}
+\item
+  To provide a test with more power than separate studies
+\item
+  To provide an improvement in statistical precision
+\item
+  To summarise numerous and inconsistent findings
+\item
+  To investigate consistency of effect across different samples
+\end{itemize}
+
+\textbf{What questions are addressed?}
+
+\begin{itemize}
+\item
+  What is the direction of the effect?
+\item
+  What is the size of the effect?
+\item
+  Is the effect consistent across studies? (heterogeneity)
+\item
+  What is the strength of evidence for the effect? (quality assessment)
+\end{itemize}
+
+\href{http://www.cochrane-handbook.org/}{(Reference: Cochrane Handbook)}
+
+Luckily, statistical software takes care on most of the `heavy lifting' when it comes to calculating effect sizes, pooling them, and making forest plots.
+
+To understand the basics and for exact equations, keep reading.
+
+To practice your meta-analysis skills in R, see our \href{Exercises.html}{exercises section.}
+
+Equations shown below are from the following references, where more information can be found:
+
+\begin{itemize}
+\item
+  \href{https://doi.org/10.1016/j.jneumeth.2013.09.010}{Vesterinen et al, 2014. ``Meta-analysis of data from animal studies: a practical guide.'' Journal of neuroscience methods}
+\item
+  \href{https://doi.org/10.1002/9780470743386}{Borenstein et al., 2009. Introduction to Meta-Analysis}
+\end{itemize}
+
+\hypertarget{step-1.-calculate-effect-size}{%
+\section{Step 1. Calculate Effect Size}\label{step-1.-calculate-effect-size}}
+
+The first step is to calculate the effect size for each outcome within each study.
+
+Your outcomes may be:
+
+\begin{itemize}
+\item
+  Continuous
+\item
+  Dichotomous
+\end{itemize}
+
+\hypertarget{continuous}{%
+\subsection{Continuous}\label{continuous}}
+
+For \textbf{continuous outcomes}, commonly used effect size measures include:
+
+\begin{itemize}
+\item
+  Mean Difference
+\item
+  Normalised Mean Difference
+\item
+  Standardised Mean Difference
+\end{itemize}
+
+\hypertarget{mean-difference}{%
+\subsubsection{Mean Difference}\label{mean-difference}}
+
+\textbf{Mean Difference:} Raw mean difference can be used when the outcomes are reported on a meaningful scale and all studies in the analysis use the same scale. The meta-analysis is performed directly on the raw difference in means.
+
+Mean Difference Effect Size:
+\[ ES_i = \bar{x_c} - \bar{x_\text{rx}}\]
+
+Standard Error:
+\[ SE_i = \sqrt \frac {N}{n_{\text{rx}} \times n'_c} \times S_{\text{pooled}}^2 \]
+
+where S pooled is:
+\[S_{\text{pooled}} = \sqrt \frac {(n'_c - 1)SD_c^2 + (n_{\text{rx}} - 1)SD_{\text{rx}}^2}{N -2} \]
+
+\hypertarget{normalised-mean-difference}{%
+\subsubsection{Normalised Mean Difference}\label{normalised-mean-difference}}
+
+\textbf{Normalised Mean Difference:} Normalised mean difference (NMD) can be used when outcomes are on a ratio scale, where the score on a `control' or `sham' animal is known. The most common method to calculate NMD is as a proportion of the mean.
+
+The effect size calculation for normalised mean difference:
+\[ES_i= 100% \times  \frac {(\bar{x_c} - \bar{x_\text{sham}}) - (\bar{x_\text{rx}} - \bar{x_\text{sham}})}{\bar{x_c} - \bar{x_\text{sham}}} 
+\] where \[\bar{x_\text{sham}} \] is the mean score for the unlesioned/normal/untreated animal.
+
+The standard deviation calculations are as follows:
+\[SD_c* = 100 x \frac {SD_c}{\bar{x_c} - \bar{x_\text{sham}}} \] and \[SD_\text{rx*} = 100 x \frac {SD_\text{rx}}{\bar{x_text{rx}} - \bar{x_\text{sham}}}\]
+
+Standard error of the effect size is:
+\[SE_i = \sqrt \frac{SD_c*^2}{n'_c} + \frac {SD_{rx*}^2}{n_{rx*}} \]
+
+\hypertarget{standardised-mean-difference}{%
+\subsubsection{Standardised Mean Difference}\label{standardised-mean-difference}}
+
+\textbf{Standardised Mean Difference:} (SMD), Cohen's d and Hedge's g. SMD is used when the scale of measurement differs across studies and it is not meaningful to combine raw mean differences. The mean difference in each study is divided by the study's standard division to create an index comparable across studies.
+
+Hedge's G SMD Effect Size:
+\[ES_i = \frac {\bar{x_c} - \bar{x_\text{rx}}}{S_{\text{pooled}}} \times (1 - \frac{3}{4N - 9})  \]
+And standard error of the effect size is:
+\[ SE_i = \sqrt \frac{N}{n_{\text{rx}} \times n'_c} + \frac{ES_i^2}{2(N - 3.49)})\]
+
+\hypertarget{dichotomous-outcomes}{%
+\subsection{Dichotomous Outcomes}\label{dichotomous-outcomes}}
+
+For \textbf{dichotomous outcomes} the most commonly used effect size measures for animal studies is odds ratio.
+
+\hypertarget{odds-ratio}{%
+\subsubsection{Odds Ratio}\label{odds-ratio}}
+
+\textbf{Odds Ratio}: For event data. The ratio of number of events to the number of non-events. It represents the odds that an outcome will occur given a particular exposure, compared to the odds of the outcome occurring without that exposure.
+
+Odds Ratio Effect Size
+\[ OR_i = \frac {a_i \times d_i}{b_i \times c_i}  \]
+
+with the standard error of the odds ratio effect size:
+\[ SE(ln(OR_i)) = \sqrt (1/a_i)+(1/b_i)+(1/c_i)+(1/d_i)    \]
+
+You might come across \textbf{Risk Ratio} (or Relative Risk), the risk of an event in one group (e.g., exposed group) versus the risk of the event in the other group (e.g., non-exposed group), or \textbf{Hazard Ratio}, however these data are rarely seen in primary animal experiments. For more information of Risk Ratio in clinical systematic reviews, see the \href{https://handbook-5-1.cochrane.org/chapter_9/box_9_2_a_calculation_of_risk_ratio_rr_odds_ratio_or_and.htm}{Cochrane Handbook.}
+
+\hypertarget{median}{%
+\subsection{Median}\label{median}}
+
+\textbf{Median Survival} or time to event data. The effect is calculated by dividing the median survival in the treatment group b the median in the control group, and the logarithm of that is taken.
+
+\[ ES_i = log (\frac{Median_{\rm rx}}{Median_c} ) \]
+
+\hypertarget{true-number-of-controls}{%
+\subsection{True number of Controls}\label{true-number-of-controls}}
+
+A single experiment can contain a number of comparisons. If the control cohort is serving more than one treatment group, we correct the number of animals reported in the control cohort by the number of treatment groups.
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\item
+  True number of controls
+  \[n'_c = \frac{n_c}{{\rm num. treatment groups}}\]
+\item
+  True N for each comparison
+  \[N = n_{\text{rx}} + n'_c\]
+\item
+  Converting SEM to SD
+  \[ SD_c = SEM_c \times \sqrt n_c \] and \[SD_{\text{rx}} = SEM_{\text{rx}} \times \sqrt n_{\text{rx}} \]
+\end{enumerate}
+
+\hypertarget{step-2.-combine-effect-sizes}{%
+\section{Step 2. Combine Effect Sizes}\label{step-2.-combine-effect-sizes}}
+
+The next step is to combine the effect sizes for each comparison together in a meta-analysis model.
+
+Before you pool your effect sizes, you may conisder:
+
+\textbf{Weighting Effect Sizes:}
+In meta-analysis it is usual to attribute different weights to each study in order to reflect relative contributions of individual studies to the total effect size. In animal study meta-analysis we weight the studies according to precision. More precise studies are given greater weight in the calculation of the effect size. We recommend using the inverse variance method, where individual effect sizes are multiplied by the inverse of their squared standard error:
+
+\[W_i = \frac{1}{SE^2_i} \]
+Where \[{SE^2_i}\] is the square standard error of the effect size calculated.
+
+This gives the weighted effect size of:
+\[W_iES_i = ES_i \times \frac{1}{SE^2_i} \]
+
+\textbf{Nesting Effects:}
+Where several outcomes are reported and it is appropriate to combine them into a single statistic, we can ``nest'' outcomes. To do this we take each outcome, weight it by multiplication by the inverse of the variance for that outcome, sum these weighted values for all outcomes and divide by the sum of the weights.
+
+\[ES_{\theta\text{i}} = \frac{\sum_{i=1}^{k} W_iES_i}{\sum_{i=1}^{k} W_i} \]
+Where \[W_i\] is the measure of weight (e.g.~inverse variance). \[W_iES_i \] is the weighted effect size, and \emph{k} denotes the total number of studies included in the meta-analysis.
+
+The standard error is calculated:
+\[SE_{\theta\text{i}} = \sqrt \frac{N_{comparisons}}{\sum_{i=1}^{k} W_i} \]
+
+There are two commonly used models for pooling effect sizes:
+
+\begin{itemize}
+\item
+  Fixed Effect Model
+\item
+  Random Effects Model
+\end{itemize}
+
+\hypertarget{fixed-effects-model}{%
+\subsection{Fixed Effects Model}\label{fixed-effects-model}}
+
+Under the fixed effect model we assume that there is one true effect size which is shared by all the included studies. It follows that the combined effect (global estimate) is our estimate of this common effect size.
+
+\includegraphics[width=0.75\textwidth,height=\textheight]{figs/fixedeffects.png}
+
+\hypertarget{random-effects-model}{%
+\subsection{Random Effects Model}\label{random-effects-model}}
+
+\begin{itemize}
+\item
+  Under the random effects model we allow that the true effect could vary from study to study. E.g. the effect size might be a little higher if the patients are older; in rats vs.~mice; if the study used a slightly more intensive or longer variant of the intervention etc.
+\item
+  The studies included in the meta-analysis are assumed to be a random sample of the relevant distribution of effects, and the combined effect estimates the mean effect in this distribution.
+\end{itemize}
+
+\includegraphics[width=0.75\textwidth,height=\textheight]{figs/randomeffects.png}
+
+\hypertarget{step-3.-investigate-heterogeneity}{%
+\section{Step 3. Investigate Heterogeneity}\label{step-3.-investigate-heterogeneity}}
+
+The third step is to investigate potential sources of heterogeneity (pre-specified in your protocol). Heterogeneity is the variability between groups of studies caused by differences in:
+
+\begin{itemize}
+\item
+  study samples (e.g.~species, sex)
+\item
+  interventions of outcomes (e.g.~dose, outcome measure type)
+\item
+  methodology (e.g.~design, quality)
+\end{itemize}
+
+Chi-squared \(\chi^2\) (or Chi\textsuperscript{2}) assess whether observed differences in results are compatible with chance alone.
+I\textsuperscript{2} describes the percentage of variability in effect estimates that is due to heterogeneity rather than sampling error or chance along.
+
+You can investigate heterogeneity using:
+
+\begin{itemize}
+\item
+  Sub-group analysis
+\item
+  Meta-regression model
+\end{itemize}
+
+\hypertarget{step-4.-reporting-biases}{%
+\section{Step 4. Reporting Biases}\label{step-4.-reporting-biases}}
+
+\textbf{Publication Bias} occurs when the results of published and unpublished studies differ systematically. Unfortunately, neutral and negative studies take longer to be published, remain unpublished, are less likely to be identified in systematic review, and this can lead to an overstatement of efficacy in meta-analysis.
+
+There are also other biases that may effect your systematic review including, \textbf{selective outcome reporting} and \textbf{selective analysis reporting}.
+
+We can test for potential publication bias in our data plotting our data on a \textbf{funnel plot}.
+The outer dashed lines indicate the triangular region within which 95\% of studies are expected to lie, in the absence of both biases and heterogeneity. The solid vertical line refers to the line of no effect. Image from \href{https://www.bmj.com/content/343/bmj.d4002}{Sterne et al., 2011}
+
+\includegraphics[width=0.5\textwidth,height=\textheight]{figs/funnelplot.jpg}
+
+If you do observe asymmetry in your funnel plot, there may be a number of sources:
+
+\begin{itemize}
+\item
+  Reporting Biases
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Publication bias
+  \item
+    Selective outcome reporting
+  \item
+    Selective analysis reporting
+  \end{itemize}
+\item
+  Poor methodological quality (leading to inflated effects in smaller studies)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Poor methodological design
+  \item
+    Inadequate analysis
+  \item
+    Fraud
+  \end{itemize}
+\item
+  True heterogeneity: Effect size differs according to study size due to e.g.~differences in the intensity of interventions, or in underlying risk between studies with different sizes.
+\item
+  Artefacts: Sampling variation can lead to an association between the intervention effect and its standard error.
+\item
+  Chance: Asymmetry may occur by change - motivating the use of statistical asymmetry tests.
+\end{itemize}
+
+\hypertarget{step-5.-interpret-the-results}{%
+\section{Step 5. Interpret the Results}\label{step-5.-interpret-the-results}}
+
+The forest plot or timber plot is the main graphical output or representation from a meta-analysis.
+
+Reading and understanding these plots will allow you to understand the findings from a meta-analysis. Meta-analyses of animal studies tend to include many studies with small sample sizes. Therefore, it is common to see preclinical meta-analyses graphically represented with a timber plot, a slight variation on the forest plot.
+
+Here is an example of a timber plot. In this meta-analysis the research question was: What is the effect of antidepressants compared vehicle or no treatment on infarct volume in animal models of ischaemic stroke? \href{https://doi.org/10.1161/STROKEAHA.114.006304}{McCann et al., 2014}
+
+\includegraphics[width=0.6\textwidth,height=\textheight]{figs/timberplot.png}
+
+Outcome:
+A meta-analysis is conducted on a single outcome of interest at a time. The outcome of interest in this meta-analysis is Reduction in Infarct Volume, as displayed on the y-axis label.
+
+Individual Study Effects:
+In this meta-analysis there were 58 experiments included. Each black dot represents the effect size reported in a single experiment, the difference in outcome between the mean and the control group. Each black dot has thin black lines above and below the effect size, these represent the errors bars associated with the effect size reported. Individual study effect sizes are displayed in order of smallest to largest to highlight variation or heterogeneity in the literature.
+
+Pooled Effect:
+Here, the gray bar behind the black dots represents the combined or pooled effect size across all included experiments and its confidence intervals. In this example, the effect size is 27.3\% (95\% CI, 20.7\%--33.8\%).
+
+\textbf{Clinical Forest Plot:} A step-by-step guide to interpreting a forest plot from a typical clinical meta-analysis is available \href{https://s4be.cochrane.org/blog/2016/07/11/tutorial-read-forest-plot/}{here}.
+
+\hypertarget{tools-for-systematic-review}{%
+\chapter{Tools for Systematic Review}\label{tools-for-systematic-review}}
+
+We highly recommend using software and tools to help you along the way. We have mentioned many tools throughout this Wiki, here is a list of all of them:
+
+\href{http://syrf.org.uk/}{SyRF} the Systematic Review Facility is a free-to-use online platform to support your preclinical systematic review. Its features and auxillary tools include:
+
+\begin{itemize}
+\item
+  Automatically update your search in \href{https://pubmed.ncbi.nlm.nih.gov/}{PubMed}
+\item
+  Deduplication of systematic searches \href{https://camarades.shinyapps.io/RDedup/}{ASysD App}
+\item
+  Screening (title \& abstract as well as full text)
+\item
+  Data Annotation \& Extraction
+\item
+  Meta-Analysis of data from SyRF \href{https://camarades.shinyapps.io/meta-analysis-app/}{click here}
+\end{itemize}
+
+Additional tools include:
+
+\begin{itemize}
+\item
+  Citation screening: \href{https://rayyan.qcri.org/welcome}{Rayyan} and \href{https://sysrev.com/}{SysRev}.
+\item
+  Data extraction from graphs: \href{https://helpx.adobe.com/acrobat/using/grids-guides-measurements-pdfs.html}{Adobe desktop ruler} or \href{https://automeris.io/WebPlotDigitizer/}{WebPlotDigitizer}
+\item
+  Search translation across databases: \href{https://sr-accelerator.com/\#/polyglot}{Polyglot Search Translator}
+\end{itemize}
+
+Machine Learning - if you are doing a large systematic review, consider training ML.
+Contact us for more information.
+
+\hypertarget{publication}{%
+\chapter{Publication}\label{publication}}
+
+You have conducted your systematic review, and potentially also conducted a meta-analysis, now it is time to tell the community what you found and ensure the findings from your review reach your audience.
+
+Be careful when interpreting the results; acknowledge sources of bias; consider heterogeneity, generalisability, and relevance.
+
+It may help to use a \href{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0187271}{GRADE Approach} to rate the certainty of the evidence of preclinical animal studies, in the context of therapuetic interventions.
+
+Report your systematic review in a way that allows reproducibility of the results and future updating.
+
+\hypertarget{good-reporting}{%
+\section{Good reporting}\label{good-reporting}}
+
+We recommend following the Preferred Reporting Items for Systematic Reviews and Meta-analyses (PRISMA) Guidelines.
+
+A checklist can be found \href{http://www.prisma-statement.org/PRISMAStatement/Checklist}{here}
+
+\includegraphics{figs/PRISMA.png}
+
+\hypertarget{resources-links}{%
+\chapter{Resources \& Links}\label{resources-links}}
+
+\href{https://syrf.org.uk}{SyRF}
+
+\href{https://assets.syrf.org.uk/guides/SyRF_User_Guide.pdf}{SyRF Help Guide}.
+
+\href{https://onlinelibrary.wiley.com/doi/epdf/10.1002/ebm2.7}{SYRCLE Protocol - Template \& Paper}
+
+\href{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0187271}{Hooijmans et al., 2018. Preclinical GRADE Approach}
+
+\href{https://doi.org/10.1016/j.jneumeth.2013.09.010}{Vesterinen et al, 2014. ``Meta-analysis of data from animal studies: a practical guide.'' Journal of neuroscience methods}
+
+\href{https://doi.org/10.1002/9780470743386}{Borenstein et al., 2009. Introduction to Meta-Analysis}
+
+\href{https://handbook-5-1.cochrane.org/}{Cochrane Handbook}
+
+\hypertarget{about}{%
+\chapter{About}\label{about}}
+
+We have put together this Wiki Page to provide information and documents, links, and useful tools to guide your through your preclinical systematic review. These resources have been put together using many CC-BY-4.0 sources including; \href{http://syrf.org.uk/}{SyRF}, and \href{https://training.cochrane.org/interactivelearning}{Cochrane Interactive Learning}. We thank these organisations and teams for making their resources available, definitely check out their resources as well!
+
+This resource was last updated on: 02 Dezember, 2020
+
+\hypertarget{to-cite-the-tool}{%
+\subsection{To cite the tool}\label{to-cite-the-tool}}
+
+Preclinical Systematic Reviews \& Meta-Analysis Wiki, (Dezember, 2020), CAMARADES Berlin, QUEST-BIH Charité. Accessed from: www.CAMARADES.de
+
+\hypertarget{our-team}{%
+\subsection{Our Team}\label{our-team}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Sarah McCann, PhD}
+\item
+  Torsten Rackoll, PhD
+\item
+  Alexandra Bannach-Brown, PhD
+\item
+  Florenz Cruz
+\end{itemize}
+
+If you have questions about the resources, or would like to ask a question about your specific review, get in touch: \href{mailto:CAMARADES.berlin@charite.de}{Email us here}
+
+This resource is supported by Charité 3Rs. For more information about 3Rs at Charité -- Universitätsmedizin Berlin, visit the \href{https://charite3r.charite.de/en/charite_3r_toolbox/}{Charité 3Rs Toolbox}.
+
+CAMARADES Berlin are located in the QUEST Center, Berlin Institute for Health
+\includegraphics[width=0.55\textwidth,height=\textheight]{charite-BIHquest.jpg}
+
+  \bibliography{book.bib,packages.bib}
+
+\end{document}
