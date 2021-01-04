@@ -198,6 +198,11 @@ There are two commonly used models for pooling effect sizes:
 
 - Random Effects Model 
 
+
+The selection of which model to use should be stated in your protocol with *a priori*. The decision is based on the nature of the studies likely to be included in your review.   Random effects model is most commonly used in preclinical studies as we usually synthesise data from studies performed in different laboratories and we expect heterogeneity. We often synthesise data from experiments where the species, age, or sex of the animals are different, the intervention may be given at varying doses or at different times in relation to the outcome. We assume that these study design variables have an impact on the effects we see in studies. 
+
+Rarely, when doing a systematic review of data from one specific laboratory, if all the studies in your meta-analysis were conducted using the same model induction, paradigms, and interventions, you may consider a fixed effect model. (Borenstein et al., 2009)
+
 <br>
 
 ### Fixed Effects Model

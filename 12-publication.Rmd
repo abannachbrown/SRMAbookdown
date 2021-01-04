@@ -18,6 +18,8 @@ We recommend following the Preferred Reporting Items for Systematic Reviews and 
 
 A checklist can be found [here](http://www.prisma-statement.org/PRISMAStatement/Checklist)
 
+We recommend using the PRISMA Flowchart to visualise the studies in your systematic review process. The PRISMA Flowchart template can be [found here.](http://prisma-statement.org/prismastatement/flowdiagram)
+
 ![](figs/PRISMA.png)
 
 

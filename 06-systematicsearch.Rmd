@@ -195,7 +195,7 @@ The [recommended order](https://blogs.lshtm.ac.uk/library/2018/12/07/removing-du
 
 You have searched several different databases and other sources. There are likely duplicates or overlap. Time spent deduplicating your reference library will ensure you have accurate numbers (total records/included/excluded) to report and don't waste your time screening duplicates. 
 
-Tools to help Deduplicate: 
+Tools to help remove duplicate references include: 
 
 - Endnote can be used to find and remove duplicate records. See [this resource.](10.3163/1536-5050.104.3.014)
 - Stand-alone tools such as the [SR-Accelerator Tool](https://doi.org/10.1186/2046-4053-4-6) and the [ASySD tool](https://camarades.shinyapps.io/RDedup/) for preclinical reviews. 
@@ -204,7 +204,7 @@ Tools to help Deduplicate:
 
 ## Update your Searching & Tools
 
-SyRF Systematic Review Facility has a built in function that can automatically retrieve new records that meet your search string from PubMed. For more information, see the [SyRF Help Guide here](https://assets.syrf.org.uk/guides/SyRF_User_Guide.pdf).
+SyRF Systematic Review Facility has a built-in function that can automatically retrieve new records that meet your search string from PubMed. For more information, see the [SyRF Help Guide here](https://assets.syrf.org.uk/guides/SyRF_User_Guide.pdf).
 
 
 The Polyglot Search Translator is a tool that will assist you in translating the syntax of your search string across various databases. For more information of the [Polyglot Search Translator see here](https://sr-accelerator.com/#/polyglot). 

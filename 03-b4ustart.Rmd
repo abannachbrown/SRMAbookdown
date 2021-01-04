@@ -17,7 +17,7 @@ Consider the following before starting your SR:
 
 ## Has it been done before? 
 
-Do a quick search on [PubMed](https://pubmed.ncbi.nlm.nih.gov/) or the most commonly used bibliographic database in your field to check for published systematic reviews. Alternatively, check preprint archives such as [bioRxiv](https://www.biorxiv.org/), [medRxiv](https://www.medrxiv.org/) or [OSF](https://osf.io/), to see if a systematic review has been published as a preprint. 
+Do a quick search on [PubMed](https://pubmed.ncbi.nlm.nih.gov/) or the most commonly used bibliographic database in your field to check for published systematic reviews. Alternatively, check preprint archives such as [bioRxiv](https://www.biorxiv.org/), [medRxiv](https://www.medrxiv.org/) or [OSF](https://osf.io/), to see if a systematic review has been published as a preprint. Check for ongoing systematic reviews on [PROSPERO](https://www.crd.york.ac.uk/prospero/).
 
 Questions to ask regarding existing systematic reviews in the field include: 
 
@@ -28,7 +28,7 @@ Questions to ask regarding existing systematic reviews in the field include:
 
 There is no need to start a systematic review if a recent, existing, high-quality SR answers your research question. If there is a relevant SR that is not up-to-date, consider contacting the original author team to discuss their plans for updating the review or a potential collaboration. 
 
-For additional reading on how to assess the quality of a published systematic review, see the PRISMA guidelines and other appropriate guidelines on the EQUATOR web-page. 
+For additional reading on how to assess the quality of a published systematic review, see the PRISMA guidelines and other appropriate guidelines on the [EQUATOR web-page](https://www.equator-network.org/). 
 
 <br>
 

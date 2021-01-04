@@ -21,6 +21,7 @@ What is the intervention or exposure under consideration for this population?
 What is the alternative to the intervention (e.g. placebo, different drug, surgery)?
 
 **O**utcome:
+\
 What are the relevant outcomes (e.g. quality of life, change in clinical status, morbidity, adverse effects, complications)?
 
 

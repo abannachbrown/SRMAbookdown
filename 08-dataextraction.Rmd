@@ -49,4 +49,11 @@ Data about your outcomes may be provided in various formats including:
 You may need to use tools such as [Adobe desktop ruler](https://helpx.adobe.com/acrobat/using/grids-guides-measurements-pdfs.html) or [WebPlotDigitizer](https://automeris.io/WebPlotDigitizer/) to extract numerical values (e.g. means and standard deviations (SD) or standard error of the mean (SEM) from graphs). Some studies may report values on a different scale. Be aware, you may  need to convert these to a scale that is common across all studies (e.g. log scale conversion). 
 
 
+
+## Data Extraction Software
+
+As you are extracting these pieces of information you will want to store them in the same place for easier, later synthesis and analysis. 
+
+We recommend using [SyRF](http://syrf.org.uk/) the Systematic Review Facility to extract and store your data. It is a free-to-use online platform where you can create custom data extraction forms for your review. Flexible questions types and question settings, as well as online format allow for easy data extraction for you and your review team to simultaneous extract data from included papers. For more information see the [SyRF Website](http://syrf.org.uk/) and the [SyRF Help Guide](https://assets.syrf.org.uk/guides/SyRF_User_Guide.pdf) to set up your free review project. 
+
 <br>
