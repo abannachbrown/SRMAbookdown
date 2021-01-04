@@ -27,7 +27,7 @@ What are the relevant outcomes (e.g. quality of life, change in clinical status,
 
 
 There are other research question structures depending on your area or topic of interest, for example, diagnostic test reviews, and prognostic reviews. 
-For more information, see this article on [Formulating Review Questions](https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/9741/8144)
+For more information, see this article on [Formulating Review Questions](https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/9741/8144){target="_blank"}.
 
 <br>
 
@@ -36,7 +36,9 @@ For more information, see this article on [Formulating Review Questions](https:/
 Engage stakeholders early on in the review phase to ensure the research question and findings from the review are relevant. 
 
 Consider the following: 
+
 - Who will use the results of your systematic review?
+
 - From their perspective, what are the relevant questions to ask?
 
 

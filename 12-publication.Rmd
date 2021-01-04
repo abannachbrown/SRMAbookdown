@@ -5,7 +5,7 @@ You have conducted your systematic review, and potentially also conducted a meta
 
 Be careful when interpreting the results; acknowledge sources of bias; consider heterogeneity, generalisability, and relevance. 
 
-It may help to use a [GRADE Approach](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0187271) to rate the certainty of the evidence of preclinical animal studies, in the context of therapuetic interventions. 
+It may help to use a [GRADE Approach](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0187271){target="_blank"} to rate the certainty of the evidence of preclinical animal studies, in the context of therapuetic interventions. 
 
 Report your systematic review in a way that allows reproducibility of the results and future updating. 
 
@@ -16,9 +16,9 @@ Report your systematic review in a way that allows reproducibility of the result
 
 We recommend following the Preferred Reporting Items for Systematic Reviews and Meta-analyses  (PRISMA) Guidelines.  
 
-A checklist can be found [here](http://www.prisma-statement.org/PRISMAStatement/Checklist)
+A checklist can be found [here](http://www.prisma-statement.org/PRISMAStatement/Checklist){target="_blank"}
 
-We recommend using the PRISMA Flowchart to visualise the studies in your systematic review process. The PRISMA Flowchart template can be [found here.](http://prisma-statement.org/prismastatement/flowdiagram)
+We recommend using the PRISMA Flowchart to visualise the studies in your systematic review process. The PRISMA Flowchart template can be [found here.](http://prisma-statement.org/prismastatement/flowdiagram){target="_blank"}
 
 ![](figs/PRISMA.png)
 

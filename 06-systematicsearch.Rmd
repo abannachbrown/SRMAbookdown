@@ -8,7 +8,7 @@ To identify relevant studies to include in your SR, you need to perform a compre
 
 Databases:
 
-The first step is to decide on which databases to search, this will depend on your research area and question. Databases differ in their coverage of journals and how articles are indexed. For preclinical research, typical databases include [PubMed](https://pubmed.ncbi.nlm.nih.gov/), Embase, and Web of Science. A librarian or an expert in bibliographic databases will be able to help you identify other potential databases and construct database-specific search terms. It is common practice to search several databases to guarantee adequate and efficient coverage.
+The first step is to decide on which databases to search, this will depend on your research area and question. Databases differ in their coverage of journals and how articles are indexed. For preclinical research, typical databases include [PubMed](https://pubmed.ncbi.nlm.nih.gov/){target="_blank"}, Embase, and Web of Science. A librarian or an expert in bibliographic databases will be able to help you identify other potential databases and construct database-specific search terms. It is common practice to search several databases to guarantee adequate and efficient coverage.
 
 
 On top of electronic databases, you might want to use other methods to find relevant papers such as: scanning reference lists of relevant studies (both primary studies and reviews), hand searching key journals, contacting experts in the field, and searching additional relevant internet resources. Keep a record of alternative methods used and the data collected in a structured format.
@@ -18,16 +18,16 @@ On top of electronic databases, you might want to use other methods to find rele
 ### PubMed
 
 
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/) is a bibliographic database comprising of more than 30 million citations for biomedical literature from MEDLINE, life science journals, and online books.
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/){target="_blank"} is a bibliographic database comprising of more than 30 million citations for biomedical literature from MEDLINE, life science journals, and online books.
 
 It is a free resource that supports the search and retrieval of biomedical and life sciences literature with the aim of improving health. It is maintained by the National Center for Biotechnology Information (NCBI) at the US National Library of Medicine. 
 
 
 Links & Resources: 
-The [PubMed Advanced Search Builder](https://www.ncbi.nlm.nih.gov/pubmed/advanced) is a useful tool to build your search query.
+The [PubMed Advanced Search Builder](https://www.ncbi.nlm.nih.gov/pubmed/advanced){target="_blank"} is a useful tool to build your search query.
 
 
-Information on [MeSH Headings](https://www.nlm.nih.gov/mesh/meshhome.html).
+Information on [MeSH Headings](https://www.nlm.nih.gov/mesh/meshhome.html){target="_blank"}.
 
 <br>
 
@@ -38,7 +38,7 @@ Embase is a biomedical research database covering literature from 1947 to presen
 
 You may access Embase directly or through Ovid depending on your library subscription. 
 
-More information on Embase indexing and EmTree Headings can be [found here.](https://www.elsevier.com/solutions/embase-biomedical-research/embase-coverage-and-content)
+More information on Embase indexing and EmTree Headings can be [found here.](https://www.elsevier.com/solutions/embase-biomedical-research/embase-coverage-and-content){target="_blank"}
 
 <br>
 
@@ -54,11 +54,11 @@ Web of Science can also be used to search other databases including SciELO, KCI-
 
 Other bibliographic databases include: 
 
-- Cochrane Central Register of Controlled Trials [(CENTRAL)](https://www.cochranelibrary.com/central/about-central)
-- [Google Scholar](https://scholar.google.com/)
-- [Scopus](https://www.scopus.com/home.uri)
-- Cumulative Index to Nursing and Allied Health Literature [(CINAHL)](https://www.ebscohost.com/nursing/products/cinahl-databases/cinahl-complete)
-- [PsycINFO](https://www.apa.org/pubs/databases/psycinfo)
+- Cochrane Central Register of Controlled Trials [(CENTRAL)](https://www.cochranelibrary.com/central/about-central){target="_blank"}
+- [Google Scholar](https://scholar.google.com/){target="_blank"}
+- [Scopus](https://www.scopus.com/home.uri){target="_blank"}
+- Cumulative Index to Nursing and Allied Health Literature [(CINAHL)](https://www.ebscohost.com/nursing/products/cinahl-databases/cinahl-complete){target="_blank"}
+- [PsycINFO](https://www.apa.org/pubs/databases/psycinfo){target="_blank"}
 
 Access may vary depending on institutional access. Document your search strategy so it is sufficiently reproducible. 
 
@@ -87,7 +87,6 @@ If your research question is: What is the effect of antidepressants compared to 
 **I**ntervention: Antidepressants. Synonyms might include: fluoxetine, SSRIs
 
 
-
 <br>
 
 ### Step 2
@@ -98,7 +97,7 @@ Each core database has their own system for indexing terms, topics, and subjects
 
 - MeSH terms
 - Emtree terms
-- (See more information about MeSH and EMTREE above [Selecting Databases](#Selecting-Databases) )
+- (See more information about MeSH and EMTREE above [Selecting Databases](#Selecting-Databases){target="_blank"} )
 
 
 Why use both keywords and indexed terms in your search strategy? 
@@ -142,7 +141,7 @@ The aim is to **maximise sensitivity** while attempting to **maximise precision*
 ### Tips & Tricks
 
 - Consider differences in spelling (e.g. US vs UK English)
-- Consider using other PubMed fields e.g. MeSH SubHeadings [SH], or Pharmacological Action [PA]. Find more information here: [PubMed Search Tags](https://pubmed.ncbi.nlm.nih.gov/help/#search-tags)
+- Consider using other PubMed fields e.g. MeSH SubHeadings [SH], or Pharmacological Action [PA]. Find more information here: [PubMed Search Tags](https://pubmed.ncbi.nlm.nih.gov/help/#search-tags){target="_blank"}
 - When using the NOT Boolean Operator, consider what relevant literature you might be excluding. - Consider truncation symbols or "wildcards" for your search (e.g. ischem* for ischemia and ischemic, etc). Check all bibliographic databases allow this before adding to your search. 
 
 
@@ -156,12 +155,12 @@ Once you have composed the main components of your search strategy. You can now 
 1. Run search strings in specified databases. 
 
 
-The Polyglot Search Translator is a tool that will assist you in translating the syntax of your search string across various databases. For more information of the [Polyglot Search Translator see here](https://sr-accelerator.com/#/polyglot). 
+The Polyglot Search Translator is a tool that will assist you in translating the syntax of your search string across various databases. For more information of the [Polyglot Search Translator see here](https://sr-accelerator.com/#/polyglot){target="_blank"}. 
 
 
 <br>
 
-2. Combine results in reference manager software e.g. [EndNote](https://endnote.com/) or [Zotero](https://www.zotero.org/)
+2. Combine results in reference manager software e.g. [EndNote](https://endnote.com/){target="_blank"} or [Zotero](https://www.zotero.org/){target="_blank"}
 
 To more easily find full text pdfs, remember to add you library subscription information into the settings or preferences of the reference manager, e.g. EzProxy information or OpenURL information. 
 
@@ -171,7 +170,7 @@ Does the import order matter? **YES!**
 
 The order that you import your references into Endnote or another reference manager matters. Different bibliographic databases have different quality or completeness of the references you are interested in, and reference managers use this information to deduplicate the results (the next step). 
 
-The [recommended order](https://blogs.lshtm.ac.uk/library/2018/12/07/removing-duplicates-from-an-endnote-library/) is: 
+The [recommended order](https://blogs.lshtm.ac.uk/library/2018/12/07/removing-duplicates-from-an-endnote-library/){target="_blank"} is: 
 
 1. Medline
 2. Embase
@@ -197,17 +196,17 @@ You have searched several different databases and other sources. There are likel
 
 Tools to help remove duplicate references include: 
 
-- Endnote can be used to find and remove duplicate records. See [this resource.](10.3163/1536-5050.104.3.014)
-- Stand-alone tools such as the [SR-Accelerator Tool](https://doi.org/10.1186/2046-4053-4-6) and the [ASySD tool](https://camarades.shinyapps.io/RDedup/) for preclinical reviews. 
+- Endnote can be used to find and remove duplicate records. See [this resource.](10.3163/1536-5050.104.3.014){target="_blank"}
+- Stand-alone tools such as the [SR-Accelerator Tool](https://doi.org/10.1186/2046-4053-4-6){target="_blank"} and the [ASySD tool](https://camarades.shinyapps.io/RDedup/){target="_blank"} for preclinical reviews. 
 
 <br>
 
 ## Update your Searching & Tools
 
-SyRF Systematic Review Facility has a built-in function that can automatically retrieve new records that meet your search string from PubMed. For more information, see the [SyRF Help Guide here](https://assets.syrf.org.uk/guides/SyRF_User_Guide.pdf).
+SyRF Systematic Review Facility has a built-in function that can automatically retrieve new records that meet your search string from PubMed. For more information, see the [SyRF Help Guide here](https://assets.syrf.org.uk/guides/SyRF_User_Guide.pdf){target="_blank"}.
 
 
-The Polyglot Search Translator is a tool that will assist you in translating the syntax of your search string across various databases. For more information of the [Polyglot Search Translator see here](https://sr-accelerator.com/#/polyglot). 
+The Polyglot Search Translator is a tool that will assist you in translating the syntax of your search string across various databases. For more information of the [Polyglot Search Translator see here](https://sr-accelerator.com/#/polyglot){target="_blank"}. 
 
 
 <br>
@@ -215,9 +214,9 @@ The Polyglot Search Translator is a tool that will assist you in translating the
 ## Find & Retrieve Full Texts
 Once you have your library of unique references you can find and retrieve the full texts. 
 
-1. Use your reference manager. Guides for retrieving from [Endnote](https://subjectguides.library.american.edu/c.php?g=479020&p=3324236) and [Zotero](https://www.zotero.org/support/locate) can be found at the respective links. 
+1. Use your reference manager. Guides for retrieving from [Endnote](https://subjectguides.library.american.edu/c.php?g=479020&p=3324236){target="_blank"} and [Zotero](https://www.zotero.org/support/locate){target="_blank"} can be found at the respective links. 
 
-N.B. Remember to add your Institutional Log-in information to the settings or preferences of the reference manager, e.g. [EzProxy](https://ezproxy-db.appspot.com/) information or [OpenURL](https://www.zotero.org/support/locate/openurl_resolvers) information, so you can more easily find the full texts that your institutional library has access to. 
+N.B. Remember to add your Institutional Log-in information to the settings or preferences of the reference manager, e.g. [EzProxy](https://ezproxy-db.appspot.com/){target="_blank"} information or [OpenURL](https://www.zotero.org/support/locate/openurl_resolvers){target="_blank"} information, so you can more easily find the full texts that your institutional library has access to. 
 
 2. Search Online: Google search, GoogleScholar, ResearchGate, etc. 
 

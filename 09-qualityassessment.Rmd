@@ -16,18 +16,18 @@ Study quality characteristics which have been shown to impact the results of pre
 
 Use a reporting quality checklist. 
 
-- The [CAMARADES Checklist](https://www.ahajournals.org/doi/pdf/10.1161/01.str.0000125719.25853.20) 
+- The [CAMARADES Checklist](https://www.ahajournals.org/doi/pdf/10.1161/01.str.0000125719.25853.20){target="_blank"}
 
-- [ARRIVE 2.0](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000410) Guidelines for Reporting Animal Research
+- [ARRIVE 2.0](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000410){target="_blank"} Guidelines for Reporting Animal Research
 
-- [Nature Reporting Checklist](https://media.nature.com/full/nature-assets/ncomms/authors/ncomms_lifesciences_checklist.pdf). The operationalised checklist is available [here.](https://link.springer.com/article/10.1007/s11192-016-1964-8/tables/6)
+- [Nature Reporting Checklist](https://media.nature.com/full/nature-assets/ncomms/authors/ncomms_lifesciences_checklist.pdf){target="_blank"}. The operationalised checklist is available [here.](https://link.springer.com/article/10.1007/s11192-016-1964-8/tables/6){target="_blank"}
 
 
 
 <br>
 
 ## Risk of Bias
-Use a Risk of Bias (RoB) or quality assessment tool to help you evaluate study quality. Tools that have been developed to assess bias and quality in preclinical studies include the [SYRCLE RoB tool](https://bmcmedresmethodol.biomedcentral.com/track/pdf/10.1186/1471-2288-14-43)
+Use a Risk of Bias (RoB) or quality assessment tool to help you evaluate study quality. Tools that have been developed to assess bias and quality in preclinical studies include the [SYRCLE RoB tool](https://bmcmedresmethodol.biomedcentral.com/track/pdf/10.1186/1471-2288-14-43){target="_blank"}
 
 
 <br>
@@ -46,7 +46,7 @@ The extent to which a study is at risk of bias can hugely impact the findings. F
 
 - Reach an overall conclusion for each outcome as to whether the synthesised result is at high risk of bias
 
-- Use the overall conclusion to inform the summary assessment of certainty of the evidence using e.g. [GRADE approach](https://bestpractice.bmj.com/info/toolkit/learn-ebm/what-is-grade/)
+- Use the overall conclusion to inform the summary assessment of certainty of the evidence using e.g. [GRADE approach](https://bestpractice.bmj.com/info/toolkit/learn-ebm/what-is-grade/){target="_blank"}
 
 
 <br>

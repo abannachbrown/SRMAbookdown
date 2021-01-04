@@ -30,7 +30,7 @@ Meta-analysis is the statistical combination of results from two or more separat
 - What is the strength of evidence for the effect? (quality assessment)
 
 
-[(Reference: Cochrane Handbook)](http://www.cochrane-handbook.org/)
+[(Reference: Cochrane Handbook)](http://www.cochrane-handbook.org/){target="_blank"}
 
 <br>
 Luckily, statistical software takes care on most of the 'heavy lifting' when it comes to calculating effect sizes, pooling them, and making forest plots. 
@@ -39,14 +39,12 @@ Luckily, statistical software takes care on most of the 'heavy lifting' when it 
 To understand the basics and for exact equations, keep reading. 
 
 
-To practice your meta-analysis skills in R, see our [exercises section.](Exercises.html) 
-
 <br>
 Equations shown below are from the following references, where more information can be found: 
 
-- [Vesterinen et al, 2014. "Meta-analysis of data from animal studies: a practical guide." Journal of neuroscience methods](https://doi.org/10.1016/j.jneumeth.2013.09.010)
+- [Vesterinen et al, 2014. "Meta-analysis of data from animal studies: a practical guide." Journal of neuroscience methods](https://doi.org/10.1016/j.jneumeth.2013.09.010){target="_blank"}
 
-- [Borenstein et al., 2009. Introduction to Meta-Analysis](https://doi.org/10.1002/9780470743386)
+- [Borenstein et al., 2009. Introduction to Meta-Analysis](https://doi.org/10.1002/9780470743386){target="_blank"}
 
 <br>
 
@@ -130,7 +128,7 @@ $$ SE(ln(OR_i)) = \sqrt (1/a_i)+(1/b_i)+(1/c_i)+(1/d_i)    $$
 
 <br>
 
-You might come across **Risk Ratio** (or Relative Risk), the risk of an event in one group (e.g., exposed group) versus the risk of the event in the other group (e.g., non-exposed group), or **Hazard Ratio**, however these data are rarely seen in primary animal experiments. For more information of Risk Ratio in clinical systematic reviews, see the [Cochrane Handbook.](https://handbook-5-1.cochrane.org/chapter_9/box_9_2_a_calculation_of_risk_ratio_rr_odds_ratio_or_and.htm)  
+You might come across **Risk Ratio** (or Relative Risk), the risk of an event in one group (e.g., exposed group) versus the risk of the event in the other group (e.g., non-exposed group), or **Hazard Ratio**, however these data are rarely seen in primary animal experiments. For more information of Risk Ratio in clinical systematic reviews, see the [Cochrane Handbook.](https://handbook-5-1.cochrane.org/chapter_9/box_9_2_a_calculation_of_risk_ratio_rr_odds_ratio_or_and.htm){target="_blank"}  
 
 <br>
 
@@ -265,7 +263,7 @@ There are also other biases that may effect your systematic review including, **
 <br>
 
 We can test for potential publication bias in our data plotting our data on a **funnel plot**. 
-The outer dashed lines indicate the triangular region within which 95% of studies are expected to lie, in the absence of both biases and heterogeneity. The solid vertical line refers to the line of no effect. Image from [Sterne et al., 2011](https://www.bmj.com/content/343/bmj.d4002)
+The outer dashed lines indicate the triangular region within which 95% of studies are expected to lie, in the absence of both biases and heterogeneity. The solid vertical line refers to the line of no effect. Image from [Sterne et al., 2011](https://www.bmj.com/content/343/bmj.d4002){target="_blank"}
 
 
 ![](figs/funnelplot.jpg){#id .class width=50%}
@@ -299,7 +297,7 @@ The forest plot or timber plot is the main graphical output or representation fr
 
 Reading and understanding these plots will allow you to understand the findings from a meta-analysis. Meta-analyses of animal studies tend to include many studies with small sample sizes. Therefore, it is common to see preclinical meta-analyses graphically represented with a timber plot, a slight variation on the forest plot. 
 
-Here is an example of a timber plot. In this meta-analysis the research question was: What is the effect of antidepressants compared vehicle or no treatment on infarct volume in animal models of ischaemic stroke? [McCann et al., 2014](https://doi.org/10.1161/STROKEAHA.114.006304)
+Here is an example of a timber plot. In this meta-analysis the research question was: What is the effect of antidepressants compared vehicle or no treatment on infarct volume in animal models of ischaemic stroke? [McCann et al., 2014](https://doi.org/10.1161/STROKEAHA.114.006304){target="_blank"}
 
 
 ![](figs/timberplot.png){#id .class width=60%}
@@ -317,7 +315,7 @@ Here, the gray bar behind the black dots represents the combined or pooled effec
 
 
 
-**Clinical Forest Plot:** A step-by-step guide to interpreting a forest plot from a typical clinical meta-analysis is available [here](https://s4be.cochrane.org/blog/2016/07/11/tutorial-read-forest-plot/). 
+**Clinical Forest Plot:** A step-by-step guide to interpreting a forest plot from a typical clinical meta-analysis is available [here](https://s4be.cochrane.org/blog/2016/07/11/tutorial-read-forest-plot/){target="_blank"}. 
 
 
 <br>
