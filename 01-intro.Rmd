@@ -1,13 +1,5 @@
 # Preclinical Systematic Reviews {#intro}
-
-You're considering starting a preclinical Systematic Review (SR), what now? 
 <br>
-
-Keep scrolling to find out more about what a preclinical systematic review is, what the steps are, and how to complete them.
-<br>
-
-Use the table of contents bar on the left side of the screen to navigate along the steps of systematic review. 
-
 
 ## What is a systematic review? 
 
@@ -20,10 +12,10 @@ The methods of a systematic review (and meta-analysis) should be transparent and
 A method of combining quantitative results from individual studies identified through systematic review in an overall statistical analysis.
 
 
-## Clinical & Preclinical Reviews
+## Clinical & preclinical reviews
 
 
-<br>
+
 
 ### Preclinical
 
@@ -52,7 +44,7 @@ Clinical reviews can be used to:
 
 <br>
 
-## Why Perform Preclinical SRs? 
+## Why perform preclinical SRs? 
 
 -  To summarise evidence from multiple similar studies to allow for more accurate estimates of effect
 - The methods used to find and select studies are transparent and reproducible, reducing bias and increasing the likeliness of producing reliable and accurate conclusions. 

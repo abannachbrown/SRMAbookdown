@@ -6,3 +6,9 @@ The principles of the 3Rs (Replacement, Reduction, and Refinement) are a framewo
 -   Allowing comparison of the statistical performance of different experimental outcome measures
 -   Characterising the extent to which subjecting animals to multiple tests contributes to additional knowledge
 -   Assessing whether the same information can be provided by less invasive tests
+
+<br>
+For more examples of systematic reviews which implement 3Rs and animal welfare, please see [Ritskes-Hoitinga & van Luijk, 2019](https://www.mdpi.com/2076-2615/9/12/1163/htm){target="_blank"}. 
+
+
+The Guidelines for Reporting Primary Animal Research are:  [ARRIVE 2.0](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000410){target="_blank"}

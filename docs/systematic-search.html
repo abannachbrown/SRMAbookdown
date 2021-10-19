@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Section 7 Systematic Search | Preclinical Systematic Review Wiki</title>
   <meta name="description" content="Section 7 Systematic Search | Preclinical Systematic Review Wiki" />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Section 7 Systematic Search | Preclinical Systematic Review Wiki" />
   <meta property="og:type" content="book" />
@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2021-01-04" />
+<meta name="date" content="2021-10-14" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +32,8 @@
   
 <link rel="prev" href="protocol.html"/>
 <link rel="next" href="study-selection.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -48,8 +49,9 @@
 
 
 
-
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -57,6 +59,7 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
+
 
 
 
@@ -81,86 +84,90 @@
 <li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Preclinical Systematic Reviews</a><ul>
 <li class="chapter" data-level="2.1" data-path="intro.html"><a href="intro.html#what-is-a-systematic-review"><i class="fa fa-check"></i><b>2.1</b> What is a systematic review?</a></li>
 <li class="chapter" data-level="2.2" data-path="intro.html"><a href="intro.html#what-is-a-meta-analysis"><i class="fa fa-check"></i><b>2.2</b> What is a meta-analysis?</a></li>
-<li class="chapter" data-level="2.3" data-path="intro.html"><a href="intro.html#clinical-preclinical-reviews"><i class="fa fa-check"></i><b>2.3</b> Clinical &amp; Preclinical Reviews</a><ul>
+<li class="chapter" data-level="2.3" data-path="intro.html"><a href="intro.html#clinical-preclinical-reviews"><i class="fa fa-check"></i><b>2.3</b> Clinical &amp; preclinical reviews</a><ul>
 <li class="chapter" data-level="2.3.1" data-path="intro.html"><a href="intro.html#preclinical"><i class="fa fa-check"></i><b>2.3.1</b> Preclinical</a></li>
 <li class="chapter" data-level="2.3.2" data-path="intro.html"><a href="intro.html#clinical"><i class="fa fa-check"></i><b>2.3.2</b> Clinical</a></li>
 </ul></li>
-<li class="chapter" data-level="2.4" data-path="intro.html"><a href="intro.html#why-perform-preclinical-srs"><i class="fa fa-check"></i><b>2.4</b> Why Perform Preclinical SRs?</a></li>
+<li class="chapter" data-level="2.4" data-path="intro.html"><a href="intro.html#why-perform-preclinical-srs"><i class="fa fa-check"></i><b>2.4</b> Why perform preclinical SRs?</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="srs-3rs.html"><a href="srs-3rs.html"><i class="fa fa-check"></i><b>3</b> Systematic Reviews &amp; 3Rs</a></li>
 <li class="chapter" data-level="4" data-path="b4ustart.html"><a href="b4ustart.html"><i class="fa fa-check"></i><b>4</b> Before You Start</a><ul>
 <li class="chapter" data-level="4.1" data-path="b4ustart.html"><a href="b4ustart.html#is-it-necessary"><i class="fa fa-check"></i><b>4.1</b> Is it necessary?</a></li>
 <li class="chapter" data-level="4.2" data-path="b4ustart.html"><a href="b4ustart.html#has-it-been-done-before"><i class="fa fa-check"></i><b>4.2</b> Has it been done before?</a></li>
-<li class="chapter" data-level="4.3" data-path="b4ustart.html"><a href="b4ustart.html#is-one-already-in-progress"><i class="fa fa-check"></i><b>4.3</b> Is One Already In Progress?</a></li>
-<li class="chapter" data-level="4.4" data-path="b4ustart.html"><a href="b4ustart.html#build-your-systematic-review-team"><i class="fa fa-check"></i><b>4.4</b> Build your Systematic Review Team</a></li>
+<li class="chapter" data-level="4.3" data-path="b4ustart.html"><a href="b4ustart.html#is-one-already-in-progress"><i class="fa fa-check"></i><b>4.3</b> Is one already in progress?</a></li>
+<li class="chapter" data-level="4.4" data-path="b4ustart.html"><a href="b4ustart.html#build-your-systematic-review-team"><i class="fa fa-check"></i><b>4.4</b> Build your systematic review team</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="researchquestion.html"><a href="researchquestion.html"><i class="fa fa-check"></i><b>5</b> Research Question</a><ul>
 <li class="chapter" data-level="5.1" data-path="researchquestion.html"><a href="researchquestion.html#stakeholders"><i class="fa fa-check"></i><b>5.1</b> Stakeholders</a></li>
-<li class="chapter" data-level="5.2" data-path="researchquestion.html"><a href="researchquestion.html#preclinical-examples"><i class="fa fa-check"></i><b>5.2</b> Preclinical Examples</a></li>
+<li class="chapter" data-level="5.2" data-path="researchquestion.html"><a href="researchquestion.html#preclinical-examples"><i class="fa fa-check"></i><b>5.2</b> Preclinical examples</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="protocol.html"><a href="protocol.html"><i class="fa fa-check"></i><b>6</b> Protocol</a><ul>
-<li class="chapter" data-level="6.1" data-path="protocol.html"><a href="protocol.html#protocol-templates"><i class="fa fa-check"></i><b>6.1</b> Protocol Templates</a><ul>
-<li class="chapter" data-level="6.1.1" data-path="protocol.html"><a href="protocol.html#register-your-protocol"><i class="fa fa-check"></i><b>6.1.1</b> Register your Protocol</a></li>
-<li class="chapter" data-level="6.1.2" data-path="protocol.html"><a href="protocol.html#your-protocol-3rs"><i class="fa fa-check"></i><b>6.1.2</b> Your Protocol &amp; 3Rs</a></li>
+<li class="chapter" data-level="6.1" data-path="protocol.html"><a href="protocol.html#protocol-templates"><i class="fa fa-check"></i><b>6.1</b> Protocol templates</a></li>
+<li class="chapter" data-level="6.2" data-path="protocol.html"><a href="protocol.html#register-your-protocol"><i class="fa fa-check"></i><b>6.2</b> Register your protocol</a><ul>
+<li class="chapter" data-level="6.2.1" data-path="protocol.html"><a href="protocol.html#your-protocol-3rs"><i class="fa fa-check"></i><b>6.2.1</b> Your protocol &amp; 3Rs</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="systematic-search.html"><a href="systematic-search.html"><i class="fa fa-check"></i><b>7</b> Systematic Search</a><ul>
-<li class="chapter" data-level="7.1" data-path="systematic-search.html"><a href="systematic-search.html#selecting-databases"><i class="fa fa-check"></i><b>7.1</b> Selecting Databases</a><ul>
+<li class="chapter" data-level="7.1" data-path="systematic-search.html"><a href="systematic-search.html#selecting-databases"><i class="fa fa-check"></i><b>7.1</b> Selecting databases</a><ul>
 <li class="chapter" data-level="7.1.1" data-path="systematic-search.html"><a href="systematic-search.html#pubmed"><i class="fa fa-check"></i><b>7.1.1</b> PubMed</a></li>
 <li class="chapter" data-level="7.1.2" data-path="systematic-search.html"><a href="systematic-search.html#embase"><i class="fa fa-check"></i><b>7.1.2</b> Embase</a></li>
 <li class="chapter" data-level="7.1.3" data-path="systematic-search.html"><a href="systematic-search.html#web-of-science"><i class="fa fa-check"></i><b>7.1.3</b> Web of Science</a></li>
-<li class="chapter" data-level="7.1.4" data-path="systematic-search.html"><a href="systematic-search.html#other-sources-grey-literature"><i class="fa fa-check"></i><b>7.1.4</b> Other Sources &amp; Grey Literature</a></li>
+<li class="chapter" data-level="7.1.4" data-path="systematic-search.html"><a href="systematic-search.html#other-sources-grey-literature"><i class="fa fa-check"></i><b>7.1.4</b> Other sources &amp; grey literature</a></li>
 </ul></li>
-<li class="chapter" data-level="7.2" data-path="systematic-search.html"><a href="systematic-search.html#search-strategy-development"><i class="fa fa-check"></i><b>7.2</b> Search Strategy Development</a><ul>
+<li class="chapter" data-level="7.2" data-path="systematic-search.html"><a href="systematic-search.html#search-strategy-development"><i class="fa fa-check"></i><b>7.2</b> Search strategy development</a><ul>
 <li class="chapter" data-level="7.2.1" data-path="systematic-search.html"><a href="systematic-search.html#step-1"><i class="fa fa-check"></i><b>7.2.1</b> Step 1</a></li>
 <li class="chapter" data-level="7.2.2" data-path="systematic-search.html"><a href="systematic-search.html#step-2"><i class="fa fa-check"></i><b>7.2.2</b> Step 2</a></li>
 <li class="chapter" data-level="7.2.3" data-path="systematic-search.html"><a href="systematic-search.html#step-3"><i class="fa fa-check"></i><b>7.2.3</b> Step 3</a></li>
-<li class="chapter" data-level="7.2.4" data-path="systematic-search.html"><a href="systematic-search.html#precision-sensitivity"><i class="fa fa-check"></i><b>7.2.4</b> Precision &amp; Sensitivity</a></li>
-<li class="chapter" data-level="7.2.5" data-path="systematic-search.html"><a href="systematic-search.html#tips-tricks"><i class="fa fa-check"></i><b>7.2.5</b> Tips &amp; Tricks</a></li>
+<li class="chapter" data-level="7.2.4" data-path="systematic-search.html"><a href="systematic-search.html#precision-sensitivity"><i class="fa fa-check"></i><b>7.2.4</b> Precision &amp; sensitivity</a></li>
+<li class="chapter" data-level="7.2.5" data-path="systematic-search.html"><a href="systematic-search.html#tips-tricks"><i class="fa fa-check"></i><b>7.2.5</b> Tips &amp; tricks</a></li>
 </ul></li>
-<li class="chapter" data-level="7.3" data-path="systematic-search.html"><a href="systematic-search.html#run-searches-combine-results"><i class="fa fa-check"></i><b>7.3</b> Run Searches &amp; Combine Results</a></li>
+<li class="chapter" data-level="7.3" data-path="systematic-search.html"><a href="systematic-search.html#run-searches-combine-results"><i class="fa fa-check"></i><b>7.3</b> Run searches &amp; combine results</a></li>
 <li class="chapter" data-level="7.4" data-path="systematic-search.html"><a href="systematic-search.html#deduplication"><i class="fa fa-check"></i><b>7.4</b> Deduplication</a></li>
-<li class="chapter" data-level="7.5" data-path="systematic-search.html"><a href="systematic-search.html#update-your-searching-tools"><i class="fa fa-check"></i><b>7.5</b> Update your Searching &amp; Tools</a></li>
-<li class="chapter" data-level="7.6" data-path="systematic-search.html"><a href="systematic-search.html#find-retrieve-full-texts"><i class="fa fa-check"></i><b>7.6</b> Find &amp; Retrieve Full Texts</a></li>
+<li class="chapter" data-level="7.5" data-path="systematic-search.html"><a href="systematic-search.html#updating-your-search-searching-tools"><i class="fa fa-check"></i><b>7.5</b> Updating your search &amp; searching tools</a></li>
+<li class="chapter" data-level="7.6" data-path="systematic-search.html"><a href="systematic-search.html#find-retrieve-full-texts"><i class="fa fa-check"></i><b>7.6</b> Find &amp; retrieve full texts</a></li>
 </ul></li>
 <li class="chapter" data-level="8" data-path="study-selection.html"><a href="study-selection.html"><i class="fa fa-check"></i><b>8</b> Study Selection</a><ul>
-<li class="chapter" data-level="8.1" data-path="study-selection.html"><a href="study-selection.html#inclusion-exclusion-criteria"><i class="fa fa-check"></i><b>8.1</b> Inclusion &amp; Exclusion Criteria</a></li>
-<li class="chapter" data-level="8.2" data-path="study-selection.html"><a href="study-selection.html#apply-your-criteria"><i class="fa fa-check"></i><b>8.2</b> Apply your Criteria</a></li>
-<li class="chapter" data-level="8.3" data-path="study-selection.html"><a href="study-selection.html#tools-for-screening"><i class="fa fa-check"></i><b>8.3</b> Tools for Screening</a></li>
+<li class="chapter" data-level="8.1" data-path="study-selection.html"><a href="study-selection.html#inclusion-exclusion-criteria"><i class="fa fa-check"></i><b>8.1</b> Inclusion &amp; exclusion criteria</a></li>
+<li class="chapter" data-level="8.2" data-path="study-selection.html"><a href="study-selection.html#apply-your-criteria"><i class="fa fa-check"></i><b>8.2</b> Apply your criteria</a></li>
+<li class="chapter" data-level="8.3" data-path="study-selection.html"><a href="study-selection.html#tools-for-screening"><i class="fa fa-check"></i><b>8.3</b> Tools for screening</a></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="data-extraction.html"><a href="data-extraction.html"><i class="fa fa-check"></i><b>9</b> Data Extraction</a><ul>
-<li class="chapter" data-level="9.1" data-path="data-extraction.html"><a href="data-extraction.html#study-characteristics"><i class="fa fa-check"></i><b>9.1</b> Study Characteristics</a></li>
-<li class="chapter" data-level="9.2" data-path="data-extraction.html"><a href="data-extraction.html#quantitative-data"><i class="fa fa-check"></i><b>9.2</b> Quantitative Data</a></li>
-<li class="chapter" data-level="9.3" data-path="data-extraction.html"><a href="data-extraction.html#data-extraction-software"><i class="fa fa-check"></i><b>9.3</b> Data Extraction Software</a></li>
+<li class="chapter" data-level="9.1" data-path="data-extraction.html"><a href="data-extraction.html#study-characteristics"><i class="fa fa-check"></i><b>9.1</b> Study characteristics</a></li>
+<li class="chapter" data-level="9.2" data-path="data-extraction.html"><a href="data-extraction.html#quantitative-data"><i class="fa fa-check"></i><b>9.2</b> Quantitative data</a></li>
+<li class="chapter" data-level="9.3" data-path="data-extraction.html"><a href="data-extraction.html#data-extraction-software"><i class="fa fa-check"></i><b>9.3</b> Data extraction software</a></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="quality-assessment.html"><a href="quality-assessment.html"><i class="fa fa-check"></i><b>10</b> Quality Assessment</a><ul>
 <li class="chapter" data-level="10.1" data-path="quality-assessment.html"><a href="quality-assessment.html#reporting"><i class="fa fa-check"></i><b>10.1</b> Reporting</a></li>
 <li class="chapter" data-level="10.2" data-path="quality-assessment.html"><a href="quality-assessment.html#risk-of-bias"><i class="fa fa-check"></i><b>10.2</b> Risk of Bias</a></li>
-<li class="chapter" data-level="10.3" data-path="quality-assessment.html"><a href="quality-assessment.html#rob-assessment-to-inform-analysis"><i class="fa fa-check"></i><b>10.3</b> RoB Assessment to Inform Analysis</a></li>
+<li class="chapter" data-level="10.3" data-path="quality-assessment.html"><a href="quality-assessment.html#rob-assessment-to-inform-analysis"><i class="fa fa-check"></i><b>10.3</b> RoB assessment to inform analysis</a></li>
 </ul></li>
 <li class="chapter" data-level="11" data-path="meta-analysis.html"><a href="meta-analysis.html"><i class="fa fa-check"></i><b>11</b> Meta-Analysis</a><ul>
-<li class="chapter" data-level="11.1" data-path="meta-analysis.html"><a href="meta-analysis.html#step-1.-calculate-effect-size"><i class="fa fa-check"></i><b>11.1</b> Step 1. Calculate Effect Size</a><ul>
+<li class="chapter" data-level="11.1" data-path="meta-analysis.html"><a href="meta-analysis.html#step-1.-calculate-effect-size"><i class="fa fa-check"></i><b>11.1</b> Step 1. Calculate effect size</a><ul>
 <li class="chapter" data-level="11.1.1" data-path="meta-analysis.html"><a href="meta-analysis.html#continuous"><i class="fa fa-check"></i><b>11.1.1</b> Continuous</a></li>
 <li class="chapter" data-level="11.1.2" data-path="meta-analysis.html"><a href="meta-analysis.html#dichotomous-outcomes"><i class="fa fa-check"></i><b>11.1.2</b> Dichotomous Outcomes</a></li>
 <li class="chapter" data-level="11.1.3" data-path="meta-analysis.html"><a href="meta-analysis.html#median"><i class="fa fa-check"></i><b>11.1.3</b> Median</a></li>
 <li class="chapter" data-level="11.1.4" data-path="meta-analysis.html"><a href="meta-analysis.html#true-number-of-controls"><i class="fa fa-check"></i><b>11.1.4</b> True number of Controls</a></li>
 </ul></li>
-<li class="chapter" data-level="11.2" data-path="meta-analysis.html"><a href="meta-analysis.html#step-2.-combine-effect-sizes"><i class="fa fa-check"></i><b>11.2</b> Step 2. Combine Effect Sizes</a><ul>
+<li class="chapter" data-level="11.2" data-path="meta-analysis.html"><a href="meta-analysis.html#step-2.-combine-effect-sizes"><i class="fa fa-check"></i><b>11.2</b> Step 2. Combine effect sizes</a><ul>
 <li class="chapter" data-level="11.2.1" data-path="meta-analysis.html"><a href="meta-analysis.html#fixed-effects-model"><i class="fa fa-check"></i><b>11.2.1</b> Fixed Effects Model</a></li>
 <li class="chapter" data-level="11.2.2" data-path="meta-analysis.html"><a href="meta-analysis.html#random-effects-model"><i class="fa fa-check"></i><b>11.2.2</b> Random Effects Model</a></li>
 </ul></li>
-<li class="chapter" data-level="11.3" data-path="meta-analysis.html"><a href="meta-analysis.html#step-3.-investigate-heterogeneity"><i class="fa fa-check"></i><b>11.3</b> Step 3. Investigate Heterogeneity</a></li>
-<li class="chapter" data-level="11.4" data-path="meta-analysis.html"><a href="meta-analysis.html#step-4.-reporting-biases"><i class="fa fa-check"></i><b>11.4</b> Step 4. Reporting Biases</a></li>
-<li class="chapter" data-level="11.5" data-path="meta-analysis.html"><a href="meta-analysis.html#step-5.-interpret-the-results"><i class="fa fa-check"></i><b>11.5</b> Step 5. Interpret the Results</a></li>
+<li class="chapter" data-level="11.3" data-path="meta-analysis.html"><a href="meta-analysis.html#step-3.-investigate-heterogeneity"><i class="fa fa-check"></i><b>11.3</b> Step 3. Investigate heterogeneity</a></li>
+<li class="chapter" data-level="11.4" data-path="meta-analysis.html"><a href="meta-analysis.html#step-4.-reporting-biases"><i class="fa fa-check"></i><b>11.4</b> Step 4. Reporting biases</a></li>
+<li class="chapter" data-level="11.5" data-path="meta-analysis.html"><a href="meta-analysis.html#step-5.-interpret-the-results"><i class="fa fa-check"></i><b>11.5</b> Step 5. Interpret the results</a></li>
 </ul></li>
 <li class="chapter" data-level="12" data-path="tools-for-systematic-review.html"><a href="tools-for-systematic-review.html"><i class="fa fa-check"></i><b>12</b> Tools for Systematic Review</a></li>
 <li class="chapter" data-level="13" data-path="publication.html"><a href="publication.html"><i class="fa fa-check"></i><b>13</b> Publication</a><ul>
 <li class="chapter" data-level="13.1" data-path="publication.html"><a href="publication.html#good-reporting"><i class="fa fa-check"></i><b>13.1</b> Good reporting</a></li>
 </ul></li>
 <li class="chapter" data-level="14" data-path="resources-links.html"><a href="resources-links.html"><i class="fa fa-check"></i><b>14</b> Resources &amp; Links</a></li>
-<li class="chapter" data-level="15" data-path="about.html"><a href="about.html"><i class="fa fa-check"></i><b>15</b> About</a><ul>
-<li class="chapter" data-level="15.0.1" data-path="about.html"><a href="about.html#to-cite-the-tool"><i class="fa fa-check"></i><b>15.0.1</b> To cite the tool</a></li>
-<li class="chapter" data-level="15.0.2" data-path="about.html"><a href="about.html#our-team"><i class="fa fa-check"></i><b>15.0.2</b> Our Team</a></li>
+<li class="chapter" data-level="15" data-path="workshops.html"><a href="workshops.html"><i class="fa fa-check"></i><b>15</b> Workshops &amp; Tutorials</a><ul>
+<li class="chapter" data-level="15.1" data-path="workshops.html"><a href="workshops.html#workshops-1"><i class="fa fa-check"></i><b>15.1</b> Workshops</a></li>
+<li class="chapter" data-level="15.2" data-path="workshops.html"><a href="workshops.html#meta-analysis-tutorial"><i class="fa fa-check"></i><b>15.2</b> Meta-Analysis Tutorial</a></li>
+</ul></li>
+<li class="chapter" data-level="16" data-path="about.html"><a href="about.html"><i class="fa fa-check"></i><b>16</b> About</a><ul>
+<li class="chapter" data-level="16.0.1" data-path="about.html"><a href="about.html#to-cite-the-tool"><i class="fa fa-check"></i><b>16.0.1</b> To cite the tool</a></li>
+<li class="chapter" data-level="16.0.2" data-path="about.html"><a href="about.html#our-team"><i class="fa fa-check"></i><b>16.0.2</b> Our Team</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="mailto:camarades.berlin@charite.de" target="_blank"> Contact Us Here </a></li>
@@ -189,7 +196,7 @@
 <p>To identify relevant studies to include in your SR, you need to perform a comprehensive literature search based on a well-designed search strategy.</p>
 <p><br></p>
 <div id="selecting-databases" class="section level2 tabset tabset-fade tabset-pills">
-<h2><span class="header-section-number">7.1</span> Selecting Databases</h2>
+<h2><span class="header-section-number">7.1</span> Selecting databases</h2>
 <p>Databases:</p>
 <p>The first step is to decide on which databases to search, this will depend on your research area and question. Databases differ in their coverage of journals and how articles are indexed. For preclinical research, typical databases include <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank">PubMed</a>, Embase, and Web of Science. A librarian or an expert in bibliographic databases will be able to help you identify other potential databases and construct database-specific search terms. It is common practice to search several databases to guarantee adequate and efficient coverage.</p>
 <p>On top of electronic databases, you might want to use other methods to find relevant papers such as: scanning reference lists of relevant studies (both primary studies and reviews), hand searching key journals, contacting experts in the field, and searching additional relevant internet resources. Keep a record of alternative methods used and the data collected in a structured format.</p>
@@ -217,7 +224,7 @@ The <a href="https://www.ncbi.nlm.nih.gov/pubmed/advanced" target="_blank">PubMe
 <p><br></p>
 </div>
 <div id="other-sources-grey-literature" class="section level3">
-<h3><span class="header-section-number">7.1.4</span> Other Sources &amp; Grey Literature</h3>
+<h3><span class="header-section-number">7.1.4</span> Other sources &amp; grey literature</h3>
 <p>Other bibliographic databases include:</p>
 <ul>
 <li>Cochrane Central Register of Controlled Trials <a href="https://www.cochranelibrary.com/central/about-central" target="_blank">(CENTRAL)</a></li>
@@ -231,7 +238,7 @@ The <a href="https://www.ncbi.nlm.nih.gov/pubmed/advanced" target="_blank">PubMe
 </div>
 </div>
 <div id="search-strategy-development" class="section level2 tabset tabset-fade tabset-pills">
-<h2><span class="header-section-number">7.2</span> Search Strategy Development</h2>
+<h2><span class="header-section-number">7.2</span> Search strategy development</h2>
 <p>Select your search terms based around each of the PICO (or equivalent) concepts in your research question.</p>
 <p><br></p>
 <div id="step-1" class="section level3">
@@ -259,7 +266,7 @@ The <a href="https://www.ncbi.nlm.nih.gov/pubmed/advanced" target="_blank">PubMe
 </div>
 <div id="step-3" class="section level3">
 <h3><span class="header-section-number">7.2.3</span> Step 3</h3>
-<p><strong>Step 3: Combining Search Terms</strong></p>
+<p><strong>Step 3: Combining search terms</strong></p>
 <p>Boolean Operators</p>
 <p>The OR operator is used to connect two or more similar concepts (synonyms). It is used to broaden the results by telling the database that at least one of the search terms must be present in the results.</p>
 <p>The AND operator is used to narrow the results. It is used to tell the database that all search terms must be present in each result.</p>
@@ -268,14 +275,14 @@ The <a href="https://www.ncbi.nlm.nih.gov/pubmed/advanced" target="_blank">PubMe
 <p><br></p>
 </div>
 <div id="precision-sensitivity" class="section level3">
-<h3><span class="header-section-number">7.2.4</span> Precision &amp; Sensitivity</h3>
+<h3><span class="header-section-number">7.2.4</span> Precision &amp; sensitivity</h3>
 <p><strong>Precision</strong> is the ability of search strategy to exclude irrelevant articles.</p>
 <p><strong>Sensitivity</strong> is the ability of a search strategy to identify all relevant articles.</p>
 <p>The aim is to <strong>maximise sensitivity</strong> while attempting to <strong>maximise precision</strong>.</p>
 <p><br></p>
 </div>
 <div id="tips-tricks" class="section level3">
-<h3><span class="header-section-number">7.2.5</span> Tips &amp; Tricks</h3>
+<h3><span class="header-section-number">7.2.5</span> Tips &amp; tricks</h3>
 <ul>
 <li>Consider differences in spelling (e.g. US vs UK English)</li>
 <li>Consider using other PubMed fields e.g. MeSH SubHeadings [SH], or Pharmacological Action [PA]. Find more information here: <a href="https://pubmed.ncbi.nlm.nih.gov/help/#search-tags" target="_blank">PubMed Search Tags</a></li>
@@ -285,7 +292,7 @@ The <a href="https://www.ncbi.nlm.nih.gov/pubmed/advanced" target="_blank">PubMe
 </div>
 </div>
 <div id="run-searches-combine-results" class="section level2">
-<h2><span class="header-section-number">7.3</span> Run Searches &amp; Combine Results</h2>
+<h2><span class="header-section-number">7.3</span> Run searches &amp; combine results</h2>
 <p>Once you have composed the main components of your search strategy. You can now run your searches across your databases of choice.</p>
 <ol style="list-style-type: decimal">
 <li>Run search strings in specified databases.</li>
@@ -328,14 +335,14 @@ The <a href="https://www.ncbi.nlm.nih.gov/pubmed/advanced" target="_blank">PubMe
 </ul>
 <p><br></p>
 </div>
-<div id="update-your-searching-tools" class="section level2">
-<h2><span class="header-section-number">7.5</span> Update your Searching &amp; Tools</h2>
+<div id="updating-your-search-searching-tools" class="section level2">
+<h2><span class="header-section-number">7.5</span> Updating your search &amp; searching tools</h2>
 <p>SyRF Systematic Review Facility has a built-in function that can automatically retrieve new records that meet your search string from PubMed. For more information, see the <a href="https://assets.syrf.org.uk/guides/SyRF_User_Guide.pdf" target="_blank">SyRF Help Guide here</a>.</p>
 <p>The Polyglot Search Translator is a tool that will assist you in translating the syntax of your search string across various databases. For more information of the <a href="https://sr-accelerator.com/#/polyglot" target="_blank">Polyglot Search Translator see here</a>.</p>
 <p><br></p>
 </div>
 <div id="find-retrieve-full-texts" class="section level2">
-<h2><span class="header-section-number">7.6</span> Find &amp; Retrieve Full Texts</h2>
+<h2><span class="header-section-number">7.6</span> Find &amp; retrieve full texts</h2>
 <p>Once you have your library of unique references you can find and retrieve the full texts.</p>
 <ol style="list-style-type: decimal">
 <li>Use your reference manager. Guides for retrieving from <a href="https://subjectguides.library.american.edu/c.php?g=479020&amp;p=3324236" target="_blank">Endnote</a> and <a href="https://www.zotero.org/support/locate" target="_blank">Zotero</a> can be found at the respective links.</li>
@@ -388,7 +395,6 @@ The <a href="https://www.ncbi.nlm.nih.gov/pubmed/advanced" target="_blank">PubMe
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -418,11 +424,14 @@ gitbook.start({
 "text": null
 },
 "download": ["SRMAbookdown.pdf"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 },
 "twitter": true,
-"search": true,
 "info": true,
 "toolbar": {
 "position": "fixed"

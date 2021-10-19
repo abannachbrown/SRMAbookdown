@@ -9,7 +9,7 @@ Having a pre-specified protocol improves the methodological transparency of your
 
 <br>
 
-## Protocol Templates
+## Protocol templates
 
 SYRCLE (SYstematic Review Centre for Laboratory animal Experimentation) have developed a protocol template tailored to the preparation, registration and publication of systematic reviews of animal intervention studies. [See the template and publication here](https://onlinelibrary.wiley.com/doi/epdf/10.1002/ebm2.7){target="_blank"}. 
 
@@ -20,7 +20,7 @@ It may also be useful to look through examples from the [SyRF Protocol Registry]
 <br>
 
 
-### Register your Protocol
+## Register your protocol
 
 Making the protocol for your systematic review available to the community has a number of benefits: it provides evidence that prespecified analyses were indeed prespecified; allows others to comment on your approach; provides examples for others planning such reviews; and can help you identify if other reviews in similar areas are already in progress. You can search the protocol list by title, date, contact person or institution. 
 
@@ -34,7 +34,7 @@ You can preregister your systematic review project on the [Open Science Framewor
 
 <br>
 
-### Your Protocol & 3Rs
+### Your protocol & 3Rs
 
 
 We recommend that you include a statement in your protocol outlining how your research will impact the 3Rs (Replacement, Reduction and Refinement) in animal use in research.  

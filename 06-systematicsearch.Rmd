@@ -4,7 +4,7 @@ To identify relevant studies to include in your SR, you need to perform a compre
 
 <br>
 
-## Selecting Databases {.tabset .tabset-fade .tabset-pills}
+## Selecting databases {.tabset .tabset-fade .tabset-pills}
 
 Databases:
 
@@ -50,7 +50,7 @@ Web of Science can also be used to search other databases including SciELO, KCI-
 
 <br>
 
-### Other Sources & Grey Literature
+### Other sources & grey literature
 
 Other bibliographic databases include: 
 
@@ -64,7 +64,7 @@ Access may vary depending on institutional access. Document your search strategy
 
 <br>
 
-## Search Strategy Development {.tabset .tabset-fade .tabset-pills}
+## Search strategy development {.tabset .tabset-fade .tabset-pills}
 
 Select your search terms based around each of the PICO (or equivalent) concepts in your research question. 
 
@@ -108,7 +108,7 @@ Articles in PubMed are manually indexed but there is usually a slight delay. To 
 
 ### Step 3 
 
-**Step 3: Combining Search Terms**
+**Step 3: Combining search terms**
 
 Boolean Operators
 
@@ -126,7 +126,7 @@ The AND operator is used to narrow the results. It is used to tell the database 
 
 <br>
 
-### Precision & Sensitivity 
+### Precision & sensitivity 
 
 **Precision** is the ability of search strategy to exclude irrelevant articles. 
 
@@ -138,7 +138,7 @@ The aim is to **maximise sensitivity** while attempting to **maximise precision*
 
 <br>
 
-### Tips & Tricks
+### Tips & tricks
 
 - Consider differences in spelling (e.g. US vs UK English)
 - Consider using other PubMed fields e.g. MeSH SubHeadings [SH], or Pharmacological Action [PA]. Find more information here: [PubMed Search Tags](https://pubmed.ncbi.nlm.nih.gov/help/#search-tags){target="_blank"}
@@ -147,7 +147,7 @@ The aim is to **maximise sensitivity** while attempting to **maximise precision*
 
 <br>
 
-## Run Searches & Combine Results
+## Run searches & combine results
 
 Once you have composed the main components of your search strategy. You can now run your searches across your databases of choice.  
 
@@ -201,7 +201,7 @@ Tools to help remove duplicate references include:
 
 <br>
 
-## Update your Searching & Tools
+## Updating your search & searching tools
 
 SyRF Systematic Review Facility has a built-in function that can automatically retrieve new records that meet your search string from PubMed. For more information, see the [SyRF Help Guide here](https://assets.syrf.org.uk/guides/SyRF_User_Guide.pdf){target="_blank"}.
 
@@ -211,7 +211,7 @@ The Polyglot Search Translator is a tool that will assist you in translating the
 
 <br>
 
-## Find & Retrieve Full Texts
+## Find & retrieve full texts
 Once you have your library of unique references you can find and retrieve the full texts. 
 
 1. Use your reference manager. Guides for retrieving from [Endnote](https://subjectguides.library.american.edu/c.php?g=479020&p=3324236){target="_blank"} and [Zotero](https://www.zotero.org/support/locate){target="_blank"} can be found at the respective links. 

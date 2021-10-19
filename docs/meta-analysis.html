@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Section 11 Meta-Analysis | Preclinical Systematic Review Wiki</title>
   <meta name="description" content="Section 11 Meta-Analysis | Preclinical Systematic Review Wiki" />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Section 11 Meta-Analysis | Preclinical Systematic Review Wiki" />
   <meta property="og:type" content="book" />
@@ -23,7 +23,7 @@
 
 
 
-<meta name="date" content="2021-01-04" />
+<meta name="date" content="2021-10-14" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +32,8 @@
   
 <link rel="prev" href="quality-assessment.html"/>
 <link rel="next" href="tools-for-systematic-review.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -48,8 +49,9 @@
 
 
 
-
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -57,6 +59,7 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
+
 
 
 
@@ -81,86 +84,90 @@
 <li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Preclinical Systematic Reviews</a><ul>
 <li class="chapter" data-level="2.1" data-path="intro.html"><a href="intro.html#what-is-a-systematic-review"><i class="fa fa-check"></i><b>2.1</b> What is a systematic review?</a></li>
 <li class="chapter" data-level="2.2" data-path="intro.html"><a href="intro.html#what-is-a-meta-analysis"><i class="fa fa-check"></i><b>2.2</b> What is a meta-analysis?</a></li>
-<li class="chapter" data-level="2.3" data-path="intro.html"><a href="intro.html#clinical-preclinical-reviews"><i class="fa fa-check"></i><b>2.3</b> Clinical &amp; Preclinical Reviews</a><ul>
+<li class="chapter" data-level="2.3" data-path="intro.html"><a href="intro.html#clinical-preclinical-reviews"><i class="fa fa-check"></i><b>2.3</b> Clinical &amp; preclinical reviews</a><ul>
 <li class="chapter" data-level="2.3.1" data-path="intro.html"><a href="intro.html#preclinical"><i class="fa fa-check"></i><b>2.3.1</b> Preclinical</a></li>
 <li class="chapter" data-level="2.3.2" data-path="intro.html"><a href="intro.html#clinical"><i class="fa fa-check"></i><b>2.3.2</b> Clinical</a></li>
 </ul></li>
-<li class="chapter" data-level="2.4" data-path="intro.html"><a href="intro.html#why-perform-preclinical-srs"><i class="fa fa-check"></i><b>2.4</b> Why Perform Preclinical SRs?</a></li>
+<li class="chapter" data-level="2.4" data-path="intro.html"><a href="intro.html#why-perform-preclinical-srs"><i class="fa fa-check"></i><b>2.4</b> Why perform preclinical SRs?</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="srs-3rs.html"><a href="srs-3rs.html"><i class="fa fa-check"></i><b>3</b> Systematic Reviews &amp; 3Rs</a></li>
 <li class="chapter" data-level="4" data-path="b4ustart.html"><a href="b4ustart.html"><i class="fa fa-check"></i><b>4</b> Before You Start</a><ul>
 <li class="chapter" data-level="4.1" data-path="b4ustart.html"><a href="b4ustart.html#is-it-necessary"><i class="fa fa-check"></i><b>4.1</b> Is it necessary?</a></li>
 <li class="chapter" data-level="4.2" data-path="b4ustart.html"><a href="b4ustart.html#has-it-been-done-before"><i class="fa fa-check"></i><b>4.2</b> Has it been done before?</a></li>
-<li class="chapter" data-level="4.3" data-path="b4ustart.html"><a href="b4ustart.html#is-one-already-in-progress"><i class="fa fa-check"></i><b>4.3</b> Is One Already In Progress?</a></li>
-<li class="chapter" data-level="4.4" data-path="b4ustart.html"><a href="b4ustart.html#build-your-systematic-review-team"><i class="fa fa-check"></i><b>4.4</b> Build your Systematic Review Team</a></li>
+<li class="chapter" data-level="4.3" data-path="b4ustart.html"><a href="b4ustart.html#is-one-already-in-progress"><i class="fa fa-check"></i><b>4.3</b> Is one already in progress?</a></li>
+<li class="chapter" data-level="4.4" data-path="b4ustart.html"><a href="b4ustart.html#build-your-systematic-review-team"><i class="fa fa-check"></i><b>4.4</b> Build your systematic review team</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="researchquestion.html"><a href="researchquestion.html"><i class="fa fa-check"></i><b>5</b> Research Question</a><ul>
 <li class="chapter" data-level="5.1" data-path="researchquestion.html"><a href="researchquestion.html#stakeholders"><i class="fa fa-check"></i><b>5.1</b> Stakeholders</a></li>
-<li class="chapter" data-level="5.2" data-path="researchquestion.html"><a href="researchquestion.html#preclinical-examples"><i class="fa fa-check"></i><b>5.2</b> Preclinical Examples</a></li>
+<li class="chapter" data-level="5.2" data-path="researchquestion.html"><a href="researchquestion.html#preclinical-examples"><i class="fa fa-check"></i><b>5.2</b> Preclinical examples</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="protocol.html"><a href="protocol.html"><i class="fa fa-check"></i><b>6</b> Protocol</a><ul>
-<li class="chapter" data-level="6.1" data-path="protocol.html"><a href="protocol.html#protocol-templates"><i class="fa fa-check"></i><b>6.1</b> Protocol Templates</a><ul>
-<li class="chapter" data-level="6.1.1" data-path="protocol.html"><a href="protocol.html#register-your-protocol"><i class="fa fa-check"></i><b>6.1.1</b> Register your Protocol</a></li>
-<li class="chapter" data-level="6.1.2" data-path="protocol.html"><a href="protocol.html#your-protocol-3rs"><i class="fa fa-check"></i><b>6.1.2</b> Your Protocol &amp; 3Rs</a></li>
+<li class="chapter" data-level="6.1" data-path="protocol.html"><a href="protocol.html#protocol-templates"><i class="fa fa-check"></i><b>6.1</b> Protocol templates</a></li>
+<li class="chapter" data-level="6.2" data-path="protocol.html"><a href="protocol.html#register-your-protocol"><i class="fa fa-check"></i><b>6.2</b> Register your protocol</a><ul>
+<li class="chapter" data-level="6.2.1" data-path="protocol.html"><a href="protocol.html#your-protocol-3rs"><i class="fa fa-check"></i><b>6.2.1</b> Your protocol &amp; 3Rs</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="systematic-search.html"><a href="systematic-search.html"><i class="fa fa-check"></i><b>7</b> Systematic Search</a><ul>
-<li class="chapter" data-level="7.1" data-path="systematic-search.html"><a href="systematic-search.html#selecting-databases"><i class="fa fa-check"></i><b>7.1</b> Selecting Databases</a><ul>
+<li class="chapter" data-level="7.1" data-path="systematic-search.html"><a href="systematic-search.html#selecting-databases"><i class="fa fa-check"></i><b>7.1</b> Selecting databases</a><ul>
 <li class="chapter" data-level="7.1.1" data-path="systematic-search.html"><a href="systematic-search.html#pubmed"><i class="fa fa-check"></i><b>7.1.1</b> PubMed</a></li>
 <li class="chapter" data-level="7.1.2" data-path="systematic-search.html"><a href="systematic-search.html#embase"><i class="fa fa-check"></i><b>7.1.2</b> Embase</a></li>
 <li class="chapter" data-level="7.1.3" data-path="systematic-search.html"><a href="systematic-search.html#web-of-science"><i class="fa fa-check"></i><b>7.1.3</b> Web of Science</a></li>
-<li class="chapter" data-level="7.1.4" data-path="systematic-search.html"><a href="systematic-search.html#other-sources-grey-literature"><i class="fa fa-check"></i><b>7.1.4</b> Other Sources &amp; Grey Literature</a></li>
+<li class="chapter" data-level="7.1.4" data-path="systematic-search.html"><a href="systematic-search.html#other-sources-grey-literature"><i class="fa fa-check"></i><b>7.1.4</b> Other sources &amp; grey literature</a></li>
 </ul></li>
-<li class="chapter" data-level="7.2" data-path="systematic-search.html"><a href="systematic-search.html#search-strategy-development"><i class="fa fa-check"></i><b>7.2</b> Search Strategy Development</a><ul>
+<li class="chapter" data-level="7.2" data-path="systematic-search.html"><a href="systematic-search.html#search-strategy-development"><i class="fa fa-check"></i><b>7.2</b> Search strategy development</a><ul>
 <li class="chapter" data-level="7.2.1" data-path="systematic-search.html"><a href="systematic-search.html#step-1"><i class="fa fa-check"></i><b>7.2.1</b> Step 1</a></li>
 <li class="chapter" data-level="7.2.2" data-path="systematic-search.html"><a href="systematic-search.html#step-2"><i class="fa fa-check"></i><b>7.2.2</b> Step 2</a></li>
 <li class="chapter" data-level="7.2.3" data-path="systematic-search.html"><a href="systematic-search.html#step-3"><i class="fa fa-check"></i><b>7.2.3</b> Step 3</a></li>
-<li class="chapter" data-level="7.2.4" data-path="systematic-search.html"><a href="systematic-search.html#precision-sensitivity"><i class="fa fa-check"></i><b>7.2.4</b> Precision &amp; Sensitivity</a></li>
-<li class="chapter" data-level="7.2.5" data-path="systematic-search.html"><a href="systematic-search.html#tips-tricks"><i class="fa fa-check"></i><b>7.2.5</b> Tips &amp; Tricks</a></li>
+<li class="chapter" data-level="7.2.4" data-path="systematic-search.html"><a href="systematic-search.html#precision-sensitivity"><i class="fa fa-check"></i><b>7.2.4</b> Precision &amp; sensitivity</a></li>
+<li class="chapter" data-level="7.2.5" data-path="systematic-search.html"><a href="systematic-search.html#tips-tricks"><i class="fa fa-check"></i><b>7.2.5</b> Tips &amp; tricks</a></li>
 </ul></li>
-<li class="chapter" data-level="7.3" data-path="systematic-search.html"><a href="systematic-search.html#run-searches-combine-results"><i class="fa fa-check"></i><b>7.3</b> Run Searches &amp; Combine Results</a></li>
+<li class="chapter" data-level="7.3" data-path="systematic-search.html"><a href="systematic-search.html#run-searches-combine-results"><i class="fa fa-check"></i><b>7.3</b> Run searches &amp; combine results</a></li>
 <li class="chapter" data-level="7.4" data-path="systematic-search.html"><a href="systematic-search.html#deduplication"><i class="fa fa-check"></i><b>7.4</b> Deduplication</a></li>
-<li class="chapter" data-level="7.5" data-path="systematic-search.html"><a href="systematic-search.html#update-your-searching-tools"><i class="fa fa-check"></i><b>7.5</b> Update your Searching &amp; Tools</a></li>
-<li class="chapter" data-level="7.6" data-path="systematic-search.html"><a href="systematic-search.html#find-retrieve-full-texts"><i class="fa fa-check"></i><b>7.6</b> Find &amp; Retrieve Full Texts</a></li>
+<li class="chapter" data-level="7.5" data-path="systematic-search.html"><a href="systematic-search.html#updating-your-search-searching-tools"><i class="fa fa-check"></i><b>7.5</b> Updating your search &amp; searching tools</a></li>
+<li class="chapter" data-level="7.6" data-path="systematic-search.html"><a href="systematic-search.html#find-retrieve-full-texts"><i class="fa fa-check"></i><b>7.6</b> Find &amp; retrieve full texts</a></li>
 </ul></li>
 <li class="chapter" data-level="8" data-path="study-selection.html"><a href="study-selection.html"><i class="fa fa-check"></i><b>8</b> Study Selection</a><ul>
-<li class="chapter" data-level="8.1" data-path="study-selection.html"><a href="study-selection.html#inclusion-exclusion-criteria"><i class="fa fa-check"></i><b>8.1</b> Inclusion &amp; Exclusion Criteria</a></li>
-<li class="chapter" data-level="8.2" data-path="study-selection.html"><a href="study-selection.html#apply-your-criteria"><i class="fa fa-check"></i><b>8.2</b> Apply your Criteria</a></li>
-<li class="chapter" data-level="8.3" data-path="study-selection.html"><a href="study-selection.html#tools-for-screening"><i class="fa fa-check"></i><b>8.3</b> Tools for Screening</a></li>
+<li class="chapter" data-level="8.1" data-path="study-selection.html"><a href="study-selection.html#inclusion-exclusion-criteria"><i class="fa fa-check"></i><b>8.1</b> Inclusion &amp; exclusion criteria</a></li>
+<li class="chapter" data-level="8.2" data-path="study-selection.html"><a href="study-selection.html#apply-your-criteria"><i class="fa fa-check"></i><b>8.2</b> Apply your criteria</a></li>
+<li class="chapter" data-level="8.3" data-path="study-selection.html"><a href="study-selection.html#tools-for-screening"><i class="fa fa-check"></i><b>8.3</b> Tools for screening</a></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="data-extraction.html"><a href="data-extraction.html"><i class="fa fa-check"></i><b>9</b> Data Extraction</a><ul>
-<li class="chapter" data-level="9.1" data-path="data-extraction.html"><a href="data-extraction.html#study-characteristics"><i class="fa fa-check"></i><b>9.1</b> Study Characteristics</a></li>
-<li class="chapter" data-level="9.2" data-path="data-extraction.html"><a href="data-extraction.html#quantitative-data"><i class="fa fa-check"></i><b>9.2</b> Quantitative Data</a></li>
-<li class="chapter" data-level="9.3" data-path="data-extraction.html"><a href="data-extraction.html#data-extraction-software"><i class="fa fa-check"></i><b>9.3</b> Data Extraction Software</a></li>
+<li class="chapter" data-level="9.1" data-path="data-extraction.html"><a href="data-extraction.html#study-characteristics"><i class="fa fa-check"></i><b>9.1</b> Study characteristics</a></li>
+<li class="chapter" data-level="9.2" data-path="data-extraction.html"><a href="data-extraction.html#quantitative-data"><i class="fa fa-check"></i><b>9.2</b> Quantitative data</a></li>
+<li class="chapter" data-level="9.3" data-path="data-extraction.html"><a href="data-extraction.html#data-extraction-software"><i class="fa fa-check"></i><b>9.3</b> Data extraction software</a></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="quality-assessment.html"><a href="quality-assessment.html"><i class="fa fa-check"></i><b>10</b> Quality Assessment</a><ul>
 <li class="chapter" data-level="10.1" data-path="quality-assessment.html"><a href="quality-assessment.html#reporting"><i class="fa fa-check"></i><b>10.1</b> Reporting</a></li>
 <li class="chapter" data-level="10.2" data-path="quality-assessment.html"><a href="quality-assessment.html#risk-of-bias"><i class="fa fa-check"></i><b>10.2</b> Risk of Bias</a></li>
-<li class="chapter" data-level="10.3" data-path="quality-assessment.html"><a href="quality-assessment.html#rob-assessment-to-inform-analysis"><i class="fa fa-check"></i><b>10.3</b> RoB Assessment to Inform Analysis</a></li>
+<li class="chapter" data-level="10.3" data-path="quality-assessment.html"><a href="quality-assessment.html#rob-assessment-to-inform-analysis"><i class="fa fa-check"></i><b>10.3</b> RoB assessment to inform analysis</a></li>
 </ul></li>
 <li class="chapter" data-level="11" data-path="meta-analysis.html"><a href="meta-analysis.html"><i class="fa fa-check"></i><b>11</b> Meta-Analysis</a><ul>
-<li class="chapter" data-level="11.1" data-path="meta-analysis.html"><a href="meta-analysis.html#step-1.-calculate-effect-size"><i class="fa fa-check"></i><b>11.1</b> Step 1. Calculate Effect Size</a><ul>
+<li class="chapter" data-level="11.1" data-path="meta-analysis.html"><a href="meta-analysis.html#step-1.-calculate-effect-size"><i class="fa fa-check"></i><b>11.1</b> Step 1. Calculate effect size</a><ul>
 <li class="chapter" data-level="11.1.1" data-path="meta-analysis.html"><a href="meta-analysis.html#continuous"><i class="fa fa-check"></i><b>11.1.1</b> Continuous</a></li>
 <li class="chapter" data-level="11.1.2" data-path="meta-analysis.html"><a href="meta-analysis.html#dichotomous-outcomes"><i class="fa fa-check"></i><b>11.1.2</b> Dichotomous Outcomes</a></li>
 <li class="chapter" data-level="11.1.3" data-path="meta-analysis.html"><a href="meta-analysis.html#median"><i class="fa fa-check"></i><b>11.1.3</b> Median</a></li>
 <li class="chapter" data-level="11.1.4" data-path="meta-analysis.html"><a href="meta-analysis.html#true-number-of-controls"><i class="fa fa-check"></i><b>11.1.4</b> True number of Controls</a></li>
 </ul></li>
-<li class="chapter" data-level="11.2" data-path="meta-analysis.html"><a href="meta-analysis.html#step-2.-combine-effect-sizes"><i class="fa fa-check"></i><b>11.2</b> Step 2. Combine Effect Sizes</a><ul>
+<li class="chapter" data-level="11.2" data-path="meta-analysis.html"><a href="meta-analysis.html#step-2.-combine-effect-sizes"><i class="fa fa-check"></i><b>11.2</b> Step 2. Combine effect sizes</a><ul>
 <li class="chapter" data-level="11.2.1" data-path="meta-analysis.html"><a href="meta-analysis.html#fixed-effects-model"><i class="fa fa-check"></i><b>11.2.1</b> Fixed Effects Model</a></li>
 <li class="chapter" data-level="11.2.2" data-path="meta-analysis.html"><a href="meta-analysis.html#random-effects-model"><i class="fa fa-check"></i><b>11.2.2</b> Random Effects Model</a></li>
 </ul></li>
-<li class="chapter" data-level="11.3" data-path="meta-analysis.html"><a href="meta-analysis.html#step-3.-investigate-heterogeneity"><i class="fa fa-check"></i><b>11.3</b> Step 3. Investigate Heterogeneity</a></li>
-<li class="chapter" data-level="11.4" data-path="meta-analysis.html"><a href="meta-analysis.html#step-4.-reporting-biases"><i class="fa fa-check"></i><b>11.4</b> Step 4. Reporting Biases</a></li>
-<li class="chapter" data-level="11.5" data-path="meta-analysis.html"><a href="meta-analysis.html#step-5.-interpret-the-results"><i class="fa fa-check"></i><b>11.5</b> Step 5. Interpret the Results</a></li>
+<li class="chapter" data-level="11.3" data-path="meta-analysis.html"><a href="meta-analysis.html#step-3.-investigate-heterogeneity"><i class="fa fa-check"></i><b>11.3</b> Step 3. Investigate heterogeneity</a></li>
+<li class="chapter" data-level="11.4" data-path="meta-analysis.html"><a href="meta-analysis.html#step-4.-reporting-biases"><i class="fa fa-check"></i><b>11.4</b> Step 4. Reporting biases</a></li>
+<li class="chapter" data-level="11.5" data-path="meta-analysis.html"><a href="meta-analysis.html#step-5.-interpret-the-results"><i class="fa fa-check"></i><b>11.5</b> Step 5. Interpret the results</a></li>
 </ul></li>
 <li class="chapter" data-level="12" data-path="tools-for-systematic-review.html"><a href="tools-for-systematic-review.html"><i class="fa fa-check"></i><b>12</b> Tools for Systematic Review</a></li>
 <li class="chapter" data-level="13" data-path="publication.html"><a href="publication.html"><i class="fa fa-check"></i><b>13</b> Publication</a><ul>
 <li class="chapter" data-level="13.1" data-path="publication.html"><a href="publication.html#good-reporting"><i class="fa fa-check"></i><b>13.1</b> Good reporting</a></li>
 </ul></li>
 <li class="chapter" data-level="14" data-path="resources-links.html"><a href="resources-links.html"><i class="fa fa-check"></i><b>14</b> Resources &amp; Links</a></li>
-<li class="chapter" data-level="15" data-path="about.html"><a href="about.html"><i class="fa fa-check"></i><b>15</b> About</a><ul>
-<li class="chapter" data-level="15.0.1" data-path="about.html"><a href="about.html#to-cite-the-tool"><i class="fa fa-check"></i><b>15.0.1</b> To cite the tool</a></li>
-<li class="chapter" data-level="15.0.2" data-path="about.html"><a href="about.html#our-team"><i class="fa fa-check"></i><b>15.0.2</b> Our Team</a></li>
+<li class="chapter" data-level="15" data-path="workshops.html"><a href="workshops.html"><i class="fa fa-check"></i><b>15</b> Workshops &amp; Tutorials</a><ul>
+<li class="chapter" data-level="15.1" data-path="workshops.html"><a href="workshops.html#workshops-1"><i class="fa fa-check"></i><b>15.1</b> Workshops</a></li>
+<li class="chapter" data-level="15.2" data-path="workshops.html"><a href="workshops.html#meta-analysis-tutorial"><i class="fa fa-check"></i><b>15.2</b> Meta-Analysis Tutorial</a></li>
+</ul></li>
+<li class="chapter" data-level="16" data-path="about.html"><a href="about.html"><i class="fa fa-check"></i><b>16</b> About</a><ul>
+<li class="chapter" data-level="16.0.1" data-path="about.html"><a href="about.html#to-cite-the-tool"><i class="fa fa-check"></i><b>16.0.1</b> To cite the tool</a></li>
+<li class="chapter" data-level="16.0.2" data-path="about.html"><a href="about.html#our-team"><i class="fa fa-check"></i><b>16.0.2</b> Our Team</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="mailto:camarades.berlin@charite.de" target="_blank"> Contact Us Here </a></li>
@@ -204,7 +211,7 @@
 <li><p>Is the effect consistent across studies? (heterogeneity)</p></li>
 <li><p>What is the strength of evidence for the effect? (quality assessment)</p></li>
 </ul>
-<p><a href="http://www.cochrane-handbook.org/" target="_blank">(Reference: Cochrane Handbook)</a></p>
+<p><a href="https://training.cochrane.org/handbook/current" target="_blank">(Reference: Cochrane Handbook)</a></p>
 <p><br>
 Luckily, statistical software takes care on most of the ‘heavy lifting’ when it comes to calculating effect sizes, pooling them, and making forest plots.</p>
 <p>To understand the basics and for exact equations, keep reading.</p>
@@ -216,7 +223,7 @@ Equations shown below are from the following references, where more information 
 </ul>
 <p><br></p>
 <div id="step-1.-calculate-effect-size" class="section level2">
-<h2><span class="header-section-number">11.1</span> Step 1. Calculate Effect Size</h2>
+<h2><span class="header-section-number">11.1</span> Step 1. Calculate effect size</h2>
 <p>The first step is to calculate the effect size for each outcome within each study.</p>
 <p>Your outcomes may be:</p>
 <ul>
@@ -237,9 +244,9 @@ Equations shown below are from the following references, where more information 
 <h4><span class="header-section-number">11.1.1.1</span> Mean Difference</h4>
 <p><strong>Mean Difference:</strong> Raw mean difference can be used when the outcomes are reported on a meaningful scale and all studies in the analysis use the same scale. The meta-analysis is performed directly on the raw difference in means.</p>
 <p>Mean Difference Effect Size:
-<span class="math display">\[ ES_i = \bar{x_c} - \bar{x_\text{rx}}\]</span></p>
+<span class="math display">\[ ES_i = \bar{x}_c - \bar{x}_\text{rx}\]</span></p>
 <p>Standard Error:
-<span class="math display">\[ SE_i = \sqrt \frac {N}{n_{\text{rx}} \times n&#39;_c} \times S_{\text{pooled}}^2 \]</span></p>
+<span class="math display">\[ SE_i = \sqrt{\frac {N}{n_{\text{rx}} \times n&#39;_c} \times S_{\text{pooled}}^2} \]</span></p>
 <p>where S pooled is:
 <span class="math display">\[S_{\text{pooled}} = \sqrt \frac {(n&#39;_c - 1)SD_c^2 + (n_{\text{rx}} - 1)SD_{\text{rx}}^2}{N -2} \]</span>
 <br></p>
@@ -248,20 +255,20 @@ Equations shown below are from the following references, where more information 
 <h4><span class="header-section-number">11.1.1.2</span> Normalised Mean Difference</h4>
 <p><strong>Normalised Mean Difference:</strong> Normalised mean difference (NMD) can be used when outcomes are on a ratio scale, where the score on a ‘control’ or ‘sham’ animal is known. The most common method to calculate NMD is as a proportion of the mean.</p>
 <p>The effect size calculation for normalised mean difference:
-<span class="math display">\[ES_i= 100% \times  \frac {(\bar{x_c} - \bar{x_\text{sham}}) - (\bar{x_\text{rx}} - \bar{x_\text{sham}})}{\bar{x_c} - \bar{x_\text{sham}}} \]</span> where <span class="math display">\[\bar{x_\text{sham}} \]</span> is the mean score for the unlesioned/normal/untreated animal.</p>
+<span class="math display">\[ES_i= 100 \times  \frac {(\bar{x}_c - \bar{x}_\text{sham}) - (\bar{x}_\text{rx} - \bar{x}_\text{sham})}{\bar{x}_c - \bar{x}_\text{sham}}\]</span> where <span class="math inline">\(\bar{x}_\text{sham}\)</span> is the mean score for the unlesioned/normal/untreated animal.</p>
 <p>The standard deviation calculations are as follows:
-<span class="math display">\[SD_c* = 100 x \frac {SD_c}{\bar{x_c} - \bar{x_\text{sham}}} \]</span> and <span class="math display">\[SD_\text{rx*} = 100 x \frac {SD_\text{rx}}{\bar{x_text{rx}} - \bar{x_\text{sham}}}\]</span></p>
+<span class="math display">\[SD_\text{c*} = 100 \times \frac {SD_c}{\bar{x}_c - \bar{x}_\text{sham}}\]</span> and <span class="math display">\[SD_\text{rx*} = 100 \times \frac {SD_\text{rx}}{\bar{x}_\text{c} - \bar{x}_\text{sham}}\]</span></p>
 <p>Standard error of the effect size is:
-<span class="math display">\[SE_i = \sqrt \frac{SD_c*^2}{n&#39;_c} + \frac {SD_{rx*}^2}{n_{rx*}} \]</span>
+<span class="math display">\[SE_i = \sqrt{ \frac{SD_\text{c*}^2}{n&#39;_c} + \frac {SD_{rx*}^2}{n_{rx*}} }\]</span>
 <br></p>
 </div>
 <div id="standardised-mean-difference" class="section level4">
 <h4><span class="header-section-number">11.1.1.3</span> Standardised Mean Difference</h4>
 <p><strong>Standardised Mean Difference:</strong> (SMD), Cohen’s d and Hedge’s g. SMD is used when the scale of measurement differs across studies and it is not meaningful to combine raw mean differences. The mean difference in each study is divided by the study’s standard division to create an index comparable across studies.</p>
 <p>Hedge’s G SMD Effect Size:
-<span class="math display">\[ES_i = \frac {\bar{x_c} - \bar{x_\text{rx}}}{S_{\text{pooled}}} \times (1 - \frac{3}{4N - 9})  \]</span>
+<span class="math display">\[ES_i = \frac {\bar{x}_c - \bar{x}_\text{rx}}{S_{\text{pooled}}} \times (1 - \frac{3}{4N - 9})  \]</span>
 And standard error of the effect size is:
-<span class="math display">\[ SE_i = \sqrt \frac{N}{n_{\text{rx}} \times n&#39;_c} + \frac{ES_i^2}{2(N - 3.49)})\]</span></p>
+<span class="math display">\[ SE_i = \sqrt{ \frac{N}{n_{\text{rx}} \times n&#39;_c} + \frac{ES_i^2}{2(N - 3.49)} }\]</span></p>
 <p><br>
 <br></p>
 </div>
@@ -276,7 +283,7 @@ And standard error of the effect size is:
 <p>Odds Ratio Effect Size
 <span class="math display">\[ OR_i = \frac {a_i \times d_i}{b_i \times c_i}  \]</span></p>
 <p>with the standard error of the odds ratio effect size:
-<span class="math display">\[ SE(ln(OR_i)) = \sqrt (1/a_i)+(1/b_i)+(1/c_i)+(1/d_i)    \]</span></p>
+<span class="math display">\[ SE(ln(OR_i)) = \sqrt{ (1/a_i)+(1/b_i)+(1/c_i)+(1/d_i) }   \]</span></p>
 <p><br></p>
 <p>You might come across <strong>Risk Ratio</strong> (or Relative Risk), the risk of an event in one group (e.g., exposed group) versus the risk of the event in the other group (e.g., non-exposed group), or <strong>Hazard Ratio</strong>, however these data are rarely seen in primary animal experiments. For more information of Risk Ratio in clinical systematic reviews, see the <a href="https://handbook-5-1.cochrane.org/chapter_9/box_9_2_a_calculation_of_risk_ratio_rr_odds_ratio_or_and.htm" target="_blank">Cochrane Handbook.</a></p>
 <p><br></p>
@@ -304,7 +311,7 @@ And standard error of the effect size is:
 </div>
 </div>
 <div id="step-2.-combine-effect-sizes" class="section level2">
-<h2><span class="header-section-number">11.2</span> Step 2. Combine Effect Sizes</h2>
+<h2><span class="header-section-number">11.2</span> Step 2. Combine effect sizes</h2>
 <p>The next step is to combine the effect sizes for each comparison together in a meta-analysis model.</p>
 <p><br></p>
 <p>Before you pool your effect sizes, you may conisder:</p>
@@ -333,8 +340,10 @@ Where <span class="math display">\[W_i\]</span> is the measure of weight (e.g. 
 <div id="fixed-effects-model" class="section level3">
 <h3><span class="header-section-number">11.2.1</span> Fixed Effects Model</h3>
 <p>Under the fixed effect model we assume that there is one true effect size which is shared by all the included studies. It follows that the combined effect (global estimate) is our estimate of this common effect size.</p>
-<p><br></p>
-<p><img src="figs/fixedeffects.png" id="id" class="class" style="width:75.0%" /></p>
+<br>
+<center>
+<img src="figs/fixedeffects.png" id="id" class="class" style="width:75.0%" />
+</center>
 <p><br></p>
 </div>
 <div id="random-effects-model" class="section level3">
@@ -343,13 +352,15 @@ Where <span class="math display">\[W_i\]</span> is the measure of weight (e.g. 
 <li><p>Under the random effects model we allow that the true effect could vary from study to study. E.g. the effect size might be a little higher if the patients are older; in rats vs. mice; if the study used a slightly more intensive or longer variant of the intervention etc.</p></li>
 <li><p>The studies included in the meta-analysis are assumed to be a random sample of the relevant distribution of effects, and the combined effect estimates the mean effect in this distribution.</p></li>
 </ul>
-<p><br></p>
-<p><img src="figs/randomeffects.png" id="id" class="class" style="width:75.0%" /></p>
+<br>
+<center>
+<img src="figs/randomeffects.png" id="id" class="class" style="width:75.0%" />
+</center>
 <p><br></p>
 </div>
 </div>
 <div id="step-3.-investigate-heterogeneity" class="section level2">
-<h2><span class="header-section-number">11.3</span> Step 3. Investigate Heterogeneity</h2>
+<h2><span class="header-section-number">11.3</span> Step 3. Investigate heterogeneity</h2>
 <p>The third step is to investigate potential sources of heterogeneity (pre-specified in your protocol). Heterogeneity is the variability between groups of studies caused by differences in:</p>
 <ul>
 <li><p>study samples (e.g. species, sex)</p></li>
@@ -366,13 +377,15 @@ I<sup>2</sup> describes the percentage of variability in effect estimates that i
 <p><br></p>
 </div>
 <div id="step-4.-reporting-biases" class="section level2">
-<h2><span class="header-section-number">11.4</span> Step 4. Reporting Biases</h2>
+<h2><span class="header-section-number">11.4</span> Step 4. Reporting biases</h2>
 <p><strong>Publication Bias</strong> occurs when the results of published and unpublished studies differ systematically. Unfortunately, neutral and negative studies take longer to be published, remain unpublished, are less likely to be identified in systematic review, and this can lead to an overstatement of efficacy in meta-analysis.</p>
 <p>There are also other biases that may effect your systematic review including, <strong>selective outcome reporting</strong> and <strong>selective analysis reporting</strong>.</p>
 <p><br></p>
 <p>We can test for potential publication bias in our data plotting our data on a <strong>funnel plot</strong>.
 The outer dashed lines indicate the triangular region within which 95% of studies are expected to lie, in the absence of both biases and heterogeneity. The solid vertical line refers to the line of no effect. Image from <a href="https://www.bmj.com/content/343/bmj.d4002" target="_blank">Sterne et al., 2011</a></p>
-<p><img src="figs/funnelplot.jpg" id="id" class="class" style="width:50.0%" /></p>
+<center>
+<img src="figs/funnelplot.jpg" id="id" class="class" style="width:50.0%" />
+</center>
 <p>If you do observe asymmetry in your funnel plot, there may be a number of sources:</p>
 <ul>
 <li><p>Reporting Biases</p>
@@ -394,18 +407,20 @@ The outer dashed lines indicate the triangular region within which 95% of studie
 <p><br></p>
 </div>
 <div id="step-5.-interpret-the-results" class="section level2">
-<h2><span class="header-section-number">11.5</span> Step 5. Interpret the Results</h2>
+<h2><span class="header-section-number">11.5</span> Step 5. Interpret the results</h2>
 <p>The forest plot or timber plot is the main graphical output or representation from a meta-analysis.</p>
 <p>Reading and understanding these plots will allow you to understand the findings from a meta-analysis. Meta-analyses of animal studies tend to include many studies with small sample sizes. Therefore, it is common to see preclinical meta-analyses graphically represented with a timber plot, a slight variation on the forest plot.</p>
 <p>Here is an example of a timber plot. In this meta-analysis the research question was: What is the effect of antidepressants compared vehicle or no treatment on infarct volume in animal models of ischaemic stroke? <a href="https://doi.org/10.1161/STROKEAHA.114.006304" target="_blank">McCann et al., 2014</a></p>
-<p><img src="figs/timberplot.png" id="id" class="class" style="width:60.0%" /></p>
-<p>Outcome:
+<center>
+<img src="figs/timberplot.PNG" id="id" class="class" style="width:60.0%" />
+</center>
+<p><strong>Outcome:</strong>
 A meta-analysis is conducted on a single outcome of interest at a time. The outcome of interest in this meta-analysis is Reduction in Infarct Volume, as displayed on the y-axis label.</p>
-<p>Individual Study Effects:
+<p><strong>Individual Study Effects:</strong>
 In this meta-analysis there were 58 experiments included. Each black dot represents the effect size reported in a single experiment, the difference in outcome between the mean and the control group. Each black dot has thin black lines above and below the effect size, these represent the errors bars associated with the effect size reported. Individual study effect sizes are displayed in order of smallest to largest to highlight variation or heterogeneity in the literature.</p>
-<p>Pooled Effect:
+<p><strong>Pooled Effect:</strong>
 Here, the gray bar behind the black dots represents the combined or pooled effect size across all included experiments and its confidence intervals. In this example, the effect size is 27.3% (95% CI, 20.7%–33.8%).</p>
-<p><strong>Clinical Forest Plot:</strong> A step-by-step guide to interpreting a forest plot from a typical clinical meta-analysis is available <a href="https://s4be.cochrane.org/blog/2016/07/11/tutorial-read-forest-plot/" target="_blank">here</a>.</p>
+<p><strong>Clinical Forest Plots:</strong> A step-by-step guide to interpreting a forest plot from a typical clinical meta-analysis is available <a href="https://s4be.cochrane.org/blog/2016/07/11/tutorial-read-forest-plot/" target="_blank">here</a>.</p>
 <p><br></p>
 
 </div>
@@ -445,7 +460,6 @@ Here, the gray bar behind the black dots represents the combined or pooled effec
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -475,11 +489,14 @@ gitbook.start({
 "text": null
 },
 "download": ["SRMAbookdown.pdf"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 },
 "twitter": true,
-"search": true,
 "info": true,
 "toolbar": {
 "position": "fixed"

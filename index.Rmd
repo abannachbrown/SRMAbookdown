@@ -12,12 +12,16 @@ link-citations: yes
 
 Hello, Systematic Reviewers!
 
-Welcome to the CAMARADES Berlin Preclinical Systematic Review & Meta-Analysis wiki. 
+Welcome to the CAMARADES Preclinical Systematic Review & Meta-Analysis wiki. 
 
-Find information and documents, links, and useful tools to guide your through your review. 
+Find information, links, articles, and useful tools to guide you through your review. 
+<br>
+
+Navigate through the sections to find out more about what a preclinical systematic review is, what the steps are, and how to complete them.
+<br>
+
+Use the table of contents bar on the left side of the screen to navigate along the steps of systematic review. 
 
 <br>
-If you have questions about the resources, or would like to ask a question about your specific review, get in touch: 
-
-
+If you have questions about the resources, or would like to ask a question about your specific review, please get in touch: 
 [Email us here](mailto:CAMARADES.berlin@charite.de)

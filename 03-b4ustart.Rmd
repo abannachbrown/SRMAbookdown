@@ -33,7 +33,7 @@ For additional reading on how to assess the quality of a published systematic re
 <br>
 
 
-## Is One Already In Progress?
+## Is one already in progress?
 
 Before you start, check that the review question you are interested in answering is not already being investigated by another research group. 
 
@@ -48,7 +48,7 @@ If you find someone is working on the same or a similar question, take contact t
 
 
 
-## Build your Systematic Review Team
+## Build your systematic review team
 
 
 A systematic review can take a long time, so ensure you have the adequate expertise and funding to complete the review. Get your colleagues to help out! And reach out to people outside of your immediate team for expert advice. 
