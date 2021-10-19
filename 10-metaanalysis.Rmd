@@ -90,11 +90,19 @@ $$S_{\text{pooled}} = \sqrt \frac {(n'_c - 1)SD_c^2 + (n_{\text{rx}} - 1)SD_{\te
 
 
 The effect size calculation for normalised mean difference: 
+<<<<<<< HEAD
 $$ES_i= 100 \times  \frac {(\bar{x}_c - \bar{x}_\text{sham}) - (\bar{x}_\text{rx} - \bar{x}_\text{sham})}{\bar{x}_c - \bar{x}_\text{sham}}$$ where $\bar{x}_\text{sham}$ is the mean score for the unlesioned/normal/untreated animal. 
 
 
 The standard deviation calculations are as follows: 
 $$SD_\text{c*} = 100 \times \frac {SD_c}{\bar{x}_c - \bar{x}_\text{sham}}$$ and $$SD_\text{rx*} = 100 \times \frac {SD_\text{rx}}{\bar{x}_\text{c} - \bar{x}_\text{sham}}$$
+=======
+$$ES_i= 100 \times  \frac {(\bar{x_c} - \bar{x_\text{sham}}) - (\bar{x_\text{rx}} - \bar{x_\text{sham}})}{\bar{x_c} - \bar{x_\text{sham}}} $$ where $$\bar{x_\text{sham}} $$ is the mean score for the unlesioned/normal/untreated animal. 
+
+
+The standard deviation calculations are as follows: 
+$$SD_c* = 100 \times \frac {SD_c}{\bar{x_c} - \bar{x_\text{sham}}}$$ and $$SD_\text{rx*} = 100 \times \frac {SD_\text{rx}}{\bar{x_\text{rx}} - \bar{x_\text{sham}}}$$
+>>>>>>> 16e6e5b366dc6946f5b8f2ddf6359b053a560ea2
 
 Standard error of the effect size is: 
 $$SE_i = \sqrt{ \frac{SD_\text{c*}^2}{n'_c} + \frac {SD_{rx*}^2}{n_{rx*}} }$$
