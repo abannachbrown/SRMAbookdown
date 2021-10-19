@@ -26,10 +26,12 @@ Preclinical Systematic Reviews & Meta-Analysis Wiki, (`r format(Sys.time(),  '%B
 If you have questions about the resources, or would like to ask a question about your specific review, get in touch: [Email us here](mailto:CAMARADES.berlin@charite.de)
 
 This resource is supported by Charité 3Rs. For more information about 3Rs at Charité – Universitätsmedizin Berlin, visit the [Charité 3Rs Toolbox](https://charite3r.charite.de/en/charite_3r_toolbox/){target="_blank"}. 
-
-![](figs/charite3rs_logo.jpg){#id .class width=20%}
-
+<center>
+![](figs/C3R_Screen_Farbe.jpg){#id .class width=20%}
+</center>
 
 <br>
 CAMARADES Berlin are located in the QUEST Center, Berlin Institute for Health
+<center>
 ![](charite-BIHquest.jpg){#id .class width=30%}
+</center>

@@ -1,0 +1,30 @@
+# Workshops & Tutorials {#workshops}
+
+
+## Workshops
+<a href="https://www.bihealth.org/en/translation/innovation-enabler/quest-center/mission-approaches/education-and-training/how-to-conduct-a-preclinical-animal-systematic-review-and-meta-analysis" target="_blank" rel="noopener noreferrer">
+Introduction to Systematic Review & Meta-Analysis of Animal Studies 
+</a>
+
+
+## Meta-Analysis Tutorial
+
+[>>> Click here to launch the tutorial](https://s-quest.bihealth.org/CAMARADES_MA/){target="_blank"}
+
+<br>
+We have created a web-based tutorial to complement the workshop: <a href="https://www.bihealth.org/en/translation/innovation-enabler/quest-center/mission-approaches/education-and-training/how-to-conduct-a-preclinical-animal-systematic-review-and-meta-analysis" target="_blank" rel="noopener noreferrer">
+Introduction to Systematic Review & Meta-Analysis of Animal Studies 
+</a>
+
+The web-based app uses R programming language to work through a meta-analysis of animal data but you do not need any previous experience with R to complete the tutorial.
+<br>
+
+The tutorial use examples data from the publication:
+
+<p><a href="https://doi.org/10.1007/s12975-016-0489-z" target="_blank" rel="noopener noreferrer">
+
+  McCann SK, Cramond F, Macleod MR *et al*. Systematic Review and 
+  Meta-Analysis of the Efficacy of Interleukin-1 Receptor Antagonist in 
+  Animal Models of Stroke: an Update. *Translational Stroke Research* 7, 395–406 (2016).
+
+</a></p>

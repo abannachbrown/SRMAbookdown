@@ -10,7 +10,7 @@ If applicable, you may consider doing this in two stages:
 
 <br>
 
-## Inclusion & Exclusion Criteria  
+## Inclusion & exclusion criteria  
 
 Defining the inclusion and exclusion criteria sets the boundaries for your review. 
 It is important the criteria are predefined, *a priori*, and applied consistently across all studies considered for the review. To ensure this, it is common to do citation screening in duplicate, two independent reviews, with discussion or a third independent reviewer to reconcile any discrepancies. 
@@ -43,7 +43,7 @@ You may consider prioritising your inclusion and exclusion criteria based on wha
 
 <br>
 
-## Apply your Criteria
+## Apply your criteria
 
 Is a study included or excluded in your review? Is a study relevant, or not relevant, to your research question based on your pre-defined criteria? 
 
@@ -52,7 +52,7 @@ To ensure your inclusion and exclusion criteria are applied in a unbiased, unifo
 
 <br>
 
-## Tools for Screening
+## Tools for screening
 
 You can complete title and abstract screening & full text screening in [SyRF](http://syrf.org.uk/){target="_blank"} the Systematic Review Facility which is a free-to-use online platform to support your preclinical systematic review. 
 

@@ -8,9 +8,9 @@ It is best practice to extract data in duplicate, two independent reviewers, to 
 
 <br>
 
-## Study Characteristics
+## Study characteristics
 
-Study characteristics to extract from included articles include: 
+Study characteristics to extract from included articles may include: 
 
 - PICO information (e.g. age and sex of population, species and strain of animal, dose and timing of intervention, type and time of outcome assessment)
 
@@ -24,7 +24,7 @@ Study characteristics to extract from included articles include:
 <br>
 
 
-## Quantitative Data
+## Quantitative data
 
 
 Extracting quantitative and numerical data from included studies is necessary to perform meta-analysis to pool the effect sizes from 
@@ -50,7 +50,7 @@ You may need to use tools such as [Adobe desktop ruler](https://helpx.adobe.com/
 
 
 
-## Data Extraction Software
+## Data extraction software
 
 As you are extracting these pieces of information you will want to store them in the same place for easier, later synthesis and analysis. 
 
