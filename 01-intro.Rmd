@@ -48,7 +48,7 @@ Clinical reviews can be used to:
 
 -  To summarise evidence from multiple similar studies to allow for more accurate estimates of effect
 - The methods used to find and select studies are transparent and reproducible, reducing bias and increasing the likeliness of producing reliable and accurate conclusions. 
-- Summarise findings from all available studies making information easier for the end user to read and understand
+- Summarise findings from all available studies making information easier for the end-user to read and understand
 - Analyse individual study quality to inform confidence in the results
 -  Quantitative synthesis of results (meta-analysis)
 - Allow for evidence-based inferences
