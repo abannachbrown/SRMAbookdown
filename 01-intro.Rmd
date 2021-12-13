@@ -5,52 +5,32 @@
 
 A systematic review (SR) is a literature review that involves systematically locating, appraising, and synthesising evidence from scientific studies to answer a defined research question based on pre-specified criteria.
 
-The methods of a systematic review (and meta-analysis) should be transparent and reproducible, with the methods mapped out and reported so that the review can be repeated.
+The methods of a systematic review (and meta-analysis) should be transparent and reproducible. This means that the methods are planned, conducted, and reported in a way that can be repeated by other research groups.
 
 ## What is a meta-analysis?
 
-A method of combining quantitative results from individual studies identified through systematic review in an overall statistical analysis.
-
+A meta-analysis is a method of combining quantitative results from individual studies identified through systematic review in an overall statistical analysis.
 
 ## Clinical & preclinical reviews
 
+There are many differences between preclinical and clinical systematic reviews, which is wy we developed this Wiki, specific to preclinical systematic review methodology.
 
-
-
-### Preclinical
-
-Preclinical reviews tend to have lots of studies included. Included studies tend to have small sample sizes and varied experimental design. 
-Preclinical reviews can be used to: 
-
-- Investigate translational failure
-- Explore differences between studies (heterogeneity) e.g. internal & external validity
-- Inform future preclinical studies e.g. model selection
-- Inform early phase clinical trials
-- Explain discrepancies in preclinical vs. clinical trial results
-- Inform 3Rs decisions
-
-<br>
-
-
-### Clinical 
-
-Clinical reviews tend to have fewer included studies, included studies have larger sample sizes, and the variability between included studies is reduced with stricter inclusion criteria. 
-Clinical reviews can be used to: 
-
-- Explore heterogeneity e.g. clinical populations
-- Inform later phase clinical studies
-- Inform clinical practice and guidelines
-
-
-<br>
+|                            | Preclinical | Clinical   |
+| -------------------------- | ----------- | ---------- |
+| # of included studies      | High        | Low        |
+| Sample size within studies | Low         | High       |
+| Experimental design        | Variable    | Consistent |
+| Uses                       | - Investigate translational failure \\\n - Explore differences between studies (heterogeneity) e.g. internal & external validity \\\n - Inform future preclinical studies e.g. model selection \\\n - Inform early phase clinical trials \\\n - Explain discrepancies in preclinical vs. clinical trial results \\\n - Inform 3Rs decisions | - Explore heterogeneity e.g. clinical populations \\\n - Inform later phase clinical studies \\\n - Inform clinical practice and guidelines
 
 ## Why perform preclinical SRs? 
 
--  To summarise evidence from multiple similar studies to allow for more accurate estimates of effect
+There are many reasons to perform preclinical systematic reviews:
+
+- To summarise evidence from multiple similar studies to allow for more accurate estimates of effect
 - The methods used to find and select studies are transparent and reproducible, reducing bias and increasing the likeliness of producing reliable and accurate conclusions. 
 - Summarise findings from all available studies making information easier for the end-user to read and understand
 - Analyse individual study quality to inform confidence in the results
--  Quantitative synthesis of results (meta-analysis)
+- Quantitative synthesis of results (meta-analysis)
 - Allow for evidence-based inferences
 
 <center>
