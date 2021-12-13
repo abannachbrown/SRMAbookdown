@@ -6,41 +6,35 @@ To identify relevant studies to include in your SR, you need to perform a compre
 
 ## Selecting databases {.tabset .tabset-fade .tabset-pills}
 
-Databases:
+Bibliographic databases differ in their coverage of journals and indexing of articles, so to ensure your research is systematic, you will have to search multiple databases. 
 
-The first step is to decide on which databases to search, this will depend on your research area and question. Databases differ in their coverage of journals and how articles are indexed. For preclinical research, typical databases include [PubMed](https://pubmed.ncbi.nlm.nih.gov/){target="_blank"}, Embase, and Web of Science. A librarian or an expert in bibliographic databases will be able to help you identify other potential databases and construct database-specific search terms. It is common practice to search several databases to guarantee adequate and efficient coverage.
+Which databases you search will depend on your research area and question. For preclinical research, typical databases include:
+- PubMed
+- Embase
+- Web of Science
 
+A librarian or an expert in bibliographic databases will be able to help you identify other potential databases and construct database-specific search terms.
 
 On top of electronic databases, you might want to use other methods to find relevant papers such as: scanning reference lists of relevant studies (both primary studies and reviews), hand searching key journals, contacting experts in the field, and searching additional relevant internet resources. Keep a record of alternative methods used and the data collected in a structured format.
 
-<br>
-
 ### PubMed
-
 
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/){target="_blank"} is a bibliographic database comprising of more than 30 million citations for biomedical literature from MEDLINE, life science journals, and online books.
 
-It is a free resource that supports the search and retrieval of biomedical and life sciences literature with the aim of improving health. It is maintained by the National Center for Biotechnology Information (NCBI) at the US National Library of Medicine. 
+It is a free resource that supports the search and retrieval of biomedical and life sciences literature with the aim of improving health, and is maintained by the National Center for Biotechnology Information (NCBI) at the US National Library of Medicine. 
 
-
-Links & Resources: 
-The [PubMed Advanced Search Builder](https://www.ncbi.nlm.nih.gov/pubmed/advanced){target="_blank"} is a useful tool to build your search query.
-
-
-Information on [MeSH Headings](https://www.nlm.nih.gov/mesh/meshhome.html){target="_blank"}.
-
-<br>
+**Links & Resources:** 
+- The [PubMed Advanced Search Builder](https://www.ncbi.nlm.nih.gov/pubmed/advanced){target="_blank"} is a useful tool to build your search query.
+- Information on [MeSH Headings](https://www.nlm.nih.gov/mesh/meshhome.html){target="_blank"}.
 
 ### Embase
 
-
-Embase is a biomedical research database covering literature from 1947 to present day. It indexes over 32 million records, including MEDLINE titles. It index articles from 2,900 journals unique to Embase. 
+Embase is a biomedical research database covering literature from 1947 to present day. It indexes over 32 million records, including MEDLINE titles, as well as articles from 2,900 journals unique to Embase. 
 
 You may access Embase directly or through Ovid depending on your library subscription. 
 
-More information on Embase indexing and EmTree Headings can be [found here.](https://www.elsevier.com/solutions/embase-biomedical-research/embase-coverage-and-content){target="_blank"}
-
-<br>
+**Links & Resources:** 
+- [Embase indexing and EmTree Headings](https://www.elsevier.com/solutions/embase-biomedical-research/embase-coverage-and-content){target="_blank"}
 
 ### Web of Science
 
@@ -48,125 +42,81 @@ Web of Science is a publisher-independent citation database. The Web of Science 
 
 Web of Science can also be used to search other databases including SciELO, KCI-Korean Journal Database and Zoological Record. 
 
-<br>
-
 ### Other sources & grey literature
 
 Other bibliographic databases include: 
 
-- Cochrane Central Register of Controlled Trials [(CENTRAL)](https://www.cochranelibrary.com/central/about-central){target="_blank"}
+- [Cochrane Central Register of Controlled Trials (CENTRAL)](https://www.cochranelibrary.com/central/about-central){target="_blank"}
 - [Google Scholar](https://scholar.google.com/){target="_blank"}
 - [Scopus](https://www.scopus.com/home.uri){target="_blank"}
-- Cumulative Index to Nursing and Allied Health Literature [(CINAHL)](https://www.ebscohost.com/nursing/products/cinahl-databases/cinahl-complete){target="_blank"}
+- [Cumulative Index to Nursing and Allied Health Literature (CINAHL)](https://www.ebscohost.com/nursing/products/cinahl-databases/cinahl-complete){target="_blank"}
 - [PsycINFO](https://www.apa.org/pubs/databases/psycinfo){target="_blank"}
 
 Access may vary depending on institutional access. Document your search strategy so it is sufficiently reproducible. 
-
-<br>
 
 ## Search strategy development {.tabset .tabset-fade .tabset-pills}
 
 Select your search terms based around each of the PICO (or equivalent) concepts in your research question. 
 
-<br>
-
-
-### Step 1 
-
-**Step 1: Find keywords and synonyms for each element**
+### Step 1: Find keywords and synonyms for each element
 
 A good exercise is to think of as many synonyms as possible for each of your main concepts or PICO elements.
 
 For example:
 
-If your research question is: What is the effect of antidepressants compared to vehicle or no treatment on infarct volume in animal models of stroke?
+If your research question is: *What is the effect of antidepressants compared to vehicle or no treatment on infarct volume in animal models of stroke?*
 
+- **(P)opulation:** Stroke. Synonyms might include: cerebral ischaemia, cerebrovascular accident. 
+- **(I)ntervention:** Antidepressants. Synonyms might include: fluoxetine, SSRIs
 
-**P**opulation: Stroke. Synonyms might include: cerebral ischaemia, cerebrovascular accident. 
-
-**I**ntervention: Antidepressants. Synonyms might include: fluoxetine, SSRIs
-
-
-<br>
-
-### Step 2
-
-**Step 2: Index/subject terms (database-specific)**
+### Step 2: Index/subject terms (database-specific)
 
 Each core database has their own system for indexing terms, topics, and subjects. Check what subject headings and indexing terms the databases you are interested in searching before you start. 
 
-- MeSH terms
-- Emtree terms
+- MeSH terms (PubMed)
+- Emtree terms (Embase)
 - (See more information about MeSH and EMTREE above [Selecting Databases](#Selecting-Databases){target="_blank"} )
 
-
-Why use both keywords and indexed terms in your search strategy? 
+**Why use both keywords and indexed terms in your search strategy?** 
 
 Articles in PubMed are manually indexed but there is usually a slight delay. To capture all articles that use non-standard language, including recently published ones, you might miss some by using only a keyword search. 
 
-<br>
+### Step 3: Combining search terms using Boolean operators
 
-### Step 3 
+Boolean operators include:
+- AND
+- OR
+- NOT
 
-**Step 3: Combining search terms**
+The **OR** operator is used to connect two or more similar concepts (synonyms). It is used to broaden the results by telling the database that at least one of the search terms must be present in the results. 
 
-Boolean Operators
-
-The OR operator is used to connect two or more similar concepts (synonyms). It is used to broaden the results by telling the database that at least one of the search terms must be present in the results. 
-
-
-
-The AND operator is used to narrow the results. It is used to tell the database that all search terms must be present in each result. 
-
-
+The **AND** operator is used to narrow the results. It is used to tell the database that all search terms must be present in each result. 
 
 ![](figs/booleanOR.png){#id .class width=25% height=25%}
 ![](figs/booleanAND.png){#id .class width=25% height=25%}
 
-
-<br>
-
 ### Precision & sensitivity 
 
-**Precision** is the ability of search strategy to exclude irrelevant articles. 
+A good search strategy aims to to **maximise sensitivity** while attempting to **maximise precision**. 
 
-**Sensitivity** is the ability of a search strategy to identify all relevant articles. 
-
-
-The aim is to **maximise sensitivity** while attempting to **maximise precision**. 
-
-
-<br>
+- **Precision** is the ability of search strategy to exclude irrelevant articles. 
+- **Sensitivity** is the ability of a search strategy to identify all relevant articles. 
 
 ### Tips & tricks
 
 - Consider differences in spelling (e.g. US vs UK English)
 - Consider using other PubMed fields e.g. MeSH SubHeadings [SH], or Pharmacological Action [PA]. Find more information here: [PubMed Search Tags](https://pubmed.ncbi.nlm.nih.gov/help/#search-tags){target="_blank"}
-- When using the NOT Boolean Operator, consider what relevant literature you might be excluding. - Consider truncation symbols or "wildcards" for your search (e.g. ischem* for ischemia and ischemic, etc). Check all bibliographic databases allow this before adding to your search. 
+- When using the NOT Boolean Operator, consider what relevant literature you might be excluding
+- Consider truncation symbols or "wildcards" for your search (e.g. ischem* for ischemia and ischemic, etc). Check all bibliographic databases allow this before adding to your search
+- The Polyglot Search Translator is a tool that will assist you in translating the syntax of your search string across various databases. For more information of the [Polyglot Search Translator see here](https://sr-accelerator.com/#/polyglot){target="_blank"}
 
+## Combine search results
 
-<br>
-
-## Run searches & combine results
-
-Once you have composed the main components of your search strategy. You can now run your searches across your databases of choice.  
-
-
-1. Run search strings in specified databases. 
-
-
-The Polyglot Search Translator is a tool that will assist you in translating the syntax of your search string across various databases. For more information of the [Polyglot Search Translator see here](https://sr-accelerator.com/#/polyglot){target="_blank"}. 
-
-
-<br>
-
-2. Combine results in reference manager software e.g. [EndNote](https://endnote.com/){target="_blank"} or [Zotero](https://www.zotero.org/){target="_blank"}
+Once you have run your searches across multiple databases, you can combine your search results in a reference manager software, such as [EndNote](https://endnote.com/){target="_blank"} or [Zotero](https://www.zotero.org/){target="_blank"}.
 
 To more easily find full text pdfs, remember to add you library subscription information into the settings or preferences of the reference manager, e.g. EzProxy information or OpenURL information. 
 
-<br>
-
-Does the import order matter? **YES!** 
+### Does the import order matter? YES!
 
 The order that you import your references into Endnote or another reference manager matters. Different bibliographic databases have different quality or completeness of the references you are interested in, and reference managers use this information to deduplicate the results (the next step). 
 
@@ -187,19 +137,14 @@ The [recommended order](https://blogs.lshtm.ac.uk/library/2018/12/07/removing-du
 13. Any other databases
 14. Clinical Trials websites
 
-
-<br>
-
 ## Deduplication
 
-You have searched several different databases and other sources. There are likely duplicates or overlap. Time spent deduplicating your reference library will ensure you have accurate numbers (total records/included/excluded) to report and don't waste your time screening duplicates. 
+As you have searched several different databases and other sources, there are likely duplicates or overlap. Time spent deduplicating your reference library will ensure you have accurate numbers (total records/included/excluded) to report and don't waste your time screening duplicates. 
 
 Tools to help remove duplicate references include: 
 
 - Endnote can be used to find and remove duplicate records. See [this resource.](10.3163/1536-5050.104.3.014){target="_blank"}
 - Stand-alone tools such as the [SR-Accelerator Tool](https://doi.org/10.1186/2046-4053-4-6){target="_blank"} and the [ASySD tool](https://camarades.shinyapps.io/RDedup/){target="_blank"} for preclinical reviews. 
-
-<br>
 
 ## Updating your search & searching tools
 
@@ -208,27 +153,16 @@ SyRF Systematic Review Facility has a built-in function that can automatically r
 
 The Polyglot Search Translator is a tool that will assist you in translating the syntax of your search string across various databases. For more information of the [Polyglot Search Translator see here](https://sr-accelerator.com/#/polyglot){target="_blank"}. 
 
-
-<br>
-
 ## Find & retrieve full texts
 Once you have your library of unique references you can find and retrieve the full texts. 
 
 1. Use your reference manager. Guides for retrieving from [Endnote](https://subjectguides.library.american.edu/c.php?g=479020&p=3324236){target="_blank"} and [Zotero](https://www.zotero.org/support/locate){target="_blank"} can be found at the respective links. 
-
-N.B. Remember to add your Institutional Log-in information to the settings or preferences of the reference manager, e.g. [EzProxy](https://ezproxy-db.appspot.com/){target="_blank"} information or [OpenURL](https://www.zotero.org/support/locate/openurl_resolvers){target="_blank"} information, so you can more easily find the full texts that your institutional library has access to. 
-
 2. Search Online: Google search, GoogleScholar, ResearchGate, etc. 
-
 3. Contact corresponding authors directly via email or Twitter. 
-
 4. Last resort: ask your librarian to assist with inter-library loans. (NB: these can be very costly!)
 
+### Tips & tricks for full text retrieval
 
-!! NB: Be careful using custom scripts or other programs to bulk download as this can result in your institutional IP address being blocked !! 
-
-
-If your search strategy has retrieved a lot of potentially relevant results, you may want to consider waiting to find the full texts until after you have carried out titles and abstract screening (see below). This will greatly reduce the number of full text records you need to find, and you will not waste time trying to find articles that are not relevant to your research question. 
-<br>
-
-<br>
+- Add your Institutional Log-in information to the settings or preferences of the reference manager, e.g. [EzProxy](https://ezproxy-db.appspot.com/){target="_blank"} information or [OpenURL](https://www.zotero.org/support/locate/openurl_resolvers){target="_blank"} information, so you can more easily find the full texts that your institutional library has access to. 
+- Be careful using custom scripts or other programs to bulk download as this can result in your institutional IP address being blocked
+- If your search strategy has retrieved a lot of potentially relevant results, you may want to consider waiting to find the full texts until after you have carried out titles and abstract screening (see below). This will greatly reduce the number of full text records you need to find, and you will not waste time trying to find articles that are not relevant to your research question. 
