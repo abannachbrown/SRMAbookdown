@@ -1,43 +1,39 @@
 # Protocol
 
+## What is a protocol and why have one?
 
-What is a protocol and why have one?
+A systematic review protocol outlines why and how you are going to conduct your systematic review. It should include your:
+- research question
+- background to your review
+- the methods that will be used, including:
+  - search strategy
+  - inclusion criteria
+  - data extraction
+  - quality assessment
+  - data synthesis
+  - statistical analysis plan
 
-A systematic review protocol outlines why and how you are going to conduct your systematic review. It should include your research question, background and the methods that will be used, including: search strategy, inclusion criteria, data extraction, quality assessment, data synthesis, and statistical analysis plan.
-
-Having a pre-specified protocol improves the methodological transparency of your systematic review and reduces the risk of introducing bias. Publishing your protocol allows others to locate reviews in progress and enables future replication. The process of putting together your protocol often involves communication between a number of key stakeholders, you may want to discuss it with an advisory group, external experts, or your funders.
-
-<br>
+Having a **pre-specified** protocol improves the methodological transparency of your systematic review and reduces the risk of introducing bias. Publishing your protocol allows others to locate reviews in progress and enables future replication. The process of putting together your protocol often involves communication between a number of key stakeholders, you may want to discuss it with an advisory group, external experts, or your funders.
 
 ## Protocol templates
 
 SYRCLE (SYstematic Review Centre for Laboratory animal Experimentation) have developed a protocol template tailored to the preparation, registration and publication of systematic reviews of animal intervention studies. [See the template and publication here](https://onlinelibrary.wiley.com/doi/epdf/10.1002/ebm2.7){target="_blank"}. 
 
 
-It may also be useful to look through examples from the [SyRF Protocol Registry](http://syrf.org.uk/protocols/){target="_blank"} while you formulate your protocol. Look at the Protocol Registry to check that no systematic reviews on your research question are currently underway. 
-
-
-<br>
-
+It may also be useful to look through examples from the [SyRF Protocol Registry](http://syrf.org.uk/protocols/){target="_blank"} while you formulate your protocol. Look at the Protocol Registry to check that no systematic reviews on your research question are currently underway. **Please not that the SyRF Protocol Registry is no longer accepting new protocol submissions.**
 
 ## Register your protocol
 
-Making the protocol for your systematic review available to the community has a number of benefits: it provides evidence that prespecified analyses were indeed prespecified; allows others to comment on your approach; provides examples for others planning such reviews; and can help you identify if other reviews in similar areas are already in progress. You can search the protocol list by title, date, contact person or institution. 
+Making the protocol for your systematic review available to the community has a number of benefits:
+- Provides evidence that prespecified analyses were indeed prespecified
+- Allows others to comment on your approach
+- Provides examples for others planning such reviews
+- Can help you identify if other reviews in similar areas are already in progress.
 
-
-PROSPERO:
-The Centre for Reviews and Dissemination at University of York now publish Preclinical Systematic Review Protocols. 
-For more information on registering at PROSPERO, see their [website here](https://www.crd.york.ac.uk/prospero/){target="_blank"}.
-
-OSF:
-You can preregister your systematic review project on the [Open Science Framework here](https://osf.io/prereg/){target="_blank"}.
-
-<br>
+You can choose to register your systematic review protocol via:
+- [PROSPERO](https://www.crd.york.ac.uk/prospero/){target="_blank"}
+- [Open Science Framework(OSF)](https://osf.io/prereg/){target="_blank"}
 
 ### Your protocol & 3Rs
 
-
 We recommend that you include a statement in your protocol outlining how your research will impact the 3Rs (Replacement, Reduction and Refinement) in animal use in research.  
-
-
-<br>
