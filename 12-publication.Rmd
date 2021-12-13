@@ -1,7 +1,7 @@
 
 # Publication
 
-You have conducted your systematic review, and potentially also conducted a meta-analysis, now it is time to tell the community what you found and ensure the findings from your review reach your audience. 
+Once you have conducted your systematic review, and potentially also conducted a meta-analysis, it is time to tell the community what you found and ensure the findings from your review reach your audience. 
 
 Be careful when interpreting the results; acknowledge sources of bias; consider heterogeneity, generalisability, and relevance. 
 
@@ -9,16 +9,11 @@ It may help to use a [GRADE Approach](https://journals.plos.org/plosone/article?
 
 Report your systematic review in a way that allows reproducibility of the results and future updating. 
 
-<br>
-
 ## Good reporting
 
 
-We recommend following the Preferred Reporting Items for Systematic Reviews and Meta-analyses  (PRISMA) Guidelines.  The checklist can be found [here](http://www.prisma-statement.org/PRISMAStatement/Checklist){target="_blank"}
+We recommend following the Preferred Reporting Items for Systematic Reviews and Meta-analyses  (PRISMA) Guidelines.  The checklist can be found [here.](http://www.prisma-statement.org/PRISMAStatement/Checklist){target="_blank"}
 
 We recommend using the PRISMA Flowchart to visualise the studies in your systematic review process. The PRISMA Flowchart template can be [found here.](http://prisma-statement.org/prismastatement/flowdiagram){target="_blank"}
 
 ![](figs/PRISMA.png)
-
-
-<br>
