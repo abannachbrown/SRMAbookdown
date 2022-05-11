@@ -1,7 +1,7 @@
 # About {#about}
 
 
-We have put together this Wiki Page to provide information and documents, links, and useful tools to guide your through your preclinical systematic review. These resources have been put together using many CC-BY-4.0 sources including; [SyRF](http://syrf.org.uk/){target="_blank"}, and [Cochrane Interactive Learning](https://training.cochrane.org/interactivelearning){target="_blank"}. We thank these organisations and teams for making their resources available, definitely check out their resources as well! 
+We have put together this Wiki Page to provide information and documents, links, and useful tools to guide your through your preclinical systematic review. These resources have been put together using many CC-BY-4.0 sources including; [SyRF](https://syrf.org.uk/){target="_blank"}, and [Cochrane Interactive Learning](https://training.cochrane.org/interactivelearning){target="_blank"}. We thank these organisations and teams for making their resources available, definitely check out their resources as well! 
 
 
 This resource was last updated on: `r format(Sys.time(), '%d %B, %Y')`
@@ -19,7 +19,6 @@ Preclinical Systematic Reviews & Meta-Analysis Wiki, (`r format(Sys.time(),  '%B
 - **Sarah McCann, PhD**
 - Torsten Rackoll, PhD
 - Alexandra Bannach-Brown, PhD
-- Florenz Cruz
 
 <br>
 
@@ -35,3 +34,8 @@ CAMARADES Berlin are located in the QUEST Center, Berlin Institute for Health
 <center>
 ![](charite-BIHquest.jpg){#id .class width=30%}
 </center>
+
+<br>
+<br>
+For more information about CAMARADES in Edinburgh, [please click here.](https://www.ed.ac.uk/clinical-brain-sciences/research/camarades){target="_blank"}
+

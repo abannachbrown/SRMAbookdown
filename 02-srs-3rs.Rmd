@@ -1,6 +1,6 @@
 # Systematic Reviews & 3Rs {#srs-3rs}
 
-The principles of the 3Rs (Replacement, Reduction, and Refinement) are a framework for humane animal research. Systematic review is a valuable tool for advancing the 3Rs, primarily through reduction and refinement of animal use in research. Using existing animal data, systematic review can contribute to improvements in animal studies including:
+The principles of the 3Rs (Replacement, Reduction, and Refinement) are a framework for humane animal research. Systematic review is a valuable tool for advancing the 3Rs, primarily through the reduction and refinement of animal use in research. Using existing animal data, systematic reviews can contribute to improvements in animal studies including:
 
 -   Providing reliable data to support sample size calculations for various experimental outcomes
 -   Allowing comparison of the statistical performance of different experimental outcome measures
