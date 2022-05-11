@@ -9,11 +9,17 @@ Low methodological quality can affect internal validity and introduce bias into 
 Bias in primary studies can lead to an over- or under-estimation of the true intervention effect in both primary studies and systematic reviews. It is important to consider the implications of study quality and validity for interpreting the results from your systematic review and it is often a good idea to incorporate a quality assessment section into your final report.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Study quality characteristics which have been shown to impact the results of preclinical studies include whether animals were randomised to control or treatment groups, and if researchers were blinded to intervention allocation or exposure when assessing outcomes.
 Read more about allocation and blinding on the [NC3Rs Experimental Design Assistant website](https://eda.nc3rs.org.uk/experimental-design-allocation){target="_blank"}.
 <br>
 
 ## Reporting 
+=======
+Study quality characteristics which have been shown to impact the results of preclinical studies include whether animals were randomised to control or treatment groups, and if researchers were blinded to animal group when assessing outcomes.
+
+## Reporting quality
+>>>>>>> 7787d8c099c1a44224dc8f74d2ff96147b136ed3
 =======
 Study quality characteristics which have been shown to impact the results of preclinical studies include whether animals were randomised to control or treatment groups, and if researchers were blinded to animal group when assessing outcomes.
 

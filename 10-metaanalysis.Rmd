@@ -36,6 +36,7 @@ Equations shown below are from the following references, where more information 
 
 ## Meta-Analysis Tools
 
+<<<<<<< HEAD
 There are different tools available to perform meta-analysis. 
 
 R is the recommended software as it is free and open source and supports transparent documentation of meta-analysis steps. To read more about R and download it for free, [see the R Project website here.](https://www.r-project.org/){target="_blank"} 
@@ -54,6 +55,13 @@ The first step is to calculate the effect size for each outcome within each stud
 - Continuous
 - Dichotomous
 
+=======
+The first step is to calculate the effect size for each outcome within each study. Your outcomes may be: 
+
+- Continuous
+- Dichotomous
+
+>>>>>>> 7787d8c099c1a44224dc8f74d2ff96147b136ed3
 ### Continuous 
 For **continuous outcomes**, commonly used effect size measures include:
 

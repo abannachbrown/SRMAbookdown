@@ -147,10 +147,13 @@ Tools to help remove duplicate references include:
 - Stand-alone tools such as the [SR-Accelerator Tool](https://doi.org/10.1186/2046-4053-4-6){target="_blank"} and the [ASySD tool](https://camarades.shinyapps.io/RDedup/){target="_blank"} for preclinical reviews. 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <br>
 
 ## Searching tools
 =======
+=======
+>>>>>>> 7787d8c099c1a44224dc8f74d2ff96147b136ed3
 ## Updating your search & searching tools
 
 SyRF Systematic Review Facility has a built-in function that can automatically retrieve new records that meet your search string from PubMed. For more information, see the [SyRF Help Guide here](https://assets.syrf.org.uk/guides/SyRF_User_Guide.pdf){target="_blank"}.
