@@ -9,9 +9,12 @@ To identify relevant studies to include in your SR, you need to perform a compre
 Bibliographic databases differ in their coverage of journals and indexing of articles, so to ensure your research is systematic, you will have to search multiple databases. 
 
 Which databases you search will depend on your research area and question. For preclinical research, typical databases include:
-- PubMed
-- Embase
-- Web of Science
+
+* PubMed
+
+* Embase
+
+* Web of Science
 
 A librarian or an expert in bibliographic databases will be able to help you identify other potential databases and construct database-specific search terms.
 
@@ -24,8 +27,10 @@ On top of electronic databases, you might want to use other methods to find rele
 It is a free resource that supports the search and retrieval of biomedical and life sciences literature with the aim of improving health, and is maintained by the National Center for Biotechnology Information (NCBI) at the US National Library of Medicine. 
 
 **Links & Resources:** 
-- The [PubMed Advanced Search Builder](https://www.ncbi.nlm.nih.gov/pubmed/advanced){target="_blank"} is a useful tool to build your search query.
-- Information on [MeSH Headings](https://www.nlm.nih.gov/mesh/meshhome.html){target="_blank"}.
+
+* The [PubMed Advanced Search Builder](https://www.ncbi.nlm.nih.gov/pubmed/advanced){target="_blank"} is a useful tool to build your search query.
+
+* Information on [MeSH Headings](https://www.nlm.nih.gov/mesh/meshhome.html){target="_blank"}.
 
 ### Embase
 
@@ -34,7 +39,8 @@ Embase is a biomedical research database covering literature from 1947 to presen
 You may access Embase directly or through Ovid depending on your library subscription. 
 
 **Links & Resources:** 
-- [Embase indexing and EmTree Headings](https://www.elsevier.com/solutions/embase-biomedical-research/embase-coverage-and-content){target="_blank"}
+
+* [Embase indexing and EmTree Headings](https://www.elsevier.com/solutions/embase-biomedical-research/embase-coverage-and-content){target="_blank"}
 
 ### Web of Science
 
@@ -75,7 +81,7 @@ Each core database has their own system for indexing terms, topics, and subjects
 
 - MeSH terms (PubMed)
 - Emtree terms (Embase)
-- (See more information about MeSH and EMTREE above [Selecting Databases](#Selecting-Databases){target="_blank"} )
+(See more information about MeSH and EMTREE above [Selecting Databases](#Selecting-Databases){target="_blank"} )
 
 **Why use both keywords and indexed terms in your search strategy?** 
 
@@ -84,9 +90,12 @@ Articles in PubMed are manually indexed but there is usually a slight delay. To 
 ### Step 3: Combining search terms using Boolean operators
 
 Boolean operators include:
-- AND
-- OR
-- NOT
+
+* AND
+
+* OR
+
+* NOT
 
 The **OR** operator is used to connect two or more similar concepts (synonyms). It is used to broaden the results by telling the database that at least one of the search terms must be present in the results. 
 
@@ -146,21 +155,12 @@ Tools to help remove duplicate references include:
 - Endnote can be used to find and remove duplicate records. See [this resource.](10.3163/1536-5050.104.3.014){target="_blank"}
 - Stand-alone tools such as the [SR-Accelerator Tool](https://doi.org/10.1186/2046-4053-4-6){target="_blank"} and the [ASySD tool](https://camarades.shinyapps.io/RDedup/){target="_blank"} for preclinical reviews. 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<br>
+
 
 ## Searching tools
-=======
-=======
->>>>>>> 7787d8c099c1a44224dc8f74d2ff96147b136ed3
-## Updating your search & searching tools
-
-SyRF Systematic Review Facility has a built-in function that can automatically retrieve new records that meet your search string from PubMed. For more information, see the [SyRF Help Guide here](https://assets.syrf.org.uk/guides/SyRF_User_Guide.pdf){target="_blank"}.
-
->>>>>>> 7787d8c099c1a44224dc8f74d2ff96147b136ed3
 
 The Polyglot Search Translator is a tool that will assist you in translating the syntax of your search string across various databases. For more information of the [Polyglot Search Translator see here](https://sr-accelerator.com/#/polyglot){target="_blank"}. 
+
 
 ## Find & retrieve full texts
 Once you have your library of unique references you can find and retrieve the full texts. 

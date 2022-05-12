@@ -14,16 +14,9 @@ Meta-analyses are performed for a variety of reasons:
 - To summarise numerous and inconsistent findings
 - To investigate consistency of effect across different samples
 
-Meta-analyses address a variety of research questions?
-
-- What is the direction of the effect? 
-- What is the size of the effect? 
-- Is the effect consistent across studies? (heterogeneity)
-- What is the strength of evidence for the effect? (quality assessment)
 
 [(Reference: Cochrane Handbook)](https://training.cochrane.org/handbook/current){target="_blank"}
 
-Luckily, statistical software takes care on most of the 'heavy lifting' when it comes to calculating effect sizes, pooling them, and making forest plots. 
 
 To understand the basics and for exact equations, keep reading. 
 
@@ -36,11 +29,11 @@ Equations shown below are from the following references, where more information 
 
 ## Meta-Analysis Tools
 
-<<<<<<< HEAD
+Luckily, statistical software takes care on most of the 'heavy lifting' when it comes to calculating effect sizes, pooling them, and making forest plots.
 There are different tools available to perform meta-analysis. 
 
 R is the recommended software as it is free and open source and supports transparent documentation of meta-analysis steps. To read more about R and download it for free, [see the R Project website here.](https://www.r-project.org/){target="_blank"} 
-If this is your first time conducting a meta-analysis using R, you can practice with our meta-analysis tutorial, [read more in section 15.2.](www.camarades.de/workshops.html#meta-analysis-tutorial){target="_blank"}
+If this is your first time conducting a meta-analysis using R, you can practice with our meta-analysis tutorial, [read more in section 15.2.](#meta-analysis-tutorial){target="_blank"}
 
 Other tools include:
 
@@ -55,13 +48,6 @@ The first step is to calculate the effect size for each outcome within each stud
 - Continuous
 - Dichotomous
 
-=======
-The first step is to calculate the effect size for each outcome within each study. Your outcomes may be: 
-
-- Continuous
-- Dichotomous
-
->>>>>>> 7787d8c099c1a44224dc8f74d2ff96147b136ed3
 ### Continuous 
 For **continuous outcomes**, commonly used effect size measures include:
 
@@ -85,17 +71,17 @@ $$S_{\text{pooled}} = \sqrt \frac {(n'_c - 1)SD_c^2 + (n_{\text{rx}} - 1)SD_{\te
 **Normalised Mean Difference:** Normalised mean difference (NMD) can be used when outcomes are on a ratio scale, where the score on a 'control' or 'sham' animal is known. The most common method to calculate NMD is as a proportion of the mean.
 
 The effect size calculation for normalised mean difference: 
-<<<<<<< HEAD
+
 $$ES_i= 100 \times  \frac {(\bar{x}_c - \bar{x}_\text{sham}) - (\bar{x}_\text{rx} - \bar{x}_\text{sham})}{\bar{x}_c - \bar{x}_\text{sham}}$$ where $\bar{x}_\text{sham}$ is the mean score for the unlesioned/normal/untreated animal. 
 
 The standard deviation calculations are as follows: 
 $$SD_\text{c*} = 100 \times \frac {SD_c}{\bar{x}_c - \bar{x}_\text{sham}}$$ and $$SD_\text{rx*} = 100 \times \frac {SD_\text{rx}}{\bar{x}_\text{c} - \bar{x}_\text{sham}}$$
-=======
+
 $$ES_i= 100 \times  \frac {(\bar{x_c} - \bar{x_\text{sham}}) - (\bar{x_\text{rx}} - \bar{x_\text{sham}})}{\bar{x_c} - \bar{x_\text{sham}}} $$ where $$\bar{x_\text{sham}} $$ is the mean score for the unlesioned/normal/untreated animal. 
 
 The standard deviation calculations are as follows: 
 $$SD_c* = 100 \times \frac {SD_c}{\bar{x_c} - \bar{x_\text{sham}}}$$ and $$SD_\text{rx*} = 100 \times \frac {SD_\text{rx}}{\bar{x_\text{rx}} - \bar{x_\text{sham}}}$$
->>>>>>> 16e6e5b366dc6946f5b8f2ddf6359b053a560ea2
+
 
 Standard error of the effect size is: 
 $$SE_i = \sqrt{ \frac{SD_\text{c*}^2}{n'_c} + \frac {SD_{rx*}^2}{n_{rx*}} }$$
@@ -165,6 +151,8 @@ Where $$W_i$$ is the measure of weight (e.g. inverse variance). $$W_iES_i $$ is 
 The standard error is calculated: 
 $$SE_{\theta\text{i}} = \sqrt \frac{N_{comparisons}}{\sum_{i=1}^{k} W_i} $$
 
+**Pooling Effect Sizes**
+
 There are two commonly used models for pooling effect sizes: 
 
 - Fixed Effect Model
@@ -172,7 +160,7 @@ There are two commonly used models for pooling effect sizes:
 
 The selection of which model to use should be stated in your protocol with *a priori*. The decision is based on the nature of the studies likely to be included in your review.   Random effects model is most commonly used in preclinical studies as we usually synthesise data from studies performed in different laboratories and we expect heterogeneity. We often synthesise data from experiments where the species, age, or sex of the animals are different, the intervention may be given at varying doses or at different times in relation to the outcome. We assume that these study design variables have an impact on the effects we see in studies. 
 
-Rarely, when doing a systematic review of data from one specific laboratory, if all the studies in your meta-analysis were conducted using the same model induction, paradigms, and interventions, you may consider a fixed effect model. (Borenstein et al., 2009)
+Rarely, when doing a systematic review of data from one specific laboratory, if all the studies in your meta-analysis were conducted using the same model induction, paradigms, and interventions, you may consider a fixed effect model (Borenstein et al., 2009).
 
 ### Fixed Effects Model
 
@@ -208,8 +196,8 @@ I^2^ describes the percentage of variability in effect estimates that is due to 
 
 You can investigate heterogeneity using: 
 
-- Sub-group analysis
-- Meta-regression model
+- Sub-group analysis. Read more about [sub-group analysis here.](https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/subgroup.html){target="_blank"}
+- Meta-regression model. Read more about [meta-regression here.](https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/metareg.html){target="_blank"}
 
 ## Step 4. Reporting biases
 
@@ -231,10 +219,12 @@ If you do observe asymmetry in your funnel plot, there may be a number of source
   - Selective outcome reporting
   - Selective analysis reporting
   
+  
 - **Poor methodological quality (leading to inflated effects in smaller studies)**
   - Poor methodological design
   - Inadequate analysis
   - Fraud
+  
   
 - **True heterogeneity:** Effect size differs according to study size due to e.g. differences in the intensity of interventions, or in underlying risk between studies with different sizes. 
   

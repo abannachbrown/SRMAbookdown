@@ -1,19 +1,7 @@
 # Data Extraction
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Extract relevant data as predefined in your protocol. 
-
-It is best practice for two reviewers to extract data independently to prevent errors. Any discrepancies can be resolved by a third independent reviewer or by discussion.  
-
-
-<br>
-=======
 The data you extract from each included study should be pre-specificed in your systematic review protocol. It is best practice to extract data in duplicate, two independent reviewers, to prevent errors. 
->>>>>>> 7787d8c099c1a44224dc8f74d2ff96147b136ed3
-=======
-The data you extract from each included study should be pre-specificed in your systematic review protocol. It is best practice to extract data in duplicate, two independent reviewers, to prevent errors. 
->>>>>>> 7787d8c099c1a44224dc8f74d2ff96147b136ed3
+
 
 ## Study characteristics
 
@@ -48,14 +36,6 @@ You may need to use tools such as [Adobe desktop ruler](https://helpx.adobe.com/
 
 As you are extracting these pieces of information you will want to store them in the same place for easier, later synthesis and analysis. 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-We recommend using [SyRF](https://syrf.org.uk/){target="_blank"} the Systematic Review Facility to extract and store your data. It is a free-to-use online platform where you can create custom data extraction forms for your review. Flexible questions types and question settings, as well as online format allow for easy data extraction for you and your review team to simultaneous extract data from included papers. For more information see the [SyRF Website](https://syrf.org.uk/){target="_blank"} and the [SyRF Help Guide](https://help.syrf.org.uk/){target="_blank"} to set up your free review project. 
-=======
-We recommend using [SyRF](http://syrf.org.uk/){target="_blank"} the Systematic Review Facility to extract and store your data. It is a free-to-use online platform where you can create custom data extraction forms for your review. Flexible questions types and question settings, as well as online format allow for easy data extraction for you and your review team to simultaneous extract data from included papers. 
->>>>>>> 7787d8c099c1a44224dc8f74d2ff96147b136ed3
-=======
-We recommend using [SyRF](http://syrf.org.uk/){target="_blank"} the Systematic Review Facility to extract and store your data. It is a free-to-use online platform where you can create custom data extraction forms for your review. Flexible questions types and question settings, as well as online format allow for easy data extraction for you and your review team to simultaneous extract data from included papers. 
->>>>>>> 7787d8c099c1a44224dc8f74d2ff96147b136ed3
 
-For more information see the [SyRF Website](http://syrf.org.uk/){target="_blank"} and the [SyRF Help Guide](https://assets.syrf.org.uk/guides/SyRF_User_Guide.pdf){target="_blank"} to set up your free review project. 
+We recommend using [SyRF](https://syrf.org.uk/){target="_blank"} the Systematic Review Facility to extract and store your data. It is a free-to-use online platform where you can create custom data extraction forms for your review. Flexible questions types and question settings, as well as online format allow for easy data extraction for you and your review team to simultaneous extract data from included papers. For more information see the [SyRF Website](https://syrf.org.uk/){target="_blank"} and the [SyRF Help Guide](https://help.syrf.org.uk/){target="_blank"} to set up your free review project. 
+

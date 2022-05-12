@@ -13,14 +13,50 @@ A meta-analysis is a method of combining quantitative results from individual st
 
 ## Clinical & preclinical reviews
 
-There are many differences between preclinical and clinical systematic reviews, which is wy we developed this Wiki, specific to preclinical systematic review methodology.
+There are many differences between preclinical and clinical systematic reviews, which is why we developed this Wiki, specific to preclinical systematic review methodology.
 
-|                            | Preclinical | Clinical   |
-| -------------------------- | ----------- | ---------- |
-| # of included studies      | High        | Low        |
-| Sample size within studies | Low         | High       |
-| Experimental design        | Variable    | Consistent |
-| Uses                       | - Investigate translational failure \\\n - Explore differences between studies (heterogeneity) e.g. internal & external validity \\\n - Inform future preclinical studies e.g. model selection \\\n - Inform early phase clinical trials \\\n - Explain discrepancies in preclinical vs. clinical trial results \\\n - Inform 3Rs decisions | - Explore heterogeneity e.g. clinical populations \\\n - Inform later phase clinical studies \\\n - Inform clinical practice and guidelines
+
+
+<table>
+<colgroup>
+<col width="20%" />
+<col width="40%" />
+<col width="40%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"> </th>
+<th align="left">Preclinical</th>
+<th align="left">Clinical</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"> # of included studies</td>
+<td align="left"> High </td>
+<td align="left"> Low </td>
+</tr>
+<tr class="even">
+<td align="left">Sample size within studies</td>
+<td align="left"> Low </td>
+<td align="left"> High </td>
+</tr>
+<tr class="odd">
+<td align="left"> Experimental design </td>
+<td align="left"> Variable </td>
+<td align="left"> Consistent </td>
+</tr>
+<tr class="even">
+<td align="left"> Uses </td>
+<td align="left">
+<ul><li>Investigate translational failure</li><li>Explore differences between studies (heterogeneity) e.g. internal & external validity</li></ul><ul><li>Inform future preclinical studies e.g. model selection</li></ul><ul><li>Inform early phase clinical trials</li><li>Explain discrepancies in preclinical vs. clinical trial results</li></ul><ul><li>Inform 3Rs decisions</li></ul>
+</td>
+<td align="left"> <ul><li>Explore heterogeneity e.g. clinical populations</li><li>Inform later phase clinical studies</li></ul><ul><li>Inform clinical practice and guidelines</li></ul> </td>
+</tr>
+</tbody>
+</table>
+
+
 
 ## Why perform preclinical SRs? 
 

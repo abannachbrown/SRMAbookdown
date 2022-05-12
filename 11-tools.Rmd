@@ -3,33 +3,14 @@
 
 We highly recommend using software and tools to help you along the way. We have mentioned many tools throughout this Wiki, here is a list of all of them: 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-[SyRF](https://syrf.org.uk/){target="_blank"} the Systematic Review Facility is a free-to-use online platform to support your preclinical systematic review. Its features and auxiliary tools include: 
 
-=======
-**[SyRF](http://syrf.org.uk/){target="_blank"} the Systematic Review Facility** is a free-to-use online platform to support your preclinical systematic review. Its features and auxiliary tools include: 
+[SyRF](https://syrf.org.uk/){target="_blank"}, the Systematic Review Facility, is a free-to-use online platform to support your preclinical systematic review. Its features and auxiliary tools include: 
 
-- Automatically update your search in [PubMed](https://pubmed.ncbi.nlm.nih.gov/){target="_blank"}
->>>>>>> 7787d8c099c1a44224dc8f74d2ff96147b136ed3
 - Deduplication of systematic searches [ASysD App](https://camarades.shinyapps.io/RDedup/){target="_blank"}
 - Screening (title & abstract as well as full text)
-<<<<<<< HEAD
-
 - Data Annotation & Extraction tailored for animal experiments
-
-=======
-- Data Annotation & Extraction
->>>>>>> 7787d8c099c1a44224dc8f74d2ff96147b136ed3
-=======
-**[SyRF](http://syrf.org.uk/){target="_blank"} the Systematic Review Facility** is a free-to-use online platform to support your preclinical systematic review. Its features and auxiliary tools include: 
-
-- Automatically update your search in [PubMed](https://pubmed.ncbi.nlm.nih.gov/){target="_blank"}
-- Deduplication of systematic searches [ASysD App](https://camarades.shinyapps.io/RDedup/){target="_blank"}
-- Screening (title & abstract as well as full text)
-- Data Annotation & Extraction
->>>>>>> 7787d8c099c1a44224dc8f74d2ff96147b136ed3
 - Meta-Analysis of data from SyRF [click here](https://camarades.shinyapps.io/meta-analysis-app/){target="_blank"}
+
 
 **Additional tools include:** 
 
@@ -37,15 +18,7 @@ We highly recommend using software and tools to help you along the way. We have 
 - Data extraction from graphs: [Adobe desktop ruler](https://helpx.adobe.com/acrobat/using/grids-guides-measurements-pdfs.html){target="_blank"} or [WebPlotDigitizer](https://automeris.io/WebPlotDigitizer/){target="_blank"} 
 - Search translation across databases: [Polyglot Search Translator](https://sr-accelerator.com/#/polyglot){target="_blank"}
 
-Machine Learning: 
-<<<<<<< HEAD
-<<<<<<< HEAD
+__Machine Learning:__ 
 If you are doing a very large systematic review, consider training a custom machine learning algorithm. [Contact us](mailto:camarades.berlin@charite.de) for more information. 
 
-<br>
-=======
-If you are doing a very large systematic review, consider training a custom machine learning algorithm. Contact us for more information. 
->>>>>>> 7787d8c099c1a44224dc8f74d2ff96147b136ed3
-=======
-If you are doing a very large systematic review, consider training a custom machine learning algorithm. Contact us for more information. 
->>>>>>> 7787d8c099c1a44224dc8f74d2ff96147b136ed3
+

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Section 10 ## Searching tools | Preclinical Systematic Review Wiki</title>
+  <meta name="description" content="Section 10 ## Searching tools | Preclinical Systematic Review Wiki" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Section 10 ## Searching tools | Preclinical Systematic Review Wiki" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Section 10 ## Searching tools | Preclinical Systematic Review Wiki" />
+  
+  
+  
+
+
+
+<meta name="date" content="2022-05-11" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="systematic-search.html"/>
+<link rel="next" href="study-selection.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5N965RRHS4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5N965RRHS4');
+</script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./"><img src="CAMARADESberlinLogo.png" alt="CAMARADES Berlin Logo" style="height:100px;display:block;margin:10px 10px 10px 10px;></a></li>
+<li><a href="./">CAMARADES Systematic Review Wiki</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welcome</a></li>
+<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Preclinical Systematic Reviews</a><ul>
+<li class="chapter" data-level="2.1" data-path="intro.html"><a href="intro.html#what-is-a-systematic-review"><i class="fa fa-check"></i><b>2.1</b> What is a systematic review?</a></li>
+<li class="chapter" data-level="2.2" data-path="intro.html"><a href="intro.html#what-is-a-meta-analysis"><i class="fa fa-check"></i><b>2.2</b> What is a meta-analysis?</a></li>
+<li class="chapter" data-level="2.3" data-path="intro.html"><a href="intro.html#clinical-preclinical-reviews"><i class="fa fa-check"></i><b>2.3</b> Clinical &amp; preclinical reviews</a></li>
+<li class="chapter" data-level="2.4" data-path="intro.html"><a href="intro.html#why-perform-preclinical-srs"><i class="fa fa-check"></i><b>2.4</b> Why perform preclinical SRs?</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="srs-3rs.html"><a href="srs-3rs.html"><i class="fa fa-check"></i><b>3</b> Systematic Reviews &amp; 3Rs</a></li>
+<li class="chapter" data-level="4" data-path="b4ustart.html"><a href="b4ustart.html"><i class="fa fa-check"></i><b>4</b> Before You Start</a><ul>
+<li class="chapter" data-level="4.1" data-path="b4ustart.html"><a href="b4ustart.html#is-it-necessary"><i class="fa fa-check"></i><b>4.1</b> Is it necessary?</a></li>
+<li class="chapter" data-level="4.2" data-path="b4ustart.html"><a href="b4ustart.html#has-it-been-done-before"><i class="fa fa-check"></i><b>4.2</b> Has it been done before?</a></li>
+<li class="chapter" data-level="4.3" data-path="b4ustart.html"><a href="b4ustart.html#is-one-already-in-progress"><i class="fa fa-check"></i><b>4.3</b> Is one already in progress?</a></li>
+<li class="chapter" data-level="4.4" data-path="b4ustart.html"><a href="b4ustart.html#build-your-systematic-review-team"><i class="fa fa-check"></i><b>4.4</b> Build your systematic review team</a><ul>
+<li class="chapter" data-level="4.4.1" data-path="b4ustart.html"><a href="b4ustart.html#collborating-with-your-team"><i class="fa fa-check"></i><b>4.4.1</b> Collborating with your team</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="researchquestion.html"><a href="researchquestion.html"><i class="fa fa-check"></i><b>5</b> Research Question</a><ul>
+<li class="chapter" data-level="5.1" data-path="researchquestion.html"><a href="researchquestion.html#stakeholders"><i class="fa fa-check"></i><b>5.1</b> Stakeholders</a></li>
+<li class="chapter" data-level="5.2" data-path="researchquestion.html"><a href="researchquestion.html#preclinical-examples"><i class="fa fa-check"></i><b>5.2</b> Preclinical examples</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="protocol.html"><a href="protocol.html"><i class="fa fa-check"></i><b>6</b> Protocol</a><ul>
+<li class="chapter" data-level="6.1" data-path="protocol.html"><a href="protocol.html#what-is-a-protocol-and-why-have-one"><i class="fa fa-check"></i><b>6.1</b> What is a protocol and why have one?</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="section.html"><a href="section.html"><i class="fa fa-check"></i><b>7</b> <br></a><ul>
+<li class="chapter" data-level="7.1" data-path="section.html"><a href="section.html#protocol-templates"><i class="fa fa-check"></i><b>7.1</b> Protocol templates</a></li>
+<li class="chapter" data-level="7.2" data-path="section.html"><a href="section.html#register-your-protocol"><i class="fa fa-check"></i><b>7.2</b> Register your protocol</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="section-1.html"><a href="section-1.html"><i class="fa fa-check"></i><b>8</b> <br></a><ul>
+<li class="chapter" data-level="8.1" data-path="section-1.html"><a href="section-1.html#register-your-protocol-1"><i class="fa fa-check"></i><b>8.1</b> Register your protocol</a><ul>
+<li class="chapter" data-level="8.1.1" data-path="section-1.html"><a href="section-1.html#your-protocol-3rs"><i class="fa fa-check"></i><b>8.1.1</b> Your protocol &amp; 3Rs</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="systematic-search.html"><a href="systematic-search.html"><i class="fa fa-check"></i><b>9</b> Systematic Search</a><ul>
+<li class="chapter" data-level="9.1" data-path="systematic-search.html"><a href="systematic-search.html#selecting-databases"><i class="fa fa-check"></i><b>9.1</b> Selecting databases</a><ul>
+<li class="chapter" data-level="9.1.1" data-path="systematic-search.html"><a href="systematic-search.html#pubmed"><i class="fa fa-check"></i><b>9.1.1</b> PubMed</a></li>
+<li class="chapter" data-level="9.1.2" data-path="systematic-search.html"><a href="systematic-search.html#embase"><i class="fa fa-check"></i><b>9.1.2</b> Embase</a></li>
+<li class="chapter" data-level="9.1.3" data-path="systematic-search.html"><a href="systematic-search.html#web-of-science"><i class="fa fa-check"></i><b>9.1.3</b> Web of Science</a></li>
+<li class="chapter" data-level="9.1.4" data-path="systematic-search.html"><a href="systematic-search.html#other-sources-grey-literature"><i class="fa fa-check"></i><b>9.1.4</b> Other sources &amp; grey literature</a></li>
+</ul></li>
+<li class="chapter" data-level="9.2" data-path="systematic-search.html"><a href="systematic-search.html#search-strategy-development"><i class="fa fa-check"></i><b>9.2</b> Search strategy development</a><ul>
+<li class="chapter" data-level="9.2.1" data-path="systematic-search.html"><a href="systematic-search.html#step-1-find-keywords-and-synonyms-for-each-element"><i class="fa fa-check"></i><b>9.2.1</b> Step 1: Find keywords and synonyms for each element</a></li>
+<li class="chapter" data-level="9.2.2" data-path="systematic-search.html"><a href="systematic-search.html#step-2-indexsubject-terms-database-specific"><i class="fa fa-check"></i><b>9.2.2</b> Step 2: Index/subject terms (database-specific)</a></li>
+<li class="chapter" data-level="9.2.3" data-path="systematic-search.html"><a href="systematic-search.html#step-3-combining-search-terms-using-boolean-operators"><i class="fa fa-check"></i><b>9.2.3</b> Step 3: Combining search terms using Boolean operators</a></li>
+<li class="chapter" data-level="9.2.4" data-path="systematic-search.html"><a href="systematic-search.html#precision-sensitivity"><i class="fa fa-check"></i><b>9.2.4</b> Precision &amp; sensitivity</a></li>
+<li class="chapter" data-level="9.2.5" data-path="systematic-search.html"><a href="systematic-search.html#tips-tricks"><i class="fa fa-check"></i><b>9.2.5</b> Tips &amp; tricks</a></li>
+</ul></li>
+<li class="chapter" data-level="9.3" data-path="systematic-search.html"><a href="systematic-search.html#combine-search-results"><i class="fa fa-check"></i><b>9.3</b> Combine search results</a><ul>
+<li class="chapter" data-level="9.3.1" data-path="systematic-search.html"><a href="systematic-search.html#does-the-import-order-matter-yes"><i class="fa fa-check"></i><b>9.3.1</b> Does the import order matter? YES!</a></li>
+</ul></li>
+<li class="chapter" data-level="9.4" data-path="systematic-search.html"><a href="systematic-search.html#deduplication"><i class="fa fa-check"></i><b>9.4</b> Deduplication</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="searching-tools.html"><a href="searching-tools.html"><i class="fa fa-check"></i><b>10</b> ## Searching tools</a><ul>
+<li class="chapter" data-level="10.1" data-path="searching-tools.html"><a href="searching-tools.html#find-retrieve-full-texts"><i class="fa fa-check"></i><b>10.1</b> Find &amp; retrieve full texts</a><ul>
+<li class="chapter" data-level="10.1.1" data-path="searching-tools.html"><a href="searching-tools.html#tips-tricks-for-full-text-retrieval"><i class="fa fa-check"></i><b>10.1.1</b> Tips &amp; tricks for full text retrieval</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="study-selection.html"><a href="study-selection.html"><i class="fa fa-check"></i><b>11</b> Study Selection</a><ul>
+<li class="chapter" data-level="11.1" data-path="study-selection.html"><a href="study-selection.html#inclusion-exclusion-criteria"><i class="fa fa-check"></i><b>11.1</b> Inclusion &amp; exclusion criteria</a></li>
+<li class="chapter" data-level="11.2" data-path="study-selection.html"><a href="study-selection.html#apply-your-criteria"><i class="fa fa-check"></i><b>11.2</b> Apply your criteria</a></li>
+<li class="chapter" data-level="11.3" data-path="study-selection.html"><a href="study-selection.html#tools-for-screening"><i class="fa fa-check"></i><b>11.3</b> Tools for screening</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="data-extraction.html"><a href="data-extraction.html"><i class="fa fa-check"></i><b>12</b> Data Extraction</a></li>
+<li class="chapter" data-level="13" data-path="section-2.html"><a href="section-2.html"><i class="fa fa-check"></i><b>13</b> <br></a><ul>
+<li class="chapter" data-level="13.1" data-path="section-2.html"><a href="section-2.html#study-characteristics"><i class="fa fa-check"></i><b>13.1</b> Study characteristics</a></li>
+<li class="chapter" data-level="13.2" data-path="section-2.html"><a href="section-2.html#quantitative-data"><i class="fa fa-check"></i><b>13.2</b> Quantitative data</a></li>
+<li class="chapter" data-level="13.3" data-path="section-2.html"><a href="section-2.html#data-extraction-software"><i class="fa fa-check"></i><b>13.3</b> Data extraction software</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="quality-assessment.html"><a href="quality-assessment.html"><i class="fa fa-check"></i><b>14</b> Quality Assessment</a><ul>
+<li class="chapter" data-level="14.1" data-path="quality-assessment.html"><a href="quality-assessment.html#why-assess-study-quality"><i class="fa fa-check"></i><b>14.1</b> Why assess study quality?</a></li>
+</ul></li>
+<li class="chapter" data-level="15" data-path="reporting.html"><a href="reporting.html"><i class="fa fa-check"></i><b>15</b> ## Reporting</a><ul>
+<li class="chapter" data-level="15.1" data-path="reporting.html"><a href="reporting.html#reporting-quality"><i class="fa fa-check"></i><b>15.1</b> Reporting quality</a></li>
+</ul></li>
+<li class="chapter" data-level="16" data-path="d8c099c1a44224dc8f74d2ff96147b136ed3.html"><a href="d8c099c1a44224dc8f74d2ff96147b136ed3.html"><i class="fa fa-check"></i><b>16</b> &gt;&gt;&gt;&gt;&gt;&gt;&gt; 7787d8c099c1a44224dc8f74d2ff96147b136ed3</a><ul>
+<li class="chapter" data-level="16.1" data-path="d8c099c1a44224dc8f74d2ff96147b136ed3.html"><a href="d8c099c1a44224dc8f74d2ff96147b136ed3.html#reporting-quality-1"><i class="fa fa-check"></i><b>16.1</b> Reporting quality</a></li>
+<li class="chapter" data-level="16.2" data-path="d8c099c1a44224dc8f74d2ff96147b136ed3.html"><a href="d8c099c1a44224dc8f74d2ff96147b136ed3.html#risk-of-bias-methodological-quality"><i class="fa fa-check"></i><b>16.2</b> Risk of bias / methodological quality</a></li>
+<li class="chapter" data-level="16.3" data-path="d8c099c1a44224dc8f74d2ff96147b136ed3.html"><a href="d8c099c1a44224dc8f74d2ff96147b136ed3.html#rob-assessment-to-inform-analysis"><i class="fa fa-check"></i><b>16.3</b> RoB assessment to inform analysis</a></li>
+</ul></li>
+<li class="chapter" data-level="17" data-path="meta-analysis.html"><a href="meta-analysis.html"><i class="fa fa-check"></i><b>17</b> Meta-Analysis</a><ul>
+<li class="chapter" data-level="17.1" data-path="meta-analysis.html"><a href="meta-analysis.html#what-is-meta-analysis"><i class="fa fa-check"></i><b>17.1</b> What is Meta-Analysis?</a></li>
+<li class="chapter" data-level="17.2" data-path="meta-analysis.html"><a href="meta-analysis.html#why-perform-meta-analysis"><i class="fa fa-check"></i><b>17.2</b> Why perform Meta-Analysis?</a></li>
+<li class="chapter" data-level="17.3" data-path="meta-analysis.html"><a href="meta-analysis.html#meta-analysis-tools"><i class="fa fa-check"></i><b>17.3</b> Meta-Analysis Tools</a></li>
+<li class="chapter" data-level="17.4" data-path="meta-analysis.html"><a href="meta-analysis.html#step-1.-calculate-effect-size"><i class="fa fa-check"></i><b>17.4</b> Step 1. Calculate effect size</a><ul>
+<li class="chapter" data-level="17.4.1" data-path="meta-analysis.html"><a href="meta-analysis.html#dichotomous-outcomes"><i class="fa fa-check"></i><b>17.4.1</b> Dichotomous Outcomes</a></li>
+<li class="chapter" data-level="17.4.2" data-path="meta-analysis.html"><a href="meta-analysis.html#median"><i class="fa fa-check"></i><b>17.4.2</b> Median</a></li>
+<li class="chapter" data-level="17.4.3" data-path="meta-analysis.html"><a href="meta-analysis.html#true-number-of-controls"><i class="fa fa-check"></i><b>17.4.3</b> True number of Controls</a></li>
+</ul></li>
+<li class="chapter" data-level="17.5" data-path="meta-analysis.html"><a href="meta-analysis.html#step-2.-combine-effect-sizes"><i class="fa fa-check"></i><b>17.5</b> Step 2. Combine effect sizes</a><ul>
+<li class="chapter" data-level="17.5.1" data-path="meta-analysis.html"><a href="meta-analysis.html#fixed-effects-model"><i class="fa fa-check"></i><b>17.5.1</b> Fixed Effects Model</a></li>
+<li class="chapter" data-level="17.5.2" data-path="meta-analysis.html"><a href="meta-analysis.html#random-effects-model"><i class="fa fa-check"></i><b>17.5.2</b> Random Effects Model</a></li>
+</ul></li>
+<li class="chapter" data-level="17.6" data-path="meta-analysis.html"><a href="meta-analysis.html#step-3.-investigate-heterogeneity"><i class="fa fa-check"></i><b>17.6</b> Step 3. Investigate heterogeneity</a></li>
+<li class="chapter" data-level="17.7" data-path="meta-analysis.html"><a href="meta-analysis.html#step-4.-reporting-biases"><i class="fa fa-check"></i><b>17.7</b> Step 4. Reporting biases</a></li>
+<li class="chapter" data-level="17.8" data-path="meta-analysis.html"><a href="meta-analysis.html#step-5.-interpret-the-results"><i class="fa fa-check"></i><b>17.8</b> Step 5. Interpret the results</a></li>
+</ul></li>
+<li class="chapter" data-level="18" data-path="tools-for-systematic-review.html"><a href="tools-for-systematic-review.html"><i class="fa fa-check"></i><b>18</b> Tools for Systematic Review</a></li>
+<li class="chapter" data-level="19" data-path="section-3.html"><a href="section-3.html"><i class="fa fa-check"></i><b>19</b> <br></a></li>
+<li class="chapter" data-level="20" data-path="publication.html"><a href="publication.html"><i class="fa fa-check"></i><b>20</b> Publication</a><ul>
+<li class="chapter" data-level="20.1" data-path="publication.html"><a href="publication.html#good-reporting"><i class="fa fa-check"></i><b>20.1</b> Good reporting</a></li>
+</ul></li>
+<li class="chapter" data-level="21" data-path="resources-links.html"><a href="resources-links.html"><i class="fa fa-check"></i><b>21</b> Resources &amp; Links</a></li>
+<li class="chapter" data-level="22" data-path="syrf-help-guide.html"><a href="syrf-help-guide.html"><i class="fa fa-check"></i><b>22</b> <span>SyRF Help Guide</span></a><ul>
+<li class="chapter" data-level="22.1" data-path="syrf-help-guide.html"><a href="syrf-help-guide.html#systematic-review-facility---camarades"><i class="fa fa-check"></i><b>22.1</b> Systematic Review Facility - CAMARADES</a></li>
+<li class="chapter" data-level="22.2" data-path="syrf-help-guide.html"><a href="syrf-help-guide.html#templates-guides"><i class="fa fa-check"></i><b>22.2</b> Templates &amp; Guides</a></li>
+<li class="chapter" data-level="22.3" data-path="syrf-help-guide.html"><a href="syrf-help-guide.html#grade-approach"><i class="fa fa-check"></i><b>22.3</b> GRADE Approach</a></li>
+<li class="chapter" data-level="22.4" data-path="syrf-help-guide.html"><a href="syrf-help-guide.html#templates-guides-1"><i class="fa fa-check"></i><b>22.4</b> Templates &amp; Guides</a></li>
+<li class="chapter" data-level="22.5" data-path="syrf-help-guide.html"><a href="syrf-help-guide.html#grade-approach-1"><i class="fa fa-check"></i><b>22.5</b> GRADE Approach</a></li>
+</ul></li>
+<li class="chapter" data-level="23" data-path="workshops.html"><a href="workshops.html"><i class="fa fa-check"></i><b>23</b> Workshops &amp; Tutorials</a><ul>
+<li class="chapter" data-level="23.1" data-path="workshops.html"><a href="workshops.html#workshops-1"><i class="fa fa-check"></i><b>23.1</b> Workshops</a></li>
+<li class="chapter" data-level="23.2" data-path="workshops.html"><a href="workshops.html#meta-analysis-tutorial"><i class="fa fa-check"></i><b>23.2</b> Meta-Analysis Tutorial</a></li>
+</ul></li>
+<li class="chapter" data-level="24" data-path="about.html"><a href="about.html"><i class="fa fa-check"></i><b>24</b> About</a><ul>
+<li class="chapter" data-level="24.0.1" data-path="about.html"><a href="about.html#to-cite-the-tool"><i class="fa fa-check"></i><b>24.0.1</b> To cite the tool</a></li>
+<li class="chapter" data-level="24.0.2" data-path="about.html"><a href="about.html#our-team"><i class="fa fa-check"></i><b>24.0.2</b> Our Team</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="mailto:camarades.berlin@charite.de" target="_blank"> Contact Us Here </a></li>
+<br>
+<li><a href="https://github.com/rstudio/bookdown" target="_blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Preclinical Systematic Review Wiki</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="searching-tools" class="section level1">
+<h1><span class="header-section-number">Section 10</span> ## Searching tools</h1>
+<p>=======
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 7787d8c099c1a44224dc8f74d2ff96147b136ed3
+## Updating your search &amp; searching tools</p>
+<p>SyRF Systematic Review Facility has a built-in function that can automatically retrieve new records that meet your search string from PubMed. For more information, see the <a href="https://assets.syrf.org.uk/guides/SyRF_User_Guide.pdf" target="_blank">SyRF Help Guide here</a>.</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>7787d8c099c1a44224dc8f74d2ff96147b136ed3</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>The Polyglot Search Translator is a tool that will assist you in translating the syntax of your search string across various databases. For more information of the <a href="https://sr-accelerator.com/#/polyglot" target="_blank">Polyglot Search Translator see here</a>.</p>
+<div id="find-retrieve-full-texts" class="section level2">
+<h2><span class="header-section-number">10.1</span> Find &amp; retrieve full texts</h2>
+<p>Once you have your library of unique references you can find and retrieve the full texts.</p>
+<ol style="list-style-type: decimal">
+<li>Use your reference manager. Guides for retrieving from <a href="https://subjectguides.library.american.edu/c.php?g=479020&amp;p=3324236" target="_blank">Endnote</a> and <a href="https://www.zotero.org/support/locate" target="_blank">Zotero</a> can be found at the respective links.</li>
+<li>Search Online: Google search, GoogleScholar, ResearchGate, etc.</li>
+<li>Contact corresponding authors directly via email or Twitter.</li>
+<li>Last resort: ask your librarian to assist with inter-library loans. (NB: these can be very costly!)</li>
+</ol>
+<div id="tips-tricks-for-full-text-retrieval" class="section level3">
+<h3><span class="header-section-number">10.1.1</span> Tips &amp; tricks for full text retrieval</h3>
+<ul>
+<li>Add your Institutional Log-in information to the settings or preferences of the reference manager, e.g. <a href="https://ezproxy-db.appspot.com/" target="_blank">EzProxy</a> information or <a href="https://www.zotero.org/support/locate/openurl_resolvers" target="_blank">OpenURL</a> information, so you can more easily find the full texts that your institutional library has access to.</li>
+<li>Be careful using custom scripts or other programs to bulk download as this can result in your institutional IP address being blocked</li>
+<li>If your search strategy has retrieved a lot of potentially relevant results, you may want to consider waiting to find the full texts until after you have carried out titles and abstract screening (see below). This will greatly reduce the number of full text records you need to find, and you will not waste time trying to find articles that are not relevant to your research question.</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="footer"> 
+<hr>
+
+<p style="text-align: center;">Website by  <a href="https://github.com/abannachbrown">A Bannach-Brown on behalf of CAMARADES & CAMARADES Berlin</a></p>
+<p style="text-align: center;"><span style="color: #808080;"><em>CAMARADES.Berlin@charite.de</em></span></p>
+
+
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<p style="text-align: center;">
+    <a href="https://twitter.com/camarades_" class="fa fa-twitter"></a>
+    <a href="mailto:camarades.berlin@charite.de" class="fa fa-envelope"></a>
+    <a href="https://github.com/abannachbrown/" class="fa fa-github"></a>
+</p>
+
+<hr>
+
+<!-- Add license info -->
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+<br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="systematic-search.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="study-selection.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": null,
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["SRMAbookdown.pdf"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+},
+"twitter": true,
+"info": true,
+"toolbar": {
+"position": "fixed"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

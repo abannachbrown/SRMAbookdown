@@ -12,8 +12,6 @@ Report your systematic review in a way that allows reproducibility of the result
 ## Good reporting
 
 
-We recommend following the Preferred Reporting Items for Systematic Reviews and Meta-analyses  (PRISMA) Guidelines.  The checklist can be found [here.](http://www.prisma-statement.org/PRISMAStatement/Checklist){target="_blank"}
-
-We recommend using the PRISMA Flowchart to visualise the studies in your systematic review process. The PRISMA Flowchart template can be [found here.](http://prisma-statement.org/prismastatement/flowdiagram){target="_blank"}
+We recommend following the Preferred Reporting Items for Systematic Reviews and Meta-analyses  (PRISMA) Guidelines.  The checklist can be found [here.](http://www.prisma-statement.org/PRISMAStatement/Checklist){target="_blank"} In addition, we recommend using the PRISMA Flowchart to visualise the studies in your systematic review process. The PRISMA Flowchart template can be [found here.](http://prisma-statement.org/prismastatement/flowdiagram){target="_blank"}
 
 ![](figs/PRISMA.png)

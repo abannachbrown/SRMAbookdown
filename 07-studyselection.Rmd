@@ -18,35 +18,18 @@ It is important the criteria are predefined, *a priori*, and applied consistentl
 
 Commonly your inclusion and exclusion criteria are defined around: 
 
-<<<<<<< HEAD
+
 * Type of study or study design
 * Type of population (e.g. age, sex, disease model)
 * Type of intervention (e.g. dosage, timing of intervention, frequency)
-* Type of Outcome Measures (e.g. parameters related to method of assessment or apparatus)
-=======
-- Type of study or study design
-- Type of population (e.g. age, sex, disease model)
-- Type of intervention (e.g. dosage, timing of intervention, frequency)
-- Type of Outcome Measures (e.g. parameters related to method of assessment or apparatus)
-<<<<<<< HEAD
->>>>>>> 7787d8c099c1a44224dc8f74d2ff96147b136ed3
-=======
->>>>>>> 7787d8c099c1a44224dc8f74d2ff96147b136ed3
+* Type of outcome Measures (e.g. parameters related to method of assessment or apparatus)
+
 
 Additional factors you may want to consider: 
 
-<<<<<<< HEAD
 * Language restrictions
 * Publication date restrictions 
 * Type of publication (e.g. conference abstracts, peer-reviewed)
-=======
-- Language restrictions (what languages can your review team translate?)
-- Publication date restrictions 
-- Type of publication (e.g. conference abstracts, peer-reviewed)
-<<<<<<< HEAD
->>>>>>> 7787d8c099c1a44224dc8f74d2ff96147b136ed3
-=======
->>>>>>> 7787d8c099c1a44224dc8f74d2ff96147b136ed3
 
 You may consider prioritising your inclusion and exclusion criteria based on what criteria you are likely to apply at title and abstract stage, and what criteria you can only apply after having read the full-text. 
 
@@ -58,11 +41,9 @@ To ensure your inclusion and exclusion criteria are applied in a unbiased, unifo
 
 ## Tools for screening
 
-<<<<<<< HEAD
-You can complete title and abstract screening & full text screening in [SyRF](https://syrf.org.uk/){target="_blank"} the Systematic Review Facility which is a free-to-use online platform to support your preclinical systematic review. 
-=======
-You can complete title and abstract screening & full text screening in [SyRF](http://syrf.org.uk/){target="_blank"} the Systematic Review Facility which is a free-to-use online platform to support your preclinical systematic review. 
->>>>>>> 7787d8c099c1a44224dc8f74d2ff96147b136ed3
+
+You can complete title and abstract screening & full text screening in [SyRF](https://syrf.org.uk/){target="_blank"}, the Systematic Review Facility, which is a free-to-use online platform to support your preclinical systematic review. 
+
 
 SyRF randomly presents the order of articles to screeners and by default requires a consensus between multiple screeners. 
 
