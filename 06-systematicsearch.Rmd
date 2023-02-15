@@ -119,6 +119,17 @@ A good search strategy aims to to **maximise sensitivity** while attempting to *
 - Consider truncation symbols or "wildcards" for your search (e.g. ischem* for ischemia and ischemic, etc). Check all bibliographic databases allow this before adding to your search
 - The Polyglot Search Translator is a tool that will assist you in translating the syntax of your search string across various databases. For more information of the [Polyglot Search Translator see here](https://sr-accelerator.com/#/polyglot){target="_blank"}
 
+
+### Consulting an Information Specialist
+When developing a systematic search strategy, it is useful to consult an information specialist to make your search as precise and exhaustive as possible. Before contacting an information specialist, there are a couple of things to consider: 
+<br> 
+- Make sure you have your research question clearly defined e.g., in a PICO format. 
+<br> 
+- To provide them with more context on the aims of your review, be sure to include a couple of representative publications that you would include in your review. 
+<br> 
+- Where possible, share a draft of your SR protocol and search strategy with them
+
+
 ## Combine search results
 
 Once you have run your searches across multiple databases, you can combine your search results in a reference manager software, such as [EndNote](https://endnote.com/){target="_blank"} or [Zotero](https://www.zotero.org/){target="_blank"}.
