@@ -10,7 +10,7 @@ __Introduction to Systematic Review & Meta-Analysis of Animal Studies__
 <br>
 Through a mix of lectures and hands-on practical activities and tutorials across 3 half days, you will learn the major steps required to undertake a systematic review and meta-analysis of preclinical animal studies. For information on our next workshop and to register, please click here: [Introduction to Systematic Review & Meta-Analysis of Animal Studies](https://www.bihealth.org/en/translation/innovation-enabler/quest-center/events/course/introduction-to-systematic-review-meta-analysis-of-animal-studies){target="_blank"}
 <br>
-We have summarized the main points of the workshop in this [Cheat sheet](CheatSheet_IntroSRworkshop_2022.pdf){target="_blank"}
+We have summarized the main points of the workshop in this [Cheat sheet](CheatSheet_IntroSRworkshop_2023.pdf){target="_blank"}
 
 <br>
 __Protocol Development for Systematic Review of Animal Studies__
