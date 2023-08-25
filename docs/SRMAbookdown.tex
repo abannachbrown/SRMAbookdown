@@ -5,16 +5,19 @@
 \documentclass[
 ]{book}
 \usepackage{amsmath,amssymb}
-\usepackage{lmodern}
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
 \else % if luatex or xetex
-  \usepackage{unicode-math}
+  \usepackage{unicode-math} % this also loads fontspec
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -68,7 +71,7 @@
 \bibliographystyle{apalike}
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\urlstyle{same} % disable monospaced font for URLs
+\urlstyle{same}
 \hypersetup{
   pdftitle={Preclinical Systematic Review Wiki},
   hidelinks,
@@ -76,7 +79,7 @@
 
 \title{Preclinical Systematic Review Wiki}
 \author{}
-\date{\vspace{-2.5em}2023-03-27}
+\date{\vspace{-2.5em}2023-08-25}
 
 \begin{document}
 \maketitle
@@ -1359,12 +1362,39 @@ Animal Models of Stroke: an Update. \emph{Translational Stroke Research} 7, 395-
 
 We have put together this Wiki Page to provide information and documents, links, and useful tools to guide your through your preclinical systematic review. These resources have been put together using many CC-BY-4.0 sources including; \href{https://syrf.org.uk/}{SyRF}, and \href{https://training.cochrane.org/interactivelearning}{Cochrane Interactive Learning}. We thank these organisations and teams for making their resources available, definitely check out their resources as well!
 
-This resource was last updated on: 27 March, 2023
+This resource was last updated on: 25 August, 2023
 
-\hypertarget{to-cite-the-tool}{%
-\subsection{To cite the tool}\label{to-cite-the-tool}}
+\hypertarget{to-cite-this-resource}{%
+\subsection{To cite this resource}\label{to-cite-this-resource}}
 
-Preclinical Systematic Reviews \& Meta-Analysis Wiki, (March, 2023), CAMARADES Berlin, QUEST-BIH Charité. Accessed from: \url{https://www.CAMARADES.de}
+Preclinical Systematic Reviews \& Meta-Analysis Wiki, (August, 2023), CAMARADES Berlin, QUEST-BIH Charité. Accessed from: \url{https://www.CAMARADES.de}
+
+\hypertarget{acknowledge-our-services}{%
+\subsection{Acknowledge our services}\label{acknowledge-our-services}}
+
+At CAMARADES we provide services to support researchers in conducting high-quality systematic reviews of preclinical evidence. Engaging with our support services can take many forms, from attending our drop-in sessions, email consultation, to one-on-one sessions for the duration of your project. Each project team and review topic is unique, and the level of support required can vary across the life-cycle of your project.
+
+As our services are free of charge, we greatly appreciate appropriate acknowledgement of our support in your published work.
+
+If you have utilised our support services, we would be grateful for acknowledgment in your published work. For example, \emph{``We would like to thank {[}insert team member's name{]} from CAMARADES Berlin, QUEST Center, Berlin Institute of Health @ Charité Universitätsmedizin for consultation {[}and/or support{]}.''}
+
+For more extensive support, which may span multiple stages of the project or forms of support, we typically join the review team as a co-author, given our assistance meets the criteria for authorship according to the \href{https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html}{ICMJE recommendations} (see more below). In this case, potential authorship will be based on discussion and informed by the published guidance, according to the individual circumstances of the project.
+
+Your acknowledgement is essential to help us continue offering our services to the research community. We value your collaboration!
+
+The \href{https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html}{ICMJE} recommends that authorship be based on the following 4 criteria:
+
+\begin{itemize}
+\tightlist
+\item
+  Substantial contributions to the conception or design of the work; or the acquisition, analysis, or interpretation of data for the work; AND
+\item
+  Drafting the work or reviewing it critically for important intellectual content; AND
+\item
+  Final approval of the version to be published; AND
+\item
+  Agreement to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved.
+\end{itemize}
 
 \hypertarget{our-team}{%
 \subsection{Our Team}\label{our-team}}
@@ -1377,6 +1407,8 @@ Preclinical Systematic Reviews \& Meta-Analysis Wiki, (March, 2023), CAMARADES B
   Torsten Rackoll, PhD
 \item
   Alexandra Bannach-Brown, PhD
+\item
+  Sofija Vjvodic, MSc
 \end{itemize}
 
 If you have questions about the resources, or would like to ask a question about your specific review, get in touch: \href{mailto:CAMARADES.berlin@charite.de}{Email us here}

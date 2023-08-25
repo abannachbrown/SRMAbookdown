@@ -8,9 +8,30 @@ This resource was last updated on: `r format(Sys.time(), '%d %B, %Y')`
 
 <br>
 
-### To cite the tool
+### To cite this resource
 
 Preclinical Systematic Reviews & Meta-Analysis Wiki, (`r format(Sys.time(),  '%B, %Y')`), CAMARADES Berlin, QUEST-BIH Charité. Accessed from: https://www.CAMARADES.de
+
+<br>
+
+### Acknowledge our services
+
+At CAMARADES we provide services to support researchers in conducting high-quality systematic reviews of preclinical evidence. Engaging with our support services can take many forms, from attending our drop-in sessions, email consultation, to one-on-one sessions for the duration of your project. Each project team and review topic is unique, and the level of support required can vary across the life-cycle of your project.  
+
+As our services are free of charge, we greatly appreciate appropriate acknowledgement of our support in your published work.  
+
+If you have utilised our support services, we would be grateful for acknowledgment in your published work. For example, *“We would like to thank [insert team member’s name] from CAMARADES Berlin, QUEST Center, Berlin Institute of Health @ Charité Universitätsmedizin for consultation [and/or support].”*
+
+For more extensive support, which may span multiple stages of the project or forms of support, we typically join the review team as a co-author, given our assistance meets the criteria for authorship according to the [ICMJE recommendations](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html){target="_blank"} (see more below). In this case, potential authorship will be based on discussion and informed by the published guidance, according to the individual circumstances of the project. 
+
+Your acknowledgement is essential to help us continue offering our services to the research community. We value your collaboration! 
+
+The [ICMJE](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html){target="_blank"} recommends that authorship be based on the following 4 criteria: 
+
+- Substantial contributions to the conception or design of the work; or the acquisition, analysis, or interpretation of data for the work; AND 
+- Drafting the work or reviewing it critically for important intellectual content; AND
+- Final approval of the version to be published; AND
+- Agreement to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved.
 
 <br>
 
@@ -19,6 +40,7 @@ Preclinical Systematic Reviews & Meta-Analysis Wiki, (`r format(Sys.time(),  '%B
 - **Sarah McCann, PhD**
 - Torsten Rackoll, PhD
 - Alexandra Bannach-Brown, PhD
+- Sofija Vjvodic, MSc
 
 <br>
 
