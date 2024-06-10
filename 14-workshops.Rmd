@@ -34,6 +34,20 @@ We currently have modules on the following topics:
 - Introduction to Systematic Review & Meta-Analysis of Animal Studies
 <br>
 - Systematic Literature Searching
+<br>
+- Defining a research question 
+<br>
+- Protocol Development 
+<br>
+- Citation Screening & Eligibility Criteria 
+<br>
+- Critical Appraisal of Animal Studies 
+<br>
+- Data Extraction 
+<br>
+- Meta-Analysis of Animal Studies 
+<br>
+
 
 For instructions on how to make a FREE user account, please see this step-by-step [instruction document here.](eLearning_course_account_guide.pdf) 
 

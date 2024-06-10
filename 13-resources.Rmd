@@ -3,9 +3,13 @@
 
 
 ## Systematic Review Facility - CAMARADES
+A SyRF is a free online platform to aid you in your systematic reviews and meta-analyses of in vivo studies. 
 
 - [SyRF](https://syrf.org.uk/){target="_blank"}
 - [SyRF Help Guide](https://help.syrf.org.uk/){target="_blank"}
+
+
+![](figs/syrf-logo.png)
 
 
 ## Templates & Guides
@@ -16,6 +20,3 @@
 - [Cochrane Handbook](https://training.cochrane.org/handbook/current){target="_blank"}
 - [Cheat sheet](CheatSheet_IntroSRworkshop_2023.pdf){target="_blank"}: We have summarized the main points of our Introduction to SR workshop in this cheat sheet, including links to relevant references and resources. 
 
-## GRADE Approach
-
-- [Hooijmans et al., 2018. Preclinical GRADE Approach](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0187271){target="_blank"}
