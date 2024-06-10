@@ -35,6 +35,7 @@ The [ICMJE](https://www.icmje.org/recommendations/browse/roles-and-responsibilit
 
 <br>
 
+<<<<<<< HEAD
 ## Join the Systematic Review Community 
 COReS is a project to build a community around preclinical evidence synthesis. The project aims to bring together primary researchers and evidence synthesists to form communities and providing infrastructure and support systems to empower the community in the performance of systematic reviews in a collaborative manner.  Join the community to improve the quality and value of preclinical research in biomedicine! 
 <br>
@@ -42,6 +43,13 @@ COReS is a project to build a community around preclinical evidence synthesis. T
 + Stay up-to-date with Community News via the newsletter. [Sign up to the newsletter.](http://eepurl.com/h4hsMv){target="_blank"}  
 + Join the discussion forum to share ideas, work collaboratively, and connect with researchers and methodologists. [Make a free user account for the discussion forum here.](www.cores.zulipchat.com){target="_blank"}  
 + Follow the project on LinkedIn for regular update on education offers, talks, and project development. [Check out COReS on LinkedIn here.](https://www.linkedin.com/company/communities-for-open-research-synthesis/){target="_blank"}  
+=======
+### Join the Systematic Review Community 
+
+
+
+### Our Team
+>>>>>>> 832aec4947182532cdf6236f31894a35cab54b06
 
 
 Find our more about joining the community on the [COReS Hub.](https://cores-hub.io/cores-join-the-community/){target="_blank"}
