@@ -163,20 +163,20 @@ As you have searched several different databases and other sources, there are li
 
 Tools to help remove duplicate references include: 
 
-- Endnote can be used to find and remove duplicate records. See [this resource.](10.3163/1536-5050.104.3.014){target="_blank"}
-- Stand-alone tools such as the [SR-Accelerator Tool](https://doi.org/10.1186/2046-4053-4-6){target="_blank"} and the [ASySD tool](https://camarades.shinyapps.io/RDedup/){target="_blank"} for preclinical reviews. 
+- Endnote can be used to find and remove duplicate records. See [this resource.](https://support.clarivate.com/Endnote/s/article/EndNote-20-Steps-to-remove-duplicates-from-your-EndNote-library?language=en_US){target="_blank"}
+- Stand-alone tools such as the [SR-Accelerator Tool](https://doi.org/10.1186/2046-4053-4-6){target="_blank"} and the [ASySD tool](https://camarades.shinyapps.io/ASySD/){target="_blank"} for preclinical reviews. 
 
 
 
 ## Searching tools
 
-The Polyglot Search Translator is a tool that will assist you in translating the syntax of your search string across various databases. For more information of the [Polyglot Search Translator see here](https://sr-accelerator.com/#/polyglot){target="_blank"}. 
+The Polyglot Search Translator is a tool that will assist you in translating the syntax of your search string across various databases. For more information of the [Polyglot Search Translator see here](https://sr-accelerator.com/#/polyglot){target="_blank"}. Please not this cannot be used as a simple translator without adequate review of the translation and thorough testing of the search. 
 
 
 ## Find & retrieve full texts
 Once you have your library of unique references you can find and retrieve the full texts. 
 
-1. Use your reference manager. Guides for retrieving from [Endnote](https://subjectguides.library.american.edu/c.php?g=479020&p=3324236){target="_blank"} and [Zotero](https://www.zotero.org/support/locate){target="_blank"} can be found at the respective links. 
+1. Use your reference manager. Guides for retrieving from [Endnote](https://support.clarivate.com/Endnote/s/article/EndNote-Find-Full-Text-and-Ex-Libris-Alma-Primo-link-resolver?language=en_US)){target="_blank"} and [Zotero](https://www.zotero.org/support/locate){target="_blank"} can be found at the respective links. 
 2. Search Online: Google search, GoogleScholar, ResearchGate, etc. 
 3. Contact corresponding authors directly via email or Twitter. 
 4. Last resort: ask your librarian to assist with inter-library loans. (NB: these can be very costly!)

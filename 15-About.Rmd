@@ -8,13 +8,13 @@ This resource was last updated on: `r format(Sys.time(), '%d %B, %Y')`
 
 <br>
 
-### To cite this resource
+## To cite this resource
 
 Preclinical Systematic Reviews & Meta-Analysis Wiki, (`r format(Sys.time(),  '%B, %Y')`), CAMARADES Berlin, QUEST-BIH Charité. Accessed from: https://www.CAMARADES.de
 
 <br>
 
-### Acknowledge our services
+## Acknowledge our services
 
 At CAMARADES we provide services to support researchers in conducting high-quality systematic reviews of preclinical evidence. Engaging with our support services can take many forms, from attending our drop-in sessions, email consultation, to one-on-one sessions for the duration of your project. Each project team and review topic is unique, and the level of support required can vary across the life-cycle of your project.  
 
@@ -35,12 +35,27 @@ The [ICMJE](https://www.icmje.org/recommendations/browse/roles-and-responsibilit
 
 <br>
 
-### Our Team
+## Join the Systematic Review Community 
+COReS is a project to build a community around preclinical evidence synthesis. The project aims to bring together primary researchers and evidence synthesists to form communities and providing infrastructure and support systems to empower the community in the performance of systematic reviews in a collaborative manner.  Join the community to improve the quality and value of preclinical research in biomedicine! 
+<br>
++ Check out resources and practices for synthesisable animal research on the [COReS Hub.](www.cores-hub.io){target="_blank"}  
++ Stay up-to-date with Community News via the newsletter. [Sign up to the newsletter.](http://eepurl.com/h4hsMv){target="_blank"}  
++ Join the discussion forum to share ideas, work collaboratively, and connect with researchers and methodologists. [Make a free user account for the discussion forum here.](www.cores.zulipchat.com){target="_blank"}  
++ Follow the project on LinkedIn for regular update on education offers, talks, and project development. [Check out COReS on LinkedIn here.](https://www.linkedin.com/company/communities-for-open-research-synthesis/){target="_blank"}  
 
-- **Sarah McCann, PhD**
+
+Find our more about joining the community on the [COReS Hub.](https://cores-hub.io/cores-join-the-community/){target="_blank"}
+
+## Our Team
+
+- **[Sarah McCann, PhD](https://www.bihealth.org/en/quest/teams/team/research-group-mccann){target="_blank"}**
 - Torsten Rackoll, PhD
 - Alexandra Bannach-Brown, PhD
-- Sofija Vjvodic, MSc
+- Sofija Vojvodic, MSc
+
+<br>
+
+For more information on our team and our services and projects, please see the [BIH QUEST website.](https://www.bihealth.org/en/quest/service/service/camarades-facility-for-the-systematic-review-and-meta-analysis-1){target="_blank"}
 
 <br>
 
