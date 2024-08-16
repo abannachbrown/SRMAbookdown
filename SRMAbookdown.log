@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.6.10)  10 JUN 2024 17:45
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.16)  16 AUG 2024 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **SRMAbookdown.tex
 (./SRMAbookdown.tex
-LaTeX2e <2024-06-01>
-L3 programming layer <2024-05-27>
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-07-20>
 (c:/Users/abann/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2024/02/08 v1.4n Standard LaTeX document class
 (c:/Users/abann/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/bk10.clo
@@ -98,7 +98,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 )) (c:/Users/abann/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ) (c:/Users/abann/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (c:/Users/abann/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-05-27 L3 programming layer (loader) 
+Package: expl3 2024-07-20 L3 programming layer (loader) 
 (c:/Users/abann/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
 \g__graphics_track_int=\count277
@@ -232,7 +232,7 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count302
 \@thisrulewidth=\dimen167
 ) (c:/Users/abann/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
-Package: array 2024/05/23 v2.6c Tabular extension package (FMi)
+Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
 \col@sep=\dimen168
 \ar@mcellbox=\box60
 \extrarowheight=\dimen169
@@ -284,7 +284,7 @@ LaTeX Info: Redefining \cite on input line 694.
 ) (c:/Users/abann/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 (c:/Users/abann/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2024-05-23 v7.01i Hypertext links for LaTeX
+Package: hyperref 2024-07-10 v7.01j Hypertext links for LaTeX
 (c:/Users/abann/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ) (c:/Users/abann/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -320,13 +320,13 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 \Hy@linkcounter=\count309
 \Hy@pagecounter=\count310
 (c:/Users/abann/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2024-05-23 v7.01i Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
 ) (c:/Users/abann/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count311
 (c:/Users/abann/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2024-05-23 v7.01i Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Option `unicode' set `true' on input line 4040.
 Package hyperref Info: Hyper figures OFF on input line 4157.
@@ -368,7 +368,7 @@ package with kernel methods
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 (c:/Users/abann/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2024-05-23 v7.01i Hyperref driver for XeTeX
+File: hxetex.def 2024-07-10 v7.01j Hyperref driver for XeTeX
 \pdfm@box=\box63
 \c@Hy@AnnotLevel=\count317
 \HyField@AnnotCount=\count318
@@ -388,7 +388,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 ) (c:/Users/abann/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 \BKM@id=\count321
-)) (./SRMAbookdown.aux)
+))
+No file SRMAbookdown.aux.
 \openout1 = `SRMAbookdown.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
@@ -636,6 +637,9 @@ LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 84.
 Package hyperref Info: Link coloring OFF on input line 84.
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 86.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
@@ -674,31 +678,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [2
 
-] (./SRMAbookdown.toc
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 3.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 3.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00092pt on input line 3.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00064pt on input line 3.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00046pt on input line 3.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 3.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 3.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 3.
+]
+No file SRMAbookdown.toc.
+\tf@toc=\write3
+\openout3 = `SRMAbookdown.toc'.
+
 
 
 [3]
 
-[4])
-\tf@toc=\write3
-\openout3 = `SRMAbookdown.toc'.
+[4
 
+]
+Chapter 1.
 
 
 [5]
@@ -706,82 +698,78 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 [6
 
 ]
-Chapter 1.
-
-
-[7]
-
-[8
-
-]
 Chapter 2.
 
 
-[9]
+[7]
 File: figs/evidence-triangle.png Graphic file (type bmp)
 <figs/evidence-triangle.png>
 
 
-[10]
+[8]
+
+[9]
+
+[10
+
+]
+Chapter 3.
+
 
 [11]
 
 [12
 
 ]
-Chapter 3.
+Chapter 4.
 
 
 [13]
 
-[14
+LaTeX Warning: Hyper reference `register-your-protocol' on page 14 undefined on input line 272.
 
-]
-Chapter 4.
 
+
+[14]
 
 [15]
 
-[16]
-
-[17]
-
-[18
+[16
 
 ]
 Chapter 5.
 
 
-[19]
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 335--337
 
  []
 
 
 
-[20]
+[18]
 Chapter 6.
 
 
-[21
+[19
 
 ]
 
-[22]
+[20]
 
-[23]
+[21]
 
-[24
+[22
 
 ]
 Chapter 7.
 
 
-[25]
+[23]
 
-[26]
+[24]
 
-LaTeX Warning: Hyper reference `Selecting-Databases' on page 27 undefined on input line 518.
+LaTeX Warning: Hyper reference `Selecting-Databases' on page 25 undefined on input line 518.
 
 
 Underfull \hbox (badness 2096) in paragraph at lines 517--519
@@ -790,38 +778,38 @@ Underfull \hbox (badness 2096) in paragraph at lines 517--519
 
 
 
-[27]
+[25]
 File: figs/booleanOR.png Graphic file (type bmp)
 <figs/booleanOR.png>
 File: figs/booleanAND.png Graphic file (type bmp)
 <figs/booleanAND.png>
 
 
-[28]
+[26]
 
-[29]
+[27]
 Underfull \hbox (badness 3128) in paragraph at lines 651--653
 []\TU/lmr/m/n/10 Use your reference manager. Guides for retrieving from []End-
  []
 
 
 
-[30]
+[28]
 
-[31]
+[29]
 
-[32
+[30
 
 ]
 Chapter 8.
 
 
-[33]
+[31]
 
-[34]
+[32]
 Chapter 9.
 
-LaTeX Warning: Hyper reference `Quality-Assessment' on page 35 undefined on input line 758.
+LaTeX Warning: Hyper reference `Quality-Assessment' on page 33 undefined on input line 758.
 
 File: figs/dichot-outcome.png Graphic file (type bmp)
 <figs/dichot-outcome.png>
@@ -839,68 +827,88 @@ Overfull \hbox (150.09157pt too wide) in paragraph at lines 773--775
 
 
 
+[33
+
+]
+
+[34]
+Chapter 10.
+
+
 [35
 
 ]
 
 [36]
-Chapter 10.
+Chapter 11.
 
 
 [37
 
 ]
 
+LaTeX Warning: Hyper reference `meta-analysis-tutorial' on page 38 undefined on input line 887.
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 932.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 932.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00092pt on input line 932.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.00064pt on input line 932.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00046pt on input line 932.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 932.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 932.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 932.
+
+
 [38]
-Chapter 11.
 
-
-[39
-
-]
+[39]
 
 [40]
 
 [41]
 
 [42]
-
-[43]
-
-[44]
 File: figs/fixedeffects.png Graphic file (type bmp)
 <figs/fixedeffects.png>
 
 
-[45]
+[43]
 File: figs/randomeffects.png Graphic file (type bmp)
 <figs/randomeffects.png>
 
 
-[46]
+[44]
 File: figs/funnelplot.jpg Graphic file (type bmp)
 <figs/funnelplot.jpg>
 
-Underfull \hbox (badness 1077) in paragraph at lines 1125--1126
+Underfull \hbox (badness 1077) in paragraph at lines 1127--1128
 []\TU/lmr/bx/n/10 Poor methodological quality (leading to inflated effects in
  []
 
 
 
-[47]
+[45]
 File: figs/timberplot.png Graphic file (type bmp)
 <figs/timberplot.png>
 
 
-[48]
+[46]
 Chapter 12.
 
 
-[49
+[47
 
 ]
 
-[50
+[48
 
 ]
 Chapter 13.
@@ -908,12 +916,12 @@ File: figs/PRISMA.png Graphic file (type bmp)
 <figs/PRISMA.png>
 
 
-[51]
+[49]
 
-[52]
+[50]
 Chapter 14.
 
-Underfull \hbox (badness 4120) in paragraph at lines 1218--1218
+Underfull \hbox (badness 4120) in paragraph at lines 1220--1220
 []\TU/lmr/bx/n/14.4 Systematic Review Facility - CAMA-
  []
 
@@ -921,14 +929,32 @@ File: figs/syrf-logo.png Graphic file (type bmp)
 <figs/syrf-logo.png>
 
 
+[51
+
+]
+
+[52]
+Chapter 15.
+
+Underfull \vbox (badness 4543) has occurred while \output is active []
+
+
+
 [53
 
 ]
 
 [54]
-Chapter 15.
+Chapter 16.
 
-Underfull \vbox (badness 4543) has occurred while \output is active []
+Underfull \hbox (badness 2042) in paragraph at lines 1308--1309
+\TU/lmr/m/n/10 Preclinical Systematic Reviews & Meta-Analysis Wiki, (August, 2024),
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 1308--1309
+\TU/lmr/m/n/10 CAMARADES Berlin, QUEST-BIH Charité. Accessed from: []$[][][][][] []
+ []
 
 
 
@@ -936,48 +962,21 @@ Underfull \vbox (badness 4543) has occurred while \output is active []
 
 ]
 
-[56]
-Chapter 16.
+! LaTeX Error: Too deeply nested.
 
-Underfull \hbox (badness 4556) in paragraph at lines 1306--1307
-\TU/lmr/m/n/10 Preclinical Systematic Reviews & Meta-Analysis Wiki, (June, 2024),
- []
-
-
-Underfull \hbox (badness 3039) in paragraph at lines 1306--1307
-\TU/lmr/m/n/10 CAMARADES Berlin, QUEST-BIH Charité. Accessed from: []$[][][][][] []
- []
-
-
-
-[57
-
-]
-
-[58]
-File: figs/C3R_Screen_Farbe.jpg Graphic file (type bmp)
-<figs/C3R_Screen_Farbe.jpg>
-File: charite-BIHquest.jpg Graphic file (type bmp)
-<charite-BIHquest.jpg>
-No file SRMAbookdown.bbl.
-
-
-[59] (./SRMAbookdown.aux)
- ***********
-LaTeX2e <2024-06-01>
-L3 programming layer <2024-05-27>
- ***********
-
-LaTeX Warning: There were undefined references.
-
- ) 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1354 \begin{quote}
+                     
 Here is how much of TeX's memory you used:
- 17193 strings out of 476254
- 315982 string characters out of 5785481
- 1932546 words of memory out of 5000000
- 39502 multiletter control sequences out of 15000+600000
+ 17071 strings out of 476234
+ 313108 string characters out of 5785538
+ 1932612 words of memory out of 5000000
+ 39410 multiletter control sequences out of 15000+600000
  564536 words of font info for 91 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  90i,6n,123p,685b,415s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on SRMAbookdown.pdf (59 pages).
+Output written on SRMAbookdown.pdf (55 pages).
