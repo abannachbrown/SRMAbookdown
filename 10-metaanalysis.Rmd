@@ -106,6 +106,17 @@ $$ OR_i = \frac {a_i \times d_i}{b_i \times c_i}  $$
 with the standard error of the odds ratio effect size: 
 $$ SE(ln(OR_i)) = \sqrt{ (1/a_i)+(1/b_i)+(1/c_i)+(1/d_i) }   $$
 
+In the meta-analysis of events, we might encounter a scenario where not a single event occured, in one or more groups. This is  particularly likely with the small samples in preclinical research. In the case of zero events, the OR is mathematically ill defined. Two remedies exist: 
+1) adding 0.5 to all zero frequencies to study-specific 2x2 tables [(Weber et al., 2020)](https://onlinelibrary.wiley.com/doi/full/10.1002/jrsm.1460){target="_blank"}, 
+or the preferred method,  2) to use the arcsine transformation of the frequencies. 
+
+
+$$ arcsin \sqrt (a/a+b) - arcsin \sqrt(c/c+d) $$
+
+While the arcsine difference is prefered from a mathematical point of view [(Rücker et al. 2008)](https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.3511){target="_blank"}, the transformation leads to an abstract effect size that cannot be as readily interpreted as an OR. This transformation is thus recommended for determining statistical significance. 
+
+
+
 You might come across **Risk Ratio** (or Relative Risk), the risk of an event in one group (e.g., exposed group) versus the risk of the event in the other group (e.g., non-exposed group), or **Hazard Ratio**, however these data are rarely seen in primary animal experiments. For more information of Risk Ratio in clinical systematic reviews, see the [Cochrane Handbook.](https://handbook-5-1.cochrane.org/chapter_9/box_9_2_a_calculation_of_risk_ratio_rr_odds_ratio_or_and.htm){target="_blank"}  
 
 ### Median
