@@ -45,6 +45,8 @@ COReS is a project to build a community around preclinical evidence synthesis. T
 + Follow the project on LinkedIn for regular update on education offers, talks, and project development. [Check out COReS on LinkedIn here.](https://www.linkedin.com/company/communities-for-open-research-synthesis/){target="_blank"}  
 <br>
 Find our more about joining the community on the [COReS Hub.](https://cores-hub.io/cores-join-the-community/){target="_blank"}
+![](figs/cores-logo.png){#id .class width=80%}
+
 
 ## Our Team
 
@@ -52,6 +54,10 @@ Find our more about joining the community on the [COReS Hub.](https://cores-hub.
 - Torsten Rackoll, PhD
 - Alexandra Bannach-Brown, PhD
 - Sofija Vojvodic, MSc
+- Friederike Elisabeth Kors, PhD
+- Maria Arroyo Araujo, PhD
+- Maria Economou, PhD
+- Daniel Schulze, PhD
 
 <br>
 
