@@ -43,10 +43,10 @@ Capabilities and Benefits:
 - **Improved Decision-Making:** Supports evidence-based policy and clinical practice by ensuring that the most recent and relevant data are accessible.
 
 For more details on SOLES, refer to the following sources:
-- [Systematic Online Living Evidence Summaries](https://portlandpress.com/clinsci/article/137/10/773/233083/Systematic-online-living-evidence-summaries){target="_blank"}.
+- SOLES paper [Systematic Online Living Evidence Summaries](https://portlandpress.com/clinsci/article/137/10/773/233083/Systematic-online-living-evidence-summaries){target="_blank"}.
 
-- [Recent Developments in SOLES applied to the Alzheimer's Disease field](https://www.sciencedirect.com/science/article/pii/S0165027024001547){target="_blank"}.
+- SOLES applied to the Alzheimer's Disease field [Hair et al., 2025 ](https://www.sciencedirect.com/science/article/pii/S0165027024001547){target="_blank"}.
 
-- [SOLES Projects Overview](https://camaradesuk.github.io/soles-projects/){target="_blank"}.
+- Overview of Public SOLES project [SOLES Projects gitpage](https://camaradesuk.github.io/soles-projects/){target="_blank"}.
 
 If your team is interested in developing a SOLES for your research domain, [get in touch with us](mailto:camarades.berlin@charite.de) to explore potential collaborations. 

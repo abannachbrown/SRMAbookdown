@@ -79,7 +79,7 @@
 
 \title{Preclinical Systematic Review Wiki}
 \author{}
-\date{\vspace{-2.5em}2024-06-10}
+\date{\vspace{-2.5em}2025-03-17}
 
 \begin{document}
 \maketitle
@@ -789,6 +789,8 @@ Data about your outcomes may be provided in various formats including:
 
 You may need to use tools such as \href{https://helpx.adobe.com/acrobat/using/grids-guides-measurements-pdfs.html}{Adobe desktop ruler} or \href{https://automeris.io/WebPlotDigitizer/}{WebPlotDigitizer} to extract numerical values (e.g.~means and standard deviations (SD) or standard error of the mean (SEM) from graphs). Some studies may report values on a different scale. Be aware, you may need to convert these to a scale that is common across all studies (e.g.~log scale conversion).
 
+In some cases it might not be clear if authors reported SEM or SD as a measure of variance. We recommend extracting the value as SEM as this is considered to be a more conservative approach from a meta-analysis perspective (assuming that the value of SD can only be larger).
+
 \section{Data extraction software}\label{data-extraction-software}
 
 As you are extracting these pieces of information you will want to store them in the same place for easier, later synthesis and analysis.
@@ -1192,8 +1194,52 @@ We highly recommend using software and tools to help you along the way. We have 
   Search translation across databases: \href{https://sr-accelerator.com/\#/polyglot}{Polyglot Search Translator}
 \end{itemize}
 
-\textbf{Machine Learning:}
-If you are doing a very large systematic review, consider training a custom machine learning algorithm. \href{mailto:camarades.berlin@charite.de}{Contact us} for more information.
+\section{Automated Tools for Systematic Reviews}\label{automated-tools-for-systematic-reviews}
+
+With the increasing complexity and volume of research, automated tools such as machine learning and generative AI are being explored to assist in systematic reviews. These tools can help with tasks like literature screening, data extraction, and summarisation. However, it is essential to use them with caution:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Support, Not Replace Human Efforts:} While these tools can improve efficiency, systematic reviews still require critical human judgment and expertise.
+\item
+  \textbf{Validation is Key:} Any automated tool must be rigorously tested and validated within your specific field before being implemented.
+\item
+  \textbf{Task-Specific Assistance:} Current AI-driven tools can aid in certain steps of the process but are not capable of conducting a full systematic review independently.
+\end{itemize}
+
+If you are conducting a large systematic review and are interested in training a custom machine learning algorithm, \href{mailto:camarades.berlin@charite.de}{Contact us} for more information.
+
+\section{Systematic Online Living Evidence Summaries (SOLES)}\label{systematic-online-living-evidence-summaries-soles}
+
+Systematic Online Living Evidence Summaries (SOLES) provide a powerful framework for maintaining up-to-date, continuously evolving evidence in a given research domain. These platforms integrate automation, machine learning, and structured data management to streamline evidence synthesis and ensure that research teams always have access to the latest findings.
+
+Capabilities and Benefits:
+
+\begin{itemize}
+\item
+  \textbf{Automated Data Collection \& Screening:} Reduces the burden of manual searches and updates, ensuring efficiency and accuracy.
+\item
+  \textbf{Living Evidence Updates:} Enables real-time or scheduled updates, keeping systematic reviews current without requiring full re-analysis.
+\item
+  \textbf{Scalability Across Domains:} SOLES can be adapted to any disease area, making them valuable for both emerging fields and established research topics.
+\item
+  \textbf{Enhanced Collaboration:} Facilitates seamless knowledge sharing among researchers, policymakers, and clinicians.
+\item
+  \textbf{Improved Decision-Making:} Supports evidence-based policy and clinical practice by ensuring that the most recent and relevant data are accessible.
+\end{itemize}
+
+For more details on SOLES, refer to the following sources:
+- SOLES paper \href{https://portlandpress.com/clinsci/article/137/10/773/233083/Systematic-online-living-evidence-summaries}{Systematic Online Living Evidence Summaries}.
+
+\begin{itemize}
+\item
+  SOLES applied to the Alzheimer's Disease field \href{https://www.sciencedirect.com/science/article/pii/S0165027024001547}{Hair et al., 2025}.
+\item
+  Overview of Public SOLES project \href{https://camaradesuk.github.io/soles-projects/}{SOLES Projects gitpage}.
+\end{itemize}
+
+If your team is interested in developing a SOLES for your research domain, \href{mailto:camarades.berlin@charite.de}{get in touch with us} to explore potential collaborations.
 
 \chapter{Interpretation \& Publication}\label{interpretation-publication}
 
@@ -1299,11 +1345,11 @@ Animal Models of Stroke: an Update. \emph{Translational Stroke Research} 7, 395-
 
 We have put together this Wiki Page to provide information and documents, links, and useful tools to guide your through your preclinical systematic review. These resources have been put together using many CC-BY-4.0 sources including; \href{https://syrf.org.uk/}{SyRF}, and \href{https://training.cochrane.org/interactivelearning}{Cochrane Interactive Learning}. We thank these organisations and teams for making their resources available, definitely check out their resources as well!
 
-This resource was last updated on: 10 June, 2024
+This resource was last updated on: 17 March, 2025
 
 \section{To cite this resource}\label{to-cite-this-resource}
 
-Preclinical Systematic Reviews \& Meta-Analysis Wiki, (June, 2024), CAMARADES Berlin, QUEST-BIH Charité. Accessed from: \url{https://www.CAMARADES.de}
+Preclinical Systematic Reviews \& Meta-Analysis Wiki, (March, 2025), CAMARADES Berlin, QUEST-BIH Charité. Accessed from: \url{https://www.CAMARADES.de}
 
 \section{Acknowledge our services}\label{acknowledge-our-services}
 
@@ -1337,9 +1383,9 @@ COReS is a project to build a community around preclinical evidence synthesis. T
 + Check out resources and practices for synthesisable animal research on the \href{www.cores-hub.io}{COReS Hub.}\\
 + Stay up-to-date with Community News via the newsletter. \href{http://eepurl.com/h4hsMv}{Sign up to the newsletter.}\\
 + Join the discussion forum to share ideas, work collaboratively, and connect with researchers and methodologists. \href{www.cores.zulipchat.com}{Make a free user account for the discussion forum here.}\\
-+ Follow the project on LinkedIn for regular update on education offers, talks, and project development. \href{https://www.linkedin.com/company/communities-for-open-research-synthesis/}{Check out COReS on LinkedIn here.}
-
++ Follow the project on LinkedIn for regular update on education offers, talks, and project development. \href{https://www.linkedin.com/company/communities-for-open-research-synthesis/}{Check out COReS on LinkedIn here.}\\
 Find our more about joining the community on the \href{https://cores-hub.io/cores-join-the-community/}{COReS Hub.}
+\includegraphics[width=0.8\textwidth,height=\textheight]{figs/cores-logo.png}
 
 \section{Our Team}\label{our-team}
 
@@ -1353,15 +1399,27 @@ Find our more about joining the community on the \href{https://cores-hub.io/core
   Alexandra Bannach-Brown, PhD
 \item
   Sofija Vojvodic, MSc
+\item
+  Friederike Elisabeth Kors, PhD
+\item
+  Maria Arroyo Araujo, PhD
+\item
+  Maria Economou, PhD
+\item
+  Daniel Schulze, PhD
 \end{itemize}
 
 For more information on our team and our services and projects, please see the \href{https://www.bihealth.org/en/quest/service/service/camarades-facility-for-the-systematic-review-and-meta-analysis-1}{BIH QUEST website.}
 
 If you have questions about the resources, or would like to ask a question about your specific review, get in touch: \href{mailto:CAMARADES.berlin@charite.de}{Email us here}
 
-This resource is supported by Charité 3Rs. For more information about 3Rs at Charité -- Universitätsmedizin Berlin, visit the \href{https://charite3r.charite.de/en/charite_3r_toolbox/}{Charité 3Rs Toolbox}.
+This resource is supported by Charité 3Rs \& VolkwagenStruftung.
 
 \includegraphics[width=0.2\textwidth,height=\textheight]{figs/C3R_Screen_Farbe.jpg}
+
+\includegraphics[width=0.5\textwidth,height=\textheight]{figs/Logo_Volkswagen.png}
+
+For more information about 3Rs at Charité -- Universitätsmedizin Berlin, visit the \href{https://charite3r.charite.de/en/charite_3r_toolbox/}{Charité 3Rs Toolbox}.
 
 CAMARADES Berlin are located in the QUEST Center, Berlin Institute for Health
 
