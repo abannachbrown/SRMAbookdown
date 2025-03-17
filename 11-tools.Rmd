@@ -43,6 +43,7 @@ Capabilities and Benefits:
 - **Improved Decision-Making:** Supports evidence-based policy and clinical practice by ensuring that the most recent and relevant data are accessible.
 
 For more details on SOLES, refer to the following sources:
+
 - SOLES paper [Systematic Online Living Evidence Summaries](https://portlandpress.com/clinsci/article/137/10/773/233083/Systematic-online-living-evidence-summaries){target="_blank"}.
 
 - SOLES applied to the Alzheimer's Disease field [Hair et al., 2025 ](https://www.sciencedirect.com/science/article/pii/S0165027024001547){target="_blank"}.
